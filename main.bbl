@@ -1,0 +1,1553 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Alnfiai2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Alnfiai},
+         familyi={A\bibinitperiod},
+         given={Mrim},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sampalli},
+         familyi={S\bibinitperiod},
+         given={Srinivas},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AMSS1}
+    \strng{fullhash}{AMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{1}
+    \field{pages}{23\bibrangedash 31}
+    \field{title}{Improved Singeltapbraille: Developing a Single Tap Text Entry Method Based on Grade 1 and 2 Braille Encoding.}
+    \field{volume}{9}
+    \field{journaltitle}{J. Ubiquitous Syst. Pervasive Networks}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Brooke1987}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BM}{%
+         family={Brooke},
+         familyi={B\bibinitperiod},
+         given={Maxey},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM1}
+    \strng{fullhash}{BM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{2}
+    \field{pages}{11}
+    \field{title}{Pangrams}
+    \field{volume}{20}
+    \field{journaltitle}{Word Ways}
+    \field{year}{1987}
+  \endentry
+
+  \entry{Brooks2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJL}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Joseph\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{BJL1}
+    \strng{fullhash}{BJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{600}
+    \field{title}{Counterbalancing for serial order carryover effects in experimental condition orders.}
+    \field{volume}{17}
+    \field{journaltitle}{Psychological methods}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Donchev2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DR}{%
+         family={Donchev},
+         familyi={D\bibinitperiod},
+         given={Rumen},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery (ACM)}%
+    }
+    \strng{namehash}{DRPEBM1}
+    \strng{fullhash}{DRPEBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1145/3463513
+    \endverb
+    \field{issn}{2474-9567}
+    \field{number}{2}
+    \field{pages}{1\bibrangedash 14}
+    \field{title}{Investigating Retention in Passive Haptic Learning of Piano Songs}
+    \field{volume}{5}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Investigating Reten
+    \verb tion in Passive Haptic Learning of Piano Songs.pdf:PDF
+    \endverb
+    \field{journaltitle}{Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}
+    \field{month}{06}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Duncan2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DRO}{%
+         family={Duncan},
+         familyi={D\bibinitperiod},
+         given={Robert\bibnamedelima O},
+         giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=BGM}{%
+         family={Boynton},
+         familyi={B\bibinitperiod},
+         given={Geoffrey\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{DROBGM1}
+    \strng{fullhash}{DROBGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{12}
+    \field{pages}{2878\bibrangedash 2891}
+    \field{title}{Tactile hyperacuity thresholds correlate with finger maps in primary somatosensory cortex (S1)}
+    \field{volume}{17}
+    \field{journaltitle}{Cerebral Cortex}
+    \field{year}{2007}
+  \endentry
+
+  \entry{eridani2021comparative}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=ED}{%
+         family={Eridani},
+         familyi={E\bibinitperiod},
+         given={Dania},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RAF}{%
+         family={Rochim},
+         familyi={R\bibinitperiod},
+         given={Adian\bibnamedelima Fatchur},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CFN}{%
+         family={Cesara},
+         familyi={C\bibinitperiod},
+         given={Faiz\bibnamedelima Noerdiyan},
+         giveni={F\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{EDRAFCFN1}
+    \strng{fullhash}{EDRAFCFN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{booktitle}{2021 international seminar on application for technology of information and communication (iSemantic)}
+    \field{pages}{322\bibrangedash 328}
+    \field{title}{Comparative performance study of ESP-NOW, Wi-Fi, bluetooth protocols based on range, transmission speed, latency, energy usage and barrier resistance}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Fang2023a}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Likun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Reiter},
+         familyi={R\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{Sugimoto [8] reported an armband which vibrates for the specified time and strength to teach the rhythms. Takano and Sasaki}
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLPERPBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    people are gradually losing sufficient time to learn musical instru- Passive Haptic Learning (PHL) is the process of learning to perform ments. Passive haptic learning (PHL), as defined by Seim et al. [12], a certain taskwithout paying attention to it. In this paper, we invited is an emerging learning method, where acquisition of sensorimotor 24 participants (evenly divided into 3 groups), and taught them a skills doesn’t need active attention to learn. PHL has been well simple rhythm through the use of haptic, auditory and haptic & investigated in the past decade among the HCI community. There auditory signals. The subjects were then tested to reproduce the have been many studies concerned with applying PHL to a vari- rhythms on a keyboard and ukulele. We inspected and analyzed ety of actions, for example learning Morse code [13], Braille Seim the data from two aspects: duration and timing. We found that the et al. [11] and playing the piano [12]. Great progress has been difference in instruments and learning groups will be of significance made in teaching users how to learn skills. Most of the PHL studies when looking at the duration of notes and pauses. The participants have concerned themselves with inspecting whether the learned provided both haptic and auditory signals during the learning phase movement itself is correct, such as moving the right finger when achieved the best performance on duration of notes and pauses. recalling a piano song [1, 4] or correctly associating patterns with Regarding the timing of the notes within the rhythm. the haptic feedback, for instance, Braille [11] or Morse code [9].%
+    }
+    \field{booktitle}{Proceedings of the 16th International Conference on PErvasive Technologies Related to Assistive Environments}
+    \verb{doi}
+    \verb 10.1145/3594806.3594807
+    \endverb
+    \field{series}{PETRA ’23}
+    \field{title}{How Could I Learn Rhythm Better? Investigating Three Learning Signals for Passive Haptic Learning in Different Context}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/How Could I Learn R
+    \verb hythm Better_ Investigating Three Learning Signals for Passive Haptic
+    \verb  Learning in Different Context .pdf:PDF
+    \endverb
+    \field{month}{07}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Fang2023}{article}{}
+    \name{author}{6}{}{%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Likun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={Timo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Nikola},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yiran},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery (ACM)}%
+    }
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLMTPEFNHYBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1145/3610899
+    \endverb
+    \field{issn}{2474-9567}
+    \field{number}{3}
+    \field{pages}{1\bibrangedash 19}
+    \field{title}{Investigating Passive Haptic Learning of Piano Songs Using Three Tactile Sensations of Vibration, Stroking and Tapping}
+    \field{volume}{7}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Investigating Passi
+    \verb ve Haptic Learning of Piano Songs Using Three Tactile Sensations of V
+    \verb ibration, Stroking and Tapping.pdf:PDF
+    \endverb
+    \field{journaltitle}{Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}
+    \field{month}{09}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Gray2011}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GRM}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Robert\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{GRM1}
+    \strng{fullhash}{GRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Entropy and information theory}
+    \field{year}{2011}
+  \endentry
+
+  \entry{hart1988development}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=HSG}{%
+         family={Hart},
+         familyi={H\bibinitperiod},
+         given={Sandra\bibnamedelima G},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SLE}{%
+         family={Staveland},
+         familyi={S\bibinitperiod},
+         given={Lowell\bibnamedelima E},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HSGSLE1}
+    \strng{fullhash}{HSGSLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Advances in psychology}
+    \field{pages}{139\bibrangedash 183}
+    \field{title}{Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research}
+    \field{volume}{52}
+    \field{year}{1988}
+  \endentry
+
+  \entry{Hoggan2007}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=HE}{%
+         family={Hoggan},
+         familyi={H\bibinitperiod},
+         given={Eve},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Anwar},
+         familyi={A\bibinitperiod},
+         given={Sohail},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BSA}{%
+         family={Brewster},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HEASBSA1}
+    \strng{fullhash}{HEASBSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Haptic and Audio Interaction Design: Second International Workshop, HAID 2007 Seoul, South Korea, November 29-30, 2007 Proceedings 2}
+    \field{pages}{22\bibrangedash 33}
+    \field{title}{Mobile multi-actuator tactile displays}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Huang2008}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=HK}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DEYL}{%
+         family={Do},
+         familyi={D\bibinitperiod},
+         given={Ellen Yi-Luen},
+         giveni={E\bibinitperiod\bibinitdelim Y\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Haptic interfaces;Fingers;Portable computers;Computer aided instruction;Wearable computers;Bluetooth;Batteries;Vibration control;Educational institutions;Computer architecture}
+    \strng{namehash}{HKDEYLST1}
+    \strng{fullhash}{HKDEYLST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{2008 12th IEEE International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1109/ISWC.2008.4911582
+    \endverb
+    \field{pages}{41\bibrangedash 44}
+    \field{title}{PianoTouch: A wearable haptic piano instruction system for passive learning of piano skills}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/PianoTouch_A_wearab
+    \verb le_haptic_piano_instruction_system_for_passive_learning_of_piano_skil
+    \verb ls.pdf:PDF
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{Huang2010}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=HK}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Do},
+         familyi={D\bibinitperiod},
+         given={Ellen},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={Gil},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kohlsdorf},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Ahlrichs},
+         familyi={A\bibinitperiod},
+         given={Claas},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Leibrandt},
+         familyi={L\bibinitperiod},
+         given={Ruediger},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKSTDEWGKDACLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    hands which is particularly important for patients of hand re- Mobile Music Touch (MMT) helps teach users to play pi- habilitation. Playing music can be a fun and engaging activ- ano melodies while they perform other tasks. MMT is a ity through which patients can rehabilitate without the ennui lightweight, wireless haptic music instruction system con- that may accompany traditional regimens such as squeezing sisting of fingerless gloves and a mobile Bluetooth enabled a foam ball for extended periods. Yet the process of learning computing device, such as a mobile phone. Passages to be an instrument can be time-consuming and often beyond the learned are loaded into the mobile phone and are played re- time constraints of a busy working adult. Beyond the initial peatedly while the user performs other tasks. As each note learning of songs, practice is required to retain the knowl- of the music plays, vibrators on each finger in the gloves ac- edge. As soon as a new song is learned, forgetting begins tivate, indicating which finger is used to play each note. We immediately [2]. Thus, repetitious practice is needed to re- present two studies on the efficacy of MMT. The first mea- tain the new skills. For some musicians with repetitive stress sures 16 subjects’ ability to play a passage after using MMT injuries, such practice can, ironically, be hazardous to their for 30 minutes while performing a reading comprehension career. test. The MMT system was significantly more effective than a control condition where the passage was played repeat- However, learning is not always an active process. Much edly but the subjects’ fingers were not vibrated. The second research has been conducted on the phenomenon of passive study compares the amount of time required for 10 subjects learning. Passive learning is described as learning that is to replay short, randomly generated passages using passive “caught, rather than taught,” and is characterized as “typi- training versus active training. Participants with no piano cally effortless, responsive to animated stimuli, amenable to experience could repeat the passages after passive training artificial aid to relaxation, and characterized by an absence while subjects with piano experience often could not. of resistance to what is learned” [10]. Studies have shown%
+    }
+    \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+    \verb{doi}
+    \verb 10.1145/1753326.1753443
+    \endverb
+    \field{number}{of}
+    \field{series}{CHI ’10}
+    \field{title}{Mobile music touch: mobile tactile stimulation for passive learning}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Mobile Music Touch\
+    \verb : Mobile Tactile Stimulation For Passive Learning.pdf:PDF
+    \endverb
+    \field{month}{04}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Katz2013}{book}{}
+    \name{author}{2}{}{%
+      {{hash=KD}{%
+         family={Katz},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KLE}{%
+         family={Krueger},
+         familyi={K\bibinitperiod},
+         given={Lester\bibnamedelima E},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Psychology press}%
+    }
+    \strng{namehash}{KDKLE1}
+    \strng{fullhash}{KDKLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{The world of touch}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Kohlsdorf2010}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KD}{%
+         family={Kohlsdorf},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Games;Rhythm;Haptic interfaces;Mobile communication;Accuracy;Legged locomotion;Mobile handsets}
+    \strng{namehash}{KDST1}
+    \strng{fullhash}{KDST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{International Symposium on Wearable Computers (ISWC) 2010}
+    \verb{doi}
+    \verb 10.1109/ISWC.2010.5665877
+    \endverb
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Mobile Music Touch: The effect of primary tasks on passively learning piano sequences}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Mobile Music Touch-
+    \verb  The Effect of Primary Tasks on Passively Learning Piano Sequences.pd
+    \verb f:PDF
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{Luzhnica2017}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=LG}{%
+         family={Luzhnica},
+         familyi={L\bibinitperiod},
+         given={Granit},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Veas},
+         familyi={V\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LGVE1}
+    \strng{fullhash}{LGVE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Proceedings of the 2017 ACM International Symposium on Wearable Computers}
+    \field{pages}{74\bibrangedash 81}
+    \field{title}{Vibrotactile patterns using sensitivity prioritisation}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Vibrotactile Patter
+    \verb ns using Sensitivity Prioritisation.pdf:PDF
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Luzhnica2016}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LG}{%
+         family={Luzhnica},
+         familyi={L\bibinitperiod},
+         given={Granit},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Veas},
+         familyi={V\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pammer},
+         familyi={P\bibinitperiod},
+         given={Viktoria},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LGVEPV1}
+    \strng{fullhash}{LGVEPV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Proceedings of the 2016 ACM International Symposium on Wearable Computers}
+    \field{pages}{148\bibrangedash 155}
+    \field{title}{Skin reading: Encoding text in a 6-channel haptic display}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Skin Reading- Encod
+    \verb ing Text in a 6-Channel Haptic Display.pdf:PDF
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Luzhnica2018}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LG}{%
+         family={Luzhnica},
+         familyi={L\bibinitperiod},
+         given={Granit},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Veas},
+         familyi={V\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{wearable, user study, tactile feedback, stimulation, skin reading, passive haptic, haptic feedback, haptic display, HCI}
+    \strng{namehash}{LGVESC1}
+    \strng{fullhash}{LGVESC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    This paper investigates the effects of using passive haptic learning to train the skill of comprehending text from vibrotactile patterns. The method of transmitting messages, skin-reading, is effective at conveying rich information but its active training method requires full user attention, is demanding, time-consuming, and tedious. Passive haptic learning offers the possibility to learn in the background while performing another primary task. We present a study investigating the use of passive haptic learning to train for skin-reading.%
+    }
+    \field{booktitle}{Proceedings of the 2018 ACM International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/3267242.3267271
+    \endverb
+    \field{isbn}{9781450359672}
+    \field{pages}{40–43}
+    \field{series}{ISWC '18}
+    \field{title}{Passive haptic learning for vibrotactile skin reading}
+    \verb{url}
+    \verb https://doi.org/10.1145/3267242.3267271
+    \endverb
+    \list{location}{1}{%
+      {Singapore, Singapore}%
+    }
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Haptic Lear
+    \verb ning for Vibrotactile Skin Reading.pdf:PDF
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Luzhnica2018a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LG}{%
+         family={Luzhnica},
+         familyi={L\bibinitperiod},
+         given={Granit},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Veas},
+         familyi={V\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Georgia Institute of Technology}%
+    }
+    \strng{namehash}{LGVESC1}
+    \strng{fullhash}{LGVESC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Passive Haptic Learning for Vibrotactile Skin-Reading: Comparison of Teaching Structures}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Haptic Lear
+    \verb ning for Vibrotactile Skin-Reading- Comparison of Teaching Structures
+    \verb .pdf:PDF
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{MacFie1989}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MHJ}{%
+         family={MacFie},
+         familyi={M\bibinitperiod},
+         given={Halliday\bibnamedelima J},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Bratchell},
+         familyi={B\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Greenhoff},
+         familyi={G\bibinitperiod},
+         given={Keith},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VLV}{%
+         family={Vallis},
+         familyi={V\bibinitperiod},
+         given={Lloyd\bibnamedelima V},
+         giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{MHJ+1}
+    \strng{fullhash}{MHJBNGKVLV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{2}
+    \field{pages}{129\bibrangedash 148}
+    \field{title}{Designs to balance the effect of order of presentation and first-order carry-over effects in hall tests}
+    \field{volume}{4}
+    \field{journaltitle}{Journal of sensory studies}
+    \field{year}{1989}
+  \endentry
+
+  \entry{Markow2010}{inproceedings}{}
+    \name{author}{11}{}{%
+      {{hash=MT}{%
+         family={Markow},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Ramakrishnan},
+         familyi={R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Eicholtz},
+         familyi={E\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Garrett},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Profita},
+         familyi={P\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Scarlata},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schooler},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tarun},
+         familyi={T\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Backus},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Fingers;Haptic interfaces;Mobile computing;Keyboards;Computer aided instruction;Mobile handsets;Extremities;Muscles;Vibration control;Spinal cord injury;Tactile;Haptic;Rehabilitation;Spinal Cord Injury;Wearable}
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTRNHKSTEMGSPHSASCTABD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{2010 4th International Conference on Pervasive Computing Technologies for Healthcare}
+    \verb{doi}
+    \verb 10.4108/pervasivehealth.2010.8
+    \endverb
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Mobile Music Touch: Vibration stimulus in hand rehabilitation}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Mobile Music Touch-
+    \verb  Vibration Stimulus in Hand Rehabilitation.pdf:PDF
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{Pescara2019}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Polly},
+         familyi={P\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schankin},
+         familyi={S\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{user study, reevaluation, passive haptic learning}
+    \strng{namehash}{PE+1}
+    \strng{fullhash}{PEPTSABM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Passive Haptic Learning (PHL) describes the learning of a motion, sequence or pattern without voluntary involvement of attention, focus or motivation through a haptic interface. In previous PHL studies about teaching Morse code, we suspect that active learning processes were at least partially involved in causing extraordinarily high learning rates. Therefore we conduct a similar, 50-participant user study to investigate whether PHL is able to teach Morse code without active attention. Our study design differs from previous studies by preventing active learning explicitly (no feedback given) and implicitly (non-Morse patterns, tests prevent learning by rule of elimination) for three groups. Two other groups get the same feedback as was present in other studies. Our results show much lower learning rates when there is no active learning possible. Including active learning, we replicate the same learning results as have been reported. This suggests that our suspicion was correct and that PHL of Morse Code is possible, but greatly limited. Further studies about PHL must pay attention to whether their study design allows participants to learn actively - even small amounts of information that is actively learned may have a great impact on learning performance.%
+    }
+    \field{booktitle}{Proceedings of the 2019 ACM International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/3341163.3347714
+    \endverb
+    \field{isbn}{9781450368704}
+    \field{pages}{186–194}
+    \field{series}{ISWC '19}
+    \field{title}{Reevaluating passive haptic learning of morse code}
+    \verb{url}
+    \verb https://doi.org/10.1145/3341163.3347714
+    \endverb
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Reevaluating Passiv
+    \verb e Haptic Learning of Morse.pdf:PDF
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{Richardson2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RJT}{%
+         family={Richardson},
+         familyi={R\bibinitperiod},
+         given={John\bibnamedelima TE},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{RJT1}
+    \strng{fullhash}{RJT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{84\bibrangedash 97}
+    \field{title}{The use of Latin-square designs in educational and psychological research}
+    \field{volume}{24}
+    \field{journaltitle}{Educational Research Review}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Seim2015}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Estes},
+         familyi={E\bibinitperiod},
+         given={Tanya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Haptic interfaces;Education;Vibrations;Synchronization;Games;Keyboards;Heuristic algorithms}
+    \strng{namehash}{SCETST1}
+    \strng{fullhash}{SCETST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2015 IEEE World Haptics Conference (WHC)}
+    \verb{doi}
+    \verb 10.1109/WHC.2015.7177752
+    \endverb
+    \field{pages}{445\bibrangedash 450}
+    \field{title}{Towards Passive Haptic Learning of piano songs}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Towards Passive Hap
+    \verb tic Learning of Piano Songs.pdf:PDF
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{Seim2014a}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chandler},
+         familyi={C\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={DesPortes},
+         familyi={D\bibinitperiod},
+         given={Kayla},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dhingra},
+         familyi={D\bibinitperiod},
+         given={Siddharth},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Miru},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCCJDKDSPMST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    BACKGROUND AND MOTIVATION Passive Haptic Learning (PHL) is the acquisition of sensorimotor Previous Work skills without active attention to learning. One method is to "teach" Haptic guidance can help users learn manual skills [3, 5]. This motor skills using vibration cues delivered by a wearable, tactile learning can still occur if the user is distracted by performing interface while the user is focusing on another, primary task. We have another task. Previous work has established that PHL effectively created a system for Passive Haptic Learning of typing skills. In a aids learning of rote patterns of muscle memory for the fingers of study containing 16 participants, users demonstrated significantly one hand. The Mobile Music Touch (MMT) project demonstrated reduced error typing a phrase in Braille after receiving passive passive learning of a pattern of keys that play a piano melody. In instruction versus control (32.85% average decline in error vs. 2.73% this research, users wore a PHL glove (wearable, tactile interface) increase in error). PHL users were also able to recognize and read%
+    }
+    \field{booktitle}{Proceedings of the 2014 ACM International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/2634317.2634330
+    \endverb
+    \field{series}{UbiComp ’14}
+    \field{title}{Passive haptic learning of Braille typing}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Haptic Lear
+    \verb ning of Braille Typing.pdf:PDF
+    \endverb
+    \field{month}{09}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Seim2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Doering},
+         familyi={D\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Stuerzlinger},
+         familyi={S\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Haptic, Keyboard, Learning, Text Entry, Typing, Wearable}
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCDNZYSWST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Learning text entry systems is challenging, yet necessary. Many layouts and keyboards exist, but they rely on laborious learning techniques. Passive haptic learning (PHL) has already demonstrated some benefit for learning the Braille text entry system. Could this computing-enabled technique be used to improve desktop keyboard typing skills? It is unknown whether passive haptic training can improve speed on a motor task (as opposed to initial learning). We use a randomized numeric keypad to examine users’ typing performance with or without passive haptic training. When users were prevented from looking at the keyboard, the PHL group demonstrated consistent accuracy (-0.011 KSPC) while those in the control group greatly increased their error (+1.26 KSPC on average). This result is consistent with the finding that PHL users looked significantly less at the keyboard. In a second, longer study, users exposed to PHL were found to significantly improve their typing speed (mean increase of 11 WPM) versus control (mean increase of 2.2 WPM).%
+    }
+    \verb{doi}
+    \verb 10.1145/3132026
+    \endverb
+    \field{number}{3}
+    \field{title}{Passive Haptic Training to Improve Speed and Performance on a Keypad}
+    \verb{url}
+    \verb https://doi.org/10.1145/3132026
+    \endverb
+    \field{volume}{1}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Haptic Trai
+    \verb ning to Improve Speed and Performance on a Keypad.pdf:PDF
+    \endverb
+    \field{journaltitle}{Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.}
+    \field{month}{08}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Seim2016}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RHS}{%
+         family={Reynolds-Haertle},
+         familyi={R\bibinithyphendelim H\bibinitperiod},
+         given={Saul},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Srinivas},
+         familyi={S\bibinitperiod},
+         given={Sarthak},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCRHSSSST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Here we use Morse code, a text entry system based upon Passive Haptic Learning (PHL) is the acquisition of sensori- rhythm, to answer this and other questions about PHL. In motor skills with little or no active attention to learning. This addition, previous studies required custom-designed, haptic technique is facilitated by wearable computing, and applica- gloves focusing on stimulation of the fingers: here we use a tions are diverse. However, it is not known whether rhythm- pre-existing device (Google Glass) to deliver the stimuli to based information can be conveyed passively. In a 12 par- the side of the head. ticipant study, we investigate whether Morse code, a rhythm- In this paper, we: based text entry system, can be learned through PHL using the bone conduction transducer on Google Glass. After four • Demonstrate Passive Haptic Learning of a temporal system hours of exposure to passive stimuli while focusing their at- (Morse code) tention on a distraction task, PHL participants achieved a 94% • Use an off-the-shelf device (Google Glass) accuracy rate keying a pangram (a phrase with all the letters of the alphabet) using Morse code on Glass’s trackpad versus • Administer tactile stimuli to a novel area of the body for%
+    }
+    \field{booktitle}{Proceedings of the 2016 ACM International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/2971763.2971768
+    \endverb
+    \field{series}{UbiComp ’16}
+    \field{title}{Tactile taps teach rhythmic text entry: passive haptic learning of morse code}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Tactile Taps Teach
+    \verb Rhythmic Text Entry\: Passive Haptic Learning of Morse Code.pdf:PDF
+    \endverb
+    \field{month}{09}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Seim2018}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pontes},
+         familyi={P\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kadiveti},
+         familyi={K\bibinitperiod},
+         given={Sanjana},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AZ}{%
+         family={Adamjee},
+         familyi={A\bibinitperiod},
+         given={Zaeem},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Cochran},
+         familyi={C\bibinitperiod},
+         given={Annette},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Aveni},
+         familyi={A\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Presti},
+         familyi={P\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{haptic, learning, mobile, passive, smartwatch, text entry, wearable}
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCPRKSAZCAATPPST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Haptic technology can be used as a tool for learning. Can even the haptic elements in a smartwatch teach a new skill? Here we present a case of using a smartwatch for passive tactile learning. We use the Sony Smartwatch 3 to teach users Morse code while they wear the watch but focus on unrelated tasks. An initial hypothesis forecasted that the stimulation from the smartwatch, typically used for message alerts, would be too subtle to enable haptic learning; however, we find significant improvements in six participants using the technique. Furthermore, we expose participants to two different durations of stimulation and find different results.%
+    }
+    \field{booktitle}{Proceedings of the 2018 ACM International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/3267242.3267269
+    \endverb
+    \field{isbn}{9781450359672}
+    \field{pages}{228–229}
+    \field{series}{ISWC '18}
+    \field{title}{Towards haptic learning on a smartwatch}
+    \verb{url}
+    \verb https://doi.org/10.1145/3267242.3267269
+    \endverb
+    \list{location}{1}{%
+      {Singapore, Singapore}%
+    }
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Towards Haptic Lear
+    \verb ning on a Smartwatch.pdf:PDF
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Seim2014}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SCE}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=QD}{%
+         family={Quigley},
+         familyi={Q\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=STE}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SCEQDSTE1}
+    \strng{fullhash}{SCEQDSTE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{CHI ’14 Extended Abstracts on Human Factors in Computing Systems}
+    \verb{doi}
+    \verb 10.1145/2559206.2581329
+    \endverb
+    \field{series}{CHI ’14}
+    \field{title}{Passive haptic learning of typing skills facilitated by wearable computers}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Haptic Lear
+    \verb ning of Typing Skills Facilitated by Wearable Computers.pdf:PDF
+    \endverb
+    \field{month}{04}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Shannon1948}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SCE}{%
+         family={Shannon},
+         familyi={S\bibinitperiod},
+         given={Claude\bibnamedelima Elwood},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nokia Bell Labs}%
+    }
+    \strng{namehash}{SCE1}
+    \strng{fullhash}{SCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{379\bibrangedash 423}
+    \field{title}{A mathematical theory of communication}
+    \field{volume}{27}
+    \field{journaltitle}{The Bell system technical journal}
+    \field{year}{1948}
+  \endentry
+
+  \entry{Shannon2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SCE}{%
+         family={Shannon},
+         familyi={S\bibinitperiod},
+         given={Claude\bibnamedelima Elwood},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM New York, NY, USA}%
+    }
+    \strng{namehash}{SCE1}
+    \strng{fullhash}{SCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{3\bibrangedash 55}
+    \field{title}{A mathematical theory of communication}
+    \field{volume}{5}
+    \field{journaltitle}{ACM SIGMOBILE mobile computing and communications review}
+    \field{year}{2001}
+  \endentry
+
+  \entry{shin1994real}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SKG}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Kang\bibnamedelima G},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Ramanathan},
+         familyi={R\bibinitperiod},
+         given={Parameswaran},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SKGRP1}
+    \strng{fullhash}{SKGRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{6\bibrangedash 24}
+    \field{title}{Real-time computing: A new discipline of computer science and engineering}
+    \field{volume}{82}
+    \field{journaltitle}{Proceedings of the IEEE}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Troughton1992}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TM}{%
+         family={Troughton},
+         familyi={T\bibinitperiod},
+         given={Marjorie},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TM1}
+    \strng{fullhash}{TM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Guidelines for Better Braille Literacy}
+    \field{year}{1992}
+  \endentry
+
+  \entry{Vaio6810}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=V}{%
+         family={Vaio},
+         familyi={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Music education, haptic glove, piano education, passive haptic learning}
+    \strng{namehash}{V1}
+    \strng{fullhash}{V1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{booktitle}{World Journal on Educational}
+    \field{title}{Developing a haptic glove for basic piano education}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/pala-ferhat kadir-2
+    \verb 019.pdf.pdf:PDF
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{VegaBermudez2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VBF}{%
+         family={Vega-Bermudez},
+         familyi={V\bibinithyphendelim B\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JKO}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Kenneth\bibnamedelima O},
+         giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AAN Enterprises}%
+    }
+    \strng{namehash}{VBFJKO1}
+    \strng{fullhash}{VBFJKO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{10}
+    \field{pages}{1389\bibrangedash 1391}
+    \field{title}{Differences in spatial acuity between digits}
+    \field{volume}{56}
+    \field{journaltitle}{Neurology}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Yang2017}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=YTJ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Tao-Jen},
+         giveni={T\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=CWA}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Wei-An},
+         giveni={W\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=CYL}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Yung-Long},
+         giveni={Y\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=YZX}{%
+         family={You},
+         familyi={Y\bibinitperiod},
+         given={Zi-Xin},
+         giveni={Z\bibinithyphendelim X\bibinitperiod},
+      }}%
+      {{hash=CCH}{%
+         family={Chou},
+         familyi={C\bibinitperiod},
+         given={Chien-Hsing},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{and cannot be expressed. Procedural memory is often difficult to}
+    \strng{namehash}{YTJ+1}
+    \strng{fullhash}{YTJCWACYLYZXCCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{booktitle}{SIGGRAPH Asia 2017 Posters}
+    \verb{doi}
+    \verb 10.1145/3145690.3145710
+    \endverb
+    \field{series}{SA ’17}
+    \field{title}{Tactile Braille learning system to assist visual impaired users to learn Taiwanese Braille}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Tactile Braille Lea
+    \verb rning System to Assist Visual Impaired Users to Learn Taiwanese Brail
+    \verb le.pdf:PDF
+    \endverb
+    \field{month}{11}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput

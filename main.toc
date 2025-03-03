@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Implementation of your Project}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Design}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Hardware}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}Actuator Design}{3}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.2}Glove Design and Design Iterations}{5}{subsubsection.1.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Software}{8}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}Website}{8}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Communication between the gloves}{10}{subsubsection.1.1.2.2}%
+\contentsline {subsection}{\numberline {1.1.3}Encoding Scheme}{10}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Encoding Chords}{10}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}Audio-Chord Offset}{11}{subsubsection.1.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.1.3.3}Isogram Selection and carry-over effect minimisation}{12}{subsubsection.1.1.3.3}%
+\contentsline {section}{\numberline {1.2}Study design}{13}{section.1.2}%
+\contentsline {chapter}{Bibliography}{17}{section*.21}%
