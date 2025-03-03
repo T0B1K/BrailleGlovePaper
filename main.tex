@@ -1,0 +1,125 @@
+\documentclass{wissdoc}
+
+%% --------------------
+%% |     Packages     |
+%% --------------------
+
+\input{config/packages}
+
+%% --------------------
+%% |     Settings     |
+%% --------------------
+
+% Settings: Titlepage, Comments, etc.
+\input{config/settings}
+
+% Bibliography
+\addbibresource{bib/references.bib}
+
+%% --------------------------------------------------------------------------------
+%% |                           BEGINNING OF DOCUMENT                              |
+%% --------------------------------------------------------------------------------
+\usepackage[acronym]{glossaries}
+
+
+\newacronym{phl}{PHL}{Passive Haptic Learning}
+\newacronym{bct}{BCT}{Bone conducting transducer}
+\newacronym{mmt}{MMT}{Mobile Music Touch}
+\newacronym{vsr}{VSR}{Vibrotactile Skin Reading}
+\newacronym{ost}{OST}{Prioritized Overlapping Spatiotemporal Sequence}
+\newacronym{tvi}{TVI}{Teacher of Students with Visual Impairments}
+\newacronym{sci}{SCI}{spinal cord injury}
+\newacronym{pdm}{PDM}{Pulse Duration Modulation}
+\newacronym{mvp}{MVP}{Minimal Viable Prototype}
+\newacronym{seq}{SEQ}{Sequential encoding}
+
+\newacronym{csgf}{Chi-Square GF}{Chi-Square Goodness-of-Fit Test}
+\newacronym{emgf}{Exact MGF}{Exact Multinomial Goodness-of-Fit Test}
+\newacronym{mwu}{MW U test}{Mann-Whitney U Test}
+
+\newacronym{pca}{PCA}{Principal component analysis}
+
+\usepackage{braille}
+ \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\makeglossaries
+
+\begin{document}
+
+%% ----------------------
+%% |     Title Page     |
+%% ----------------------
+\frontmatter
+\pagenumbering{roman}
+\ifnotdraft{
+ \includepdf[pages=-]{titelseiten.pdf}
+}
+
+%% ----------------------------
+%% |     Table of Content     |
+%% ----------------------------
+
+\ifnotdraft{
+\pagenumbering{roman}
+{\parskip 0pt\tableofcontents} % toc bitte einzeilig
+\listoffigures
+\listoftables
+}
+\cleardoublepage
+{\pagestyle{empty}
+~
+\cleardoublepage}
+%\thispagestyle{empty}
+
+%% ------------------
+%% |     Content    |
+%% ------------------
+
+\graphicspath{{src/}}
+
+\mainmatter
+\pagenumbering{arabic}
+\printglossaries{}
+% \include{tex/chapter/introduction} %2
+%\include{tex/chapter/background}    %12
+% \include{tex/chapter/relatedWorks}  %9.  ->22
+% \include{tex/chapter/analysis} TODO?
+% \cite{Bertram2005}
+% \cite{Pascolini2012}
+% \cite{Pfau2017}
+% \cite{eridani2021comparative}
+% \cite{Seim2018}
+
+ \include{tex/chapter/design} %7
+ % \include{tex/chapter/implementation}     %->22
+
+ 
+ % \include{tex/chapter/analysis} 
+ % \include{tex/chapter/evaluation} 
+ % \include{tex/chapter/BulletPoints}
+ 
+% \include{tex/chapter/futurework} 
+% \include{tex/summary} 
+
+%% ----------------
+%% |   Appendix   |
+%% ----------------
+
+\appendix
+%\include{src/appendix/anhang_a}
+%\include{src/appendix/anhang_b}
+
+%% --------------------
+%% |   Bibliography   |
+%% --------------------
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+\printbibliography
+
+\end{document}
+%% --------------------------------------------------------------------------------
+%% |                              END OF DOCUMENT                                 |
+%% --------------------------------------------------------------------------------
