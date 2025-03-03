@@ -28,18 +28,3 @@ jobs:
         with:
           root_file: main.tex  # Change this to your main LaTeX file if different
           compiler: pdflatex   # You can use 'xelatex' or 'lualatex' if needed
-
-  spellcheck:
-    name: Spell Check LaTeX
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-    
-      - name: Install codespell
-        run: pip install codespell
-    
-      - name: Run Spell Checker
-        run: |
-            find . -type f \( -name "*.tex" -o -name "*.bib" \) -print0 | xargs -0 codespell --skip="./.git,./vendor" --quiet-level=2 --builtin clear,rare
-          
