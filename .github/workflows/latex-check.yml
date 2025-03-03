@@ -1,0 +1,43 @@
+name: LaTeX Checks
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Lint LaTeX Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install chktex
+        run: sudo apt-get install -y chktex
+
+      - name: Run chktex Linter
+        run: chktex -v -W -n22 *.tex || true  # Prevent failure on warnings
+
+  compile:
+    name: Compile LaTeX Document
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Compile with LaTeX
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: main.tex  # Change this to your main LaTeX file if different
+          compiler: pdflatex   # You can use 'xelatex' or 'lualatex' if needed
+
+  spellcheck:
+    name: Spell Check LaTeX
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install codespell
+        run: pip install codespell
+
+      - name: Run Spell Checker
+        run: codespell --skip="./.git,./vendor" --quiet-level=2
