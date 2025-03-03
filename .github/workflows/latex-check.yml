@@ -41,5 +41,5 @@ jobs:
     
       - name: Run Spell Checker
         run: |
-            find . -type f \( -name "*.tex" -o -name "*.bib" \) -print0 | xargs -0 codespell --skip="./.git,./vendor" --quiet-level=2 --lang=en,de
+            find . -type f \( -name "*.tex" -o -name "*.bib" \) -print0 | xargs -0 codespell --skip="./.git,./vendor" --quiet-level=2 --builtin clear,rare
           
