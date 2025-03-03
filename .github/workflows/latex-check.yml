@@ -35,9 +35,11 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
+    
       - name: Install codespell
         run: pip install codespell
-
+    
       - name: Run Spell Checker
-        run: codespell --skip="./.git,./vendor" --quiet-level=2
+        run: |
+            find . -type f \( -name "*.tex" -o -name "*.bib" \) -print0 | xargs -0 codespell --skip="./.git,./vendor" --quiet-level=2 --lang=en,de
+          
