@@ -1,5 +1,27 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Comparison of Wi-Fi, Bluetooth and Esp-Now \blx@tocontentsinit {0}\cite {eridani2021comparative}. EE stands for Energy Efficiency, R stands for receiver and T for transmitter.}}{6}{table.caption.10}%
-\contentsline {table}{\numberline {1.2}{\ignorespaces Probability for each dot occurring.}}{13}{table.caption.17}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Entropy for each Braille letter rounded to $4$ decimal places.}}{13}{table.caption.18}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Distraction tasks leveraged in previous literature.}}{6}{table.caption.5}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Overview of the devices in previous literature.}}{9}{table.caption.11}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of Wi-Fi, Bluetooth and Esp-Now \blx@tocontentsinit {0}\cite {eridani2021comparative}. EE stands for Energy Efficiency, R stands for receiver and T for transmitter.}}{30}{table.caption.26}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Probability for each dot occurring.}}{37}{table.caption.33}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Entropy for each Braille letter rounded to $4$ decimal places.}}{37}{table.caption.34}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces General participant data in the first study.}}{43}{table.caption.37}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results of the Kruskal-Wallis significance tests for the different NasaTLX dimensions with a $\eta ^2$ Effect Size.}}{44}{table.caption.40}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results of the Kruskal-Wallis significance tests for the different self-assessment dimensions with a $\eta ^2$ Effect Size.}}{46}{table.caption.42}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Statistical Test Results for the direct comparison between the stimuli. \text {*} indicates results obtained via Negative Log-Likelihood under $H_0$.}}{46}{table.caption.44}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Results of Kruskal-Wallis significance tests for the different Braille characters during learning with a $\eta ^2$ Effect Size.}}{48}{table.caption.46}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Results of the Kruskal-Wallis significance tests for the wordtests \enquote {THE}, \enquote {OLD}, and \enquote {PUB} with a $\eta ^2$ Effect Size.}}{49}{table.caption.48}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Results of Kruskal-Wallis significance tests for the different Braille characters during testing with a $\eta ^2$ Effect Size.}}{51}{table.caption.50}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Second study participant data}}{54}{table.caption.54}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Results of \gls {mwu} significance tests for the different NasaTLX dimensions with Cohens d.}}{56}{table.caption.57}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Results of the \gls {mwu} test for significance grouped by the different self-assessment dimensions with a Cohens d Effect Size.}}{58}{table.caption.59}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Statistical \gls {csgf} Results for the direct comparison between the stimuli.}}{58}{table.caption.61}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Results of the \gls {mwu} tests for significance grouped by the different Braille characters during training for the different Encodings with Cohen's d.}}{59}{table.caption.63}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Results of the \gls {mwu} tests for significance for the different Braille tests-words with a Cohens d Effect Size.}}{60}{table.caption.65}%
+\contentsline {table}{\numberline {4.14}{\ignorespaces Results of the \gls {mwu} for significance grouped by the different Braille characters during learning for the different Encodings with Cohen's d.}}{62}{table.caption.67}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

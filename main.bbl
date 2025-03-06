@@ -17,6 +17,85 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{ackerley2016touch}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AR}{%
+         family={Ackerley},
+         familyi={A\bibinitperiod},
+         given={Rochelle},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WHB}{%
+         family={Wasling},
+         familyi={W\bibinitperiod},
+         given={Helena\bibnamedelima Backlund},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={McGlone},
+         familyi={M\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ARWHBMF1}
+    \strng{fullhash}{ARWHBMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{85\bibrangedash 109}
+    \field{title}{The touch landscape}
+    \field{journaltitle}{Affective Touch and the Neurophysiology of CT Afferents}
+    \field{year}{2016}
+  \endentry
+
+  \entry{ackerley2014quantifying}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AR}{%
+         family={Ackerley},
+         familyi={A\bibinitperiod},
+         given={Rochelle},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Saar},
+         familyi={S\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={McGlone},
+         familyi={M\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BWH}{%
+         family={Backlund\bibnamedelima Wasling},
+         familyi={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={Helena},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Media SA}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{ARSKMFBWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{34}
+    \field{title}{Quantifying the sensory and emotional perception of touch: differences between glabrous and hairy skin}
+    \field{volume}{8}
+    \field{journaltitle}{Frontiers in behavioral neuroscience}
+    \field{year}{2014}
+  \endentry
+
   \entry{Alnfiai2017}{article}{}
     \name{author}{2}{}{%
       {{hash=AM}{%
@@ -44,6 +123,260 @@
     \field{volume}{9}
     \field{journaltitle}{J. Ubiquitous Syst. Pervasive Networks}
     \field{year}{2017}
+  \endentry
+
+  \entry{An2004}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=ASS}{%
+         family={An},
+         familyi={A\bibinitperiod},
+         given={Sang\bibnamedelima Sup},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JJW}{%
+         family={Jeon},
+         familyi={J\bibinitperiod},
+         given={Jae\bibnamedelima Wook},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Seongil},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Hyuckyeol},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CHG}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Hoo-Gon},
+         giveni={H\bibinithyphendelim G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ASS+1}
+    \strng{fullhash}{ASSJJWLSCHCHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Computers Helping People with Special Needs: 9th International Conference, ICCHP 2004, Paris, France, July 7-9, 2004. Proceedings 9}
+    \field{pages}{490\bibrangedash 497}
+    \field{title}{A pair of wireless braille-based chording gloves}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Aveni2019}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=ATJ}{%
+         family={Aveni},
+         familyi={A\bibinitperiod},
+         given={Timothy\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Keyboards;Training;Task analysis;Games;Haptic interfaces;Complexity theory}
+    \strng{namehash}{ATJSCST1}
+    \strng{fullhash}{ATJSCST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{2019 IEEE World Haptics Conference (WHC)}
+    \verb{doi}
+    \verb 10.1109/WHC.2019.8816077
+    \endverb
+    \field{pages}{383\bibrangedash 388}
+    \field{title}{A preliminary apparatus and teaching structure for passive tactile training of stenography}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/A preliminary appar
+    \verb atus and teaching structure for passive tactile training of stenograp
+    \verb hy.pdf:PDF
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{Bandodkar2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BM}{%
+         family={Bandodkar},
+         familyi={B\bibinitperiod},
+         given={Mukul},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Chourasia},
+         familyi={C\bibinitperiod},
+         given={Virat},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMCV1}
+    \strng{fullhash}{BMCV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{6}
+    \field{pages}{973\bibrangedash 980}
+    \field{title}{Low cost real-time communication braille hand-glove for visually impaired using slot sensors and vibration motors}
+    \field{volume}{8}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Low cost real-time
+    \verb communication braille hand-glove for visually impaired using slot sen
+    \verb sors and vibration motors.pdf:PDF
+    \endverb
+    \field{journaltitle}{Int. J. Electr. Comput. Energ. Electron. Commun. Eng}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bell2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BEC}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={Edward\bibnamedelima C},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MNM}{%
+         family={Mino},
+         familyi={M\bibinitperiod},
+         given={Natalia\bibnamedelima M},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BECMNM1}
+    \strng{fullhash}{BECMNM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 35}
+    \field{title}{Blind and visually impaired adult rehabilitation and employment survey: Final results}
+    \field{volume}{3}
+    \field{journaltitle}{Journal of blindness Innovation and Research}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Bola2016}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BL}{%
+         family={Bola},
+         familyi={B\bibinitperiod},
+         given={{\L}ukasz},
+         giveni={{\L}\bibinitperiod},
+      }}%
+      {{hash=SKK}{%
+         family={Siuda-Krzywicka},
+         familyi={S\bibinithyphendelim K\bibinitperiod},
+         given={Katarzyna},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Papli{\'n}ska},
+         familyi={P\bibinitperiod},
+         given={Ma{\l}gorzata},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sumera},
+         familyi={S\bibinitperiod},
+         given={Ewa},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Ha{\'n}czur},
+         familyi={H\bibinitperiod},
+         given={Pawe{\l}},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Szwed},
+         familyi={S\bibinitperiod},
+         given={Marcin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Public Library of Science San Francisco, CA USA}%
+    }
+    \strng{namehash}{BL+1}
+    \strng{fullhash}{BLSKKPMSEHPSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{5}
+    \field{pages}{e0155394}
+    \field{title}{Braille in the sighted: Teaching tactile reading to sighted adults}
+    \field{volume}{11}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Braille in the Sigh
+    \verb ted- Teaching Tactile Reading to Sighted Adults.pdf:PDF
+    \endverb
+    \field{journaltitle}{PloS one}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Bouwer2011}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{3}{}{%
+      {{hash=BA}{%
+         family={Bouwer},
+         familyi={B\bibinitperiod},
+         given={Anders},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dalgleish},
+         familyi={D\bibinitperiod},
+         given={Mat},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Holland},
+         familyi={H\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{BADMHS+1}
+    \strng{fullhash}{BADMHS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Workshop ‘When Words Fail: What Can Music Interaction Tell Us About HCI}
+    \field{title}{The haptic iPod: passive learning of multi-limb rhythm skills}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/The Haptic iPod\: p
+    \verb assive learning of multi-limb rhythm skills.pdf:PDF
+    \endverb
+    \field{year}{2011}
   \endentry
 
   \entry{Brooke1987}{article}{}
@@ -95,6 +428,67 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Cho2002}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=CMC}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Myung-Chul},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=PKH}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Kwang-Hyun},
+         giveni={K\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=HSH}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Soon-Hyuk},
+         giveni={S\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=JJW}{%
+         family={Jeon},
+         familyi={J\bibinitperiod},
+         given={Jae\bibnamedelima Wook},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=LSI}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Sung\bibnamedelima Il},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Hyuckyeol},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CHG}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Hoo-Gon},
+         giveni={H\bibinithyphendelim G\bibinitperiod},
+      }}%
+    }
+    \keyw{Keyboards;Personal digital assistants;Systems engineering and theory;Fingers;Wearable computers;Engineering management;Mechanical engineering;Fatigue;Capacitive sensors;Cellular phones}
+    \strng{namehash}{CMC+1}
+    \strng{fullhash}{CMCPKHHSHJJWLSICHCHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings. Sixth International Symposium on Wearable Computers,}
+    \verb{doi}
+    \verb 10.1109/ISWC.2002.1167238
+    \endverb
+    \field{pages}{154\bibrangedash 155}
+    \field{title}{A pair of Braille-based chord gloves}
+    \field{year}{2002}
+  \endentry
+
   \entry{Donchev2021}{article}{}
     \name{author}{3}{}{%
       {{hash=DR}{%
@@ -140,6 +534,44 @@
     \field{journaltitle}{Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies}
     \field{month}{06}
     \field{year}{2021}
+  \endentry
+
+  \entry{Driskell1992}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DJE}{%
+         family={Driskell},
+         familyi={D\bibinitperiod},
+         given={James\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WRP}{%
+         family={Willis},
+         familyi={W\bibinitperiod},
+         given={Ruth\bibnamedelima P},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Copper},
+         familyi={C\bibinitperiod},
+         given={Carolyn},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{DJEWRPCC1}
+    \strng{fullhash}{DJEWRPCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{5}
+    \field{pages}{615}
+    \field{title}{Effect of overlearning on retention.}
+    \field{volume}{77}
+    \field{journaltitle}{Journal of Applied Psychology}
+    \field{year}{1992}
   \endentry
 
   \entry{Duncan2007}{article}{}
@@ -210,6 +642,133 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Fang2022a}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Likun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yiran},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Yexu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLZTPEHYZYBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    absolute identification study for distinguishing three sensations The skin, as the largest organ distributed all over the human body, accuracy at two body locations reached up to 97.2%. offers excellent opportunities for different kinds of input stimuli. However, most of the haptic devices can only render single sensa- CCS CONCEPTS tions or they need to combine multiple complex components for •Human-centered computing→Haptic devices; •Hardware generating multiple sensations. We present “DragTapVib” in this → Sensors and actuators. paper, a novel, ultra-low-cost, wearable actuator that can reliably provide dragging, tapping, and vibrating sensations to the user. Our KEYWORDS actuator is fully electromagnetically-actuated with a moving tac- tor that can render three haptic feedbacks through systematically Haptic device design, Multimodal haptics, Wearable computing,%
+    }
+    \field{booktitle}{Augmented Humans 2022}
+    \verb{doi}
+    \verb 10.1145/3519391.3519395
+    \endverb
+    \field{number}{(AHs}
+    \field{series}{AHs 2022}
+    \field{title}{DragTapVib: An On-Skin Electromagnetic Drag, Tap, and Vibration Actuator for Wearable Computing}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/DragTapVib- An On-S
+    \verb kin Electromagnetic Drag, Tap, and Vibration Actuator for Wearable Co
+    \verb mputing.pdf:PDF
+    \endverb
+    \field{month}{03}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Fang2020}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Likun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Röddiger},
+         familyi={R\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Hongye},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WN}{%
+         family={Willenbacher},
+         familyi={W\bibinitperiod},
+         given={Norbert},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{Latest advancements from material science proposed conductive, highly flexible materials based on TPU or PDMS capillary induced}
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLRTSHWNBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    (ISWC ’20), September 12–16, 2020, Virtual Event, Mexico. ACM, New York, Rapid prototyping and fast manufacturing processes are critical NY, USA, 5 pages. https://doi.org/10.1145/3410531.3414307%
+    }
+    \field{booktitle}{Proceedings of the 2020 International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/3410531.3414307
+    \endverb
+    \field{series}{UbiComp/ISWC ’20}
+    \field{title}{FLECTILE: 3D-printable soft actuators for wearable computing}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/FLECTILE- 3D-Printa
+    \verb ble Soft Actuators for Wearable Computing.pdf:PDF
+    \endverb
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
+
   \entry{Fang2023a}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=FL}{%
@@ -263,6 +822,59 @@
     \endverb
     \field{month}{07}
     \field{year}{2023}
+  \endentry
+
+  \entry{Fang2022}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Likun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Malte},
+         familyi={M\bibinitperiod},
+         given={Reimann},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLMRPEBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    CCS CONCEPTS With mixed reality (MR) becoming widely available, it could en- • Human-centered computing → Haptic devices; Ubiquitous hance learning because special equipment like musical instruments and mobile computing design and evaluation methods. or access to instructors will be less of a concern. Furthermore, pas- sive haptic learning systems to learn piano are promising research KEYWORDS subjects. We combine both trends of MR and haptic learning to Haptics, Wearable, Human-Computer-Interaction, Mixed Reality build a piano learning application. Through a study with diverse participants, we evaluate the piano application. The study results ACM Reference Format: show the potentiality of the on-skin actuators and we hope our Likun Fang, Reimann Malte, Erik Pescara, and Michael Beigl. 2022. Investi- work could foster the future iterations of the actuators for a fun gate the Piano Learning Rate with Haptic Actuators inMixed Reality. InAug- and effective learning environment. mented Humans 2022 (AHs 2022), March 13–15, 2022, Kashiwa, Chiba, Japan.%
+    }
+    \field{booktitle}{Augmented Humans 2022}
+    \verb{doi}
+    \verb 10.1145/3519391.3524174
+    \endverb
+    \field{series}{AHs 2022}
+    \field{title}{Investigate the Piano Learning Rate with Haptic Actuators in Mixed Reality}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Investigate the Pia
+    \verb no Learning Rate with Haptic Actuators in Mixed Reality.pdf:PDF
+    \endverb
+    \field{month}{03}
+    \field{year}{2022}
   \endentry
 
   \entry{Fang2023}{article}{}
@@ -331,6 +943,134 @@
     \field{year}{2023}
   \endentry
 
+  \entry{Fang2022b}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=FL}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Likun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Flohs},
+         familyi={F\bibinitperiod},
+         given={Dominik},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Pescara},
+         familyi={P\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Ting},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beigl},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{dragging and tapping, and combined them together to actuate the}
+    \strng{namehash}{FL+1}
+    \strng{fullhash}{FLFDPEZTBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    location. A preliminary user study indicated that the participants This work contributes an investigation of on-skin electromagnetic were able to tell apart the stimulus, and the best position proved to actuator for indicating directions through tactile cues. In the study be the one on the underside of the wrist with an average accuracy (N = 16), the actuator was tested on three locations on participants’ of stimulus recognition to 95%. arms. We compared the perception accuracy on these locations and draw the conclusion that the participants could identify the 2 SYSTEM DESIGN stimulus clearly with the actuator begin placed on the underside We replicated the design of the wearable electromagnetic actuator of the wrist best. Taken together, our result demonstrates that from [2], which is lightweight and flexible. The technical basis is our work would be used as an additional stimulus combined with an Arduino Nano microcontroller with a 5 V operating voltage. other haptic interaction to deliver rich information to the users in The actuator operates based on Lorentz force principle driving a potential. tactor directly contacting with the skin to render three haptic sen-%
+    }
+    \field{booktitle}{Proceedings of the 15th International Conference on PErvasive Technologies Related to Assistive Environments}
+    \verb{doi}
+    \verb 10.1145/3529190.3534751
+    \endverb
+    \field{series}{PETRA ’22}
+    \field{title}{Investigation of On-Skin Electromagnetic Actuator for Signaling Direction via Tactile Cues}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Investigation of On
+    \verb -Skin Electromagnetic Actuator for Signaling Direction via Tactile Cu
+    \verb es.pdf:PDF
+    \endverb
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Foulke1979}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FE}{%
+         family={Foulke},
+         familyi={F\bibinitperiod},
+         given={Emerson},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{FE1}
+    \strng{fullhash}{FE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{8}
+    \field{pages}{318\bibrangedash 323}
+    \field{title}{Increasing the braille reading rate}
+    \field{volume}{73}
+    \field{journaltitle}{Journal of Visual Impairment \& Blindness}
+    \field{year}{1979}
+  \endentry
+
+  \entry{Gescheider1975}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GGA}{%
+         family={Gescheider},
+         familyi={G\bibinitperiod},
+         given={George\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SLC}{%
+         family={Sager},
+         familyi={S\bibinitperiod},
+         given={Lawrence\bibnamedelima C},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RLJ}{%
+         family={Ruffolo},
+         familyi={R\bibinitperiod},
+         given={Lydia\bibnamedelima J},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{GGASLCRLJ1}
+    \strng{fullhash}{GGASLCRLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{209\bibrangedash 216}
+    \field{title}{Simultaneous auditory and tactile information processing}
+    \field{volume}{18}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Simultaneous audito
+    \verb ry and tactile information processing.pdf:PDF
+    \endverb
+    \field{journaltitle}{Perception \& Psychophysics}
+    \field{year}{1975}
+  \endentry
+
   \entry{Gray2011}{book}{}
     \name{author}{1}{}{%
       {{hash=GRM}{%
@@ -351,6 +1091,78 @@
     \field{sortinithash}{G}
     \field{title}{Entropy and information theory}
     \field{year}{2011}
+  \endentry
+
+  \entry{Hall1987}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HAD}{%
+         family={Hall},
+         familyi={H\bibinitperiod},
+         given={Anthony\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=NSE}{%
+         family={Newman},
+         familyi={N\bibinitperiod},
+         given={Slater\bibnamedelima E},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{HADNSE1}
+    \strng{fullhash}{HADNSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{2}
+    \field{pages}{133\bibrangedash 141}
+    \field{title}{Braille learning: Relative importance of seven variables}
+    \field{volume}{1}
+    \field{journaltitle}{Applied Cognitive Psychology}
+    \field{year}{1987}
+  \endentry
+
+  \entry{Hamilton1998a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HRH}{%
+         family={Hamilton},
+         familyi={H\bibinitperiod},
+         given={Roy\bibnamedelima H},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PLA}{%
+         family={Pascual-Leone},
+         familyi={P\bibinithyphendelim L\bibinitperiod},
+         given={Alvaro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Braille, Molyneux, somatosensory system, TMS, cross-modal plasticity, visual system}
+    \strng{namehash}{HRHPLA1}
+    \strng{fullhash}{HRHPLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Blind subjects who learn to read Braille must acquire the ability to extract spatial information from subtle tactile stimuli. In order to accomplish this, neuroplastic changes appear to take place. During Braille learning, the sensorimotor cortical area devoted to the representation of the reading finger enlarges. This enlargement follows a two-step process that can be demonstrated with transcranial magnetic stimulation mapping and suggests initial unmasking of existing connections and eventual establishment of more stable structural changes. In addition, Braille learning appears to be associated with the recruitment of parts of the occipital, formerly `visual', cortex (V1 and V2) for tactile information processing. In blind, proficient Braille readers, the occipital cortex can be shown not only to be associated with tactile Braille reading but also to be critical for reading accuracy. Recent studies suggest the possibility of applying non-invasive neurophysiological techniques to guide and improve functional outcomes of these plastic changes. Such interventions might provide a means of accelerating functional adjustment to blindness.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/S1364-6613(98)01172-3
+    \endverb
+    \field{issn}{1364-6613}
+    \field{number}{5}
+    \field{pages}{168\bibrangedash 174}
+    \field{title}{Cortical plasticity associated with Braille learning}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1364661398011723
+    \endverb
+    \field{volume}{2}
+    \field{journaltitle}{Trends in Cognitive Sciences}
+    \field{year}{1998}
   \endentry
 
   \entry{hart1988development}{incollection}{}
@@ -418,6 +1230,117 @@
     \field{pages}{22\bibrangedash 33}
     \field{title}{Mobile multi-actuator tactile displays}
     \field{year}{2007}
+  \endentry
+
+  \entry{Holland2010}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HS}{%
+         family={Holland},
+         familyi={H\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BAJ}{%
+         family={Bouwer},
+         familyi={B\bibinitperiod},
+         given={Anders\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dalgelish},
+         familyi={D\bibinitperiod},
+         given={Mathew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HTM}{%
+         family={Hurtig},
+         familyi={H\bibinitperiod},
+         given={Topi\bibnamedelima M},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS+1}
+    \strng{fullhash}{HSBAJDMHTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Proceedings of the fourth international conference on Tangible, embedded, and embodied interaction}
+    \field{pages}{21\bibrangedash 28}
+    \field{title}{Feeling the beat where it counts: fostering multi-limb rhythm skills with the haptic drum kit}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Feeling the Beat Wh
+    \verb ere it Counts- Fostering Multi-Limb Rhythm Skills with the Haptic Dru
+    \verb m Kit.pdf:PDF
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{Hsu2021}{article}{}
+    \name{author}{7}{}{%
+      {{hash=HHY}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={Hsiu-Yun},
+         giveni={H\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=LCW}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Che-Wei},
+         giveni={C\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=LYC}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Yu-Ching},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=WPT}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Po-Ting},
+         giveni={P\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kato},
+         familyi={K\bibinitperiod},
+         given={Hirokazu},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SFC}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Fong-Chin},
+         giveni={F\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=KLC}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={Li-Chieh},
+         giveni={L\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Research Square Platform LLC}%
+    }
+    \strng{namehash}{HHY+1}
+    \strng{fullhash}{HHYLCWLYCWPTKHSFCKLC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.21203/rs.3.rs-594506/v1
+    \endverb
+    \field{title}{Effects of Passive Haptic Learning in Music-Supported Therapy on Sensorimotor Performance in Older Adult Hands: A Randomized Crossover Trial}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Effects of Passive
+    \verb Haptic Learning in Music- Supported Therapy on Sensorimotor Performan
+    \verb ce in Older Adult Hands\: A Randomized Crossover Trial.pdf:PDF
+    \endverb
+    \field{month}{07}
+    \field{year}{2021}
   \endentry
 
   \entry{Huang2008}{inproceedings}{}
@@ -534,6 +1457,40 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Jawasreh2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JZHM}{%
+         family={Jawasreh},
+         familyi={J\bibinitperiod},
+         given={Zaid Haron\bibnamedelima Musa},
+         giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ANS}{%
+         family={Ashaari},
+         familyi={A\bibinitperiod},
+         given={Noraidah\bibnamedelima Sahari},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DDP}{%
+         family={Dahnil},
+         familyi={D\bibinitperiod},
+         given={Dahlila\bibnamedelima Putri},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JZHMANSDDP1}
+    \strng{fullhash}{JZHMANSDDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{10263}
+    \field{title}{The acceptance of braille self-learning device}
+    \field{volume}{10}
+    \field{journaltitle}{International Journal on Advanced Science, Engineering and Information Technology. https://doi. org/10.18517/ijaseit}
+    \field{year}{2020}
+  \endentry
+
   \entry{Katz2013}{book}{}
     \name{author}{2}{}{%
       {{hash=KD}{%
@@ -596,6 +1553,322 @@
     \verb f:PDF
     \endverb
     \field{year}{2010}
+  \endentry
+
+  \entry{Krueger1929}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KWCF}{%
+         family={Krueger},
+         familyi={K\bibinitperiod},
+         given={William Charles\bibnamedelima Frederick},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Psychological Review Company}%
+    }
+    \strng{namehash}{KWCF1}
+    \strng{fullhash}{KWCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{71}
+    \field{title}{The effect of overlearning on retention.}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of Experimental Psychology}
+    \field{year}{1929}
+  \endentry
+
+  \entry{krugman1970passive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KHE}{%
+         family={Krugman},
+         familyi={K\bibinitperiod},
+         given={Herbert\bibnamedelima E},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HEL}{%
+         family={Hartley},
+         familyi={H\bibinitperiod},
+         given={Eugene\bibnamedelima L},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{KHEHEL1}
+    \strng{fullhash}{KHEHEL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{2}
+    \field{pages}{184\bibrangedash 190}
+    \field{title}{Passive learning from television}
+    \field{volume}{34}
+    \field{journaltitle}{Public Opinion Quarterly}
+    \field{year}{1970}
+  \endentry
+
+  \entry{10.1145/3674805.3686691}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=LP}{%
+         family={Lago},
+         familyi={L\bibinitperiod},
+         given={Patricia},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Runeson},
+         familyi={R\bibinitperiod},
+         given={Per},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SQ}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Qunying},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Verdecchia},
+         familyi={V\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Empirical studies, Limitations, Literature study, Threats to validity}
+    \strng{namehash}{LP+1}
+    \strng{fullhash}{LPRPSQVR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Background: In recent years, a discourse on how to systematically consider and report threats to validity started to gain momentum within the empirical software engineering community. Aims: With this study, we aim to systematically underpin the current state of threats to validity practices in software engineering research. Method: We conduct a literature review comprising 91 papers awarded with the ACM SIGSOFT Distinguished Paper Award at the ACM/IEEE International Conference on Software Engineering. Data is extracted and analyzed by considering six main facets of threats to validity, e.g., their explicit documentation, categorization, discussion of limitations, and trade-offs. Results: Results corroborate current critiques to the threats management state of the art. Threats result to be seldom discussed in depth, and are mostly considered as an enforced afterthought rather than an active concern of the research design and execution. Conclusions: To improve the observed practice, we derived items to consider for researchers, reviewers and readers, and call for a community action to increase the understanding of knowledge creation in empirical software engineering research.%
+    }
+    \field{booktitle}{Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement}
+    \verb{doi}
+    \verb 10.1145/3674805.3686691
+    \endverb
+    \field{isbn}{9798400710476}
+    \field{pages}{314–324}
+    \field{series}{ESEM '24}
+    \field{title}{Threats to Validity in Software Engineering – hypocritical paper section or essential analysis?}
+    \verb{url}
+    \verb https://doi.org/10.1145/3674805.3686691
+    \endverb
+    \list{location}{1}{%
+      {Barcelona, Spain}%
+    }
+    \field{year}{2024}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{Laird1984}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LJE}{%
+         family={Laird},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=RPS}{%
+         family={Rosenbloom},
+         familyi={R\bibinitperiod},
+         given={Paul\bibnamedelima S},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Newell},
+         familyi={N\bibinitperiod},
+         given={Allen},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJERPSNA1}
+    \strng{fullhash}{LJERPSNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{AAAI}
+    \field{pages}{188\bibrangedash 192}
+    \field{title}{Towards Chunking as a General Learning Mechanism.}
+    \field{year}{1984}
+  \endentry
+
+  \entry{Langer1979}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LEJ}{%
+         family={Langer},
+         familyi={L\bibinitperiod},
+         given={Ellen\bibnamedelima J},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ILG}{%
+         family={Imber},
+         familyi={I\bibinitperiod},
+         given={Lois\bibnamedelima G},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{LEJILG1}
+    \strng{fullhash}{LEJILG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{11}
+    \field{pages}{2014}
+    \field{title}{When practice makes imperfect: Debilitating effects of overlearning.}
+    \field{volume}{37}
+    \field{journaltitle}{Journal of personality and social psychology}
+    \field{year}{1979}
+  \endentry
+
+  \entry{Learning2024}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=LB}{%
+         family={Learning},
+         familyi={L\bibinitperiod},
+         given={Braille},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=uH}{%
+         prefix={using},
+         prefixi={u\bibinitperiod},
+         family={Haptic},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=F}{%
+         family={Feedback},
+         familyi={F\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Caulfield},
+         familyi={C\bibinitperiod},
+         given={Megan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Forsyth},
+         familyi={F\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Deportes},
+         familyi={D\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Castaneda},
+         familyi={C\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LB+1}
+    \strng{fullhash}{LBHuFCMFJDLCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    2024 Systems and Information Engineering Design Symposium (SIEDS);2024; ; ;10.1109/SIEDS61124.2024.10534648%
+    }
+    \field{booktitle}{2024 Systems and Information Engineering Design Symposium (SIEDS) |}
+    \field{title}{Braille Learning using Haptic Feedback}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Braille_Learning_us
+    \verb ing_Haptic_Feedback.pdf:PDF
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{lo1984regional}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=LJ}{%
+         family={Lo},
+         familyi={L\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=JRS}{%
+         family={Johansson},
+         familyi={J\bibinitperiod},
+         given={Roland\bibnamedelima S},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LJJRS+1}
+    \strng{fullhash}{LJJRS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1}
+    \field{pages}{65\bibrangedash 72}
+    \field{title}{Regional differences and interindividual variability in sensitivity to vibration in the glabrous skin of the human hand}
+    \field{volume}{301}
+    \field{journaltitle}{Brain research}
+    \field{year}{1984}
+  \endentry
+
+  \entry{lowy2021cutaneous}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LDB}{%
+         family={Lowy},
+         familyi={L\bibinitperiod},
+         given={Daniel\bibnamedelima B},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MPG}{%
+         family={Makker},
+         familyi={M\bibinitperiod},
+         given={Preet\bibnamedelima GS},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MTG}{%
+         family={Moalem-Taylor},
+         familyi={M\bibinithyphendelim T\bibinitperiod},
+         given={Gila},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Media SA}%
+    }
+    \strng{namehash}{LDBMPGMTG1}
+    \strng{fullhash}{LDBMPGMTG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{660203}
+    \field{title}{Cutaneous neuroimmune interactions in peripheral neuropathic pain states}
+    \field{volume}{12}
+    \field{journaltitle}{Frontiers in Immunology}
+    \field{year}{2021}
   \endentry
 
   \entry{Luzhnica2017}{inproceedings}{}
@@ -804,6 +2077,32 @@
     \field{year}{1989}
   \endentry
 
+  \entry{Mangoldnd}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Mangold},
+         familyi={M\bibinitperiod},
+         given={Sally},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Deutscher Blinden- und Sehbehindertenverband e. V.}%
+    }
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{Accessed: 2024-09-02}
+    \field{title}{Mangold Braille Program: Tactile Perception and Braille Letter Recognition}
+    \verb{url}
+    \verb https://www.dbsv.org/mangold-braille-program.html
+    \endverb
+    \field{year}{n.d.}
+  \endentry
+
   \entry{Markow2010}{inproceedings}{}
     \name{author}{11}{}{%
       {{hash=MT}{%
@@ -893,6 +2192,272 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Martiniello2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MN}{%
+         family={Martiniello},
+         familyi={M\bibinitperiod},
+         given={Natalie},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wittich},
+         familyi={W\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Jarry},
+         familyi={J\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage UK: London, England}%
+    }
+    \strng{namehash}{MNWWJA1}
+    \strng{fullhash}{MNWWJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{3}
+    \field{pages}{195\bibrangedash 206}
+    \field{title}{The perception and use of technology within braille instruction: A preliminary study of braille teaching professionals}
+    \field{volume}{36}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/The perception and
+    \verb use of technology within braille instruction- A preliminary study of
+    \verb braille teaching professionals.pdf:PDF
+    \endverb
+    \field{journaltitle}{British Journal of Visual Impairment}
+    \field{year}{2018}
+  \endentry
+
+  \entry{McCarthy2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MT}{%
+         family={McCarthy},
+         familyi={M\bibinitperiod},
+         given={Tessa},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RLP}{%
+         family={Rosenblum},
+         familyi={R\bibinitperiod},
+         given={L\bibnamedelima Penny},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JBG}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Benny\bibnamedelima G},
+         giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dittel},
+         familyi={D\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KDM}{%
+         family={Kearns},
+         familyi={K\bibinitperiod},
+         given={Devin\bibnamedelima M},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{MT+2}
+    \strng{fullhash}{MTRLPJBGDJKDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{5}
+    \field{pages}{309\bibrangedash 322}
+    \field{title}{An artificial intelligence tutor: A supplementary tool for teaching and practicing braille}
+    \field{volume}{110}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/An Artificial Intel
+    \verb ligence Tutor- A Supplementary Tool for Teaching and Practicing Brail
+    \verb le.pdf:PDF
+    \endverb
+    \field{journaltitle}{Journal of Visual Impairment \& Blindness}
+    \field{year}{2016}
+  \endentry
+
+  \entry{mcdonald2014handbook}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MJH}{%
+         family={McDonald},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sparky House Publishing, Baltimore, Maryland. USA}%
+    }
+    \strng{namehash}{MJH1}
+    \strng{fullhash}{MJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Handbook of biological statistics}
+    \field{year}{2014}
+  \endentry
+
+  \entry{mcglone2014discriminative}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MF}{%
+         family={McGlone},
+         familyi={M\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wessberg},
+         familyi={W\bibinitperiod},
+         given={Johan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={Olausson},
+         familyi={O\bibinitperiod},
+         given={H{\aa}kan},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MFWJOH1}
+    \strng{fullhash}{MFWJOH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{4}
+    \field{pages}{737\bibrangedash 755}
+    \field{title}{Discriminative and affective touch: sensing and feeling}
+    \field{volume}{82}
+    \field{journaltitle}{Neuron}
+    \field{year}{2014}
+  \endentry
+
+  \entry{miller1956}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MGA}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={George\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{MGA1}
+    \strng{fullhash}{MGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{2}
+    \field{pages}{81}
+    \field{title}{The magical number seven, plus or minus two: Some limits on our capacity for processing information.}
+    \field{volume}{63}
+    \field{journaltitle}{Psychological review}
+    \field{year}{1956}
+  \endentry
+
+  \entry{Ozioko2017}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=OO}{%
+         family={Ozioko},
+         familyi={O\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Taube},
+         familyi={T\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hersh},
+         familyi={H\bibinitperiod},
+         given={Marion},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dahiya},
+         familyi={D\bibinitperiod},
+         given={Ravinder},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Thumb;Piezoelectric transducers;Vibrations;Actuators;Mobile handsets;Bluetooth;finger Braille;deafblind;communication;smart glove;tactile sensing;actuator}
+    \strng{namehash}{OO+1}
+    \strng{fullhash}{OOTWHMDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{booktitle}{2017 IEEE 26th International Symposium on Industrial Electronics (ISIE)}
+    \verb{doi}
+    \verb 10.1109/ISIE.2017.8001563
+    \endverb
+    \field{pages}{2014\bibrangedash 2018}
+    \field{title}{SmartFingerBraille: A tactile sensing and actuation based communication glove for deafblind people}
+    \field{year}{2017}
+  \endentry
+
+  \entry{peiris2019thermalbracelet}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=PRL}{%
+         family={Peiris},
+         familyi={P\bibinitperiod},
+         given={Roshan\bibnamedelima Lalitha},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FYL}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Yuan-Ling},
+         giveni={Y\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Liwei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Minamizawa},
+         familyi={M\bibinitperiod},
+         given={Kouta},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PRL+1}
+    \strng{fullhash}{PRLFYLCLMK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems}
+    \field{pages}{1\bibrangedash 11}
+    \field{title}{Thermalbracelet: Exploring thermal haptic feedback around the wrist}
+    \field{year}{2019}
+  \endentry
+
   \entry{Pescara2019}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=PE}{%
@@ -954,6 +2519,25 @@
     \field{year}{2019}
   \endentry
 
+  \entry{pharmabrailleBrailleAlphabet}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={{PharmaBraille}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{PharmaBraille website, \url{https://www.pharmabraille.com/pharmaceutical-braille/the-braille-alphabet/}}
+    \field{note}{Accessed: 2024-12-15}
+    \field{title}{The Braille Alphabet – PharmaBraille}
+    \field{year}{n.d.}
+  \endentry
+
   \entry{Richardson2018}{article}{}
     \name{author}{1}{}{%
       {{hash=RJT}{%
@@ -979,7 +2563,118 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Ryles1996}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Ryles},
+         familyi={R\bibinitperiod},
+         given={Ruby},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{3}
+    \field{pages}{219\bibrangedash 226}
+    \field{title}{The impact of braille reading skills on employment, income, education, and reading habits}
+    \field{volume}{90}
+    \field{journaltitle}{Journal of Visual Impairment \& Blindness}
+    \field{year}{1996}
+  \endentry
+
+  \entry{sargent2010chunking}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SJ}{%
+         family={Sargent},
+         familyi={S\bibinitperiod},
+         given={Jesse},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dopkins},
+         familyi={D\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Philbeck},
+         familyi={P\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chichka},
+         familyi={C\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJDSPJCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{576}
+    \field{title}{Chunking in spatial memory.}
+    \field{volume}{36}
+    \field{journaltitle}{Journal of Experimental Psychology: Learning, memory, and cognition}
+    \field{year}{2010}
+  \endentry
+
   \entry{Seim2015}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Estes},
+         familyi={E\bibinitperiod},
+         given={Tanya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Haptic interfaces;Education;Vibrations;Synchronization;Games;Keyboards;Heuristic algorithms}
+    \strng{namehash}{SCETST1}
+    \strng{fullhash}{SCETST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2015 IEEE World Haptics Conference (WHC)}
+    \verb{doi}
+    \verb 10.1109/WHC.2015.7177752
+    \endverb
+    \field{pages}{445\bibrangedash 450}
+    \field{title}{Towards Passive Haptic Learning of piano songs}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Towards Passive Hap
+    \verb tic Learning of Piano Songs.pdf:PDF
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{Seim2015b}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=SC}{%
          family={Seim},
@@ -1150,6 +2845,59 @@
     \field{journaltitle}{Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.}
     \field{month}{08}
     \field{year}{2017}
+  \endentry
+
+  \entry{Seim2016a}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SC}{%
+         family={Seim},
+         familyi={S\bibinitperiod},
+         given={Caitlyn},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RHS}{%
+         family={Reynolds-Haertle},
+         familyi={R\bibinithyphendelim H\bibinitperiod},
+         given={Saul},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Srinivas},
+         familyi={S\bibinitperiod},
+         given={Sarthak},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Starner},
+         familyi={S\bibinitperiod},
+         given={Thad},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCRHSSSST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Here we use Morse code, a text entry system based upon Passive Haptic Learning (PHL) is the acquisition of sensori- rhythm, to answer this and other questions about PHL. In motor skills with little or no active attention to learning. This addition, previous studies required custom-designed, haptic technique is facilitated by wearable computing, and applica- gloves focusing on stimulation of the fingers: here we use a tions are diverse. However, it is not known whether rhythm- pre-existing device (Google Glass) to deliver the stimuli to based information can be conveyed passively. In a 12 par- the side of the head. ticipant study, we investigate whether Morse code, a rhythm- In this paper, we: based text entry system, can be learned through PHL using the bone conduction transducer on Google Glass. After four • Demonstrate Passive Haptic Learning of a temporal system hours of exposure to passive stimuli while focusing their at- (Morse code) tention on a distraction task, PHL participants achieved a 94% • Use an off-the-shelf device (Google Glass) accuracy rate keying a pangram (a phrase with all the letters of the alphabet) using Morse code on Glass’s trackpad versus • Administer tactile stimuli to a novel area of the body for%
+    }
+    \field{booktitle}{Proceedings of the 2016 ACM International Symposium on Wearable Computers}
+    \verb{doi}
+    \verb 10.1145/2971763.2971768
+    \endverb
+    \field{series}{UbiComp ’16}
+    \field{title}{Tactile taps teach rhythmic text entry: passive haptic learning of morse code}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Tactile Taps Teach
+    \verb Rhythmic Text Entry\: Passive Haptic Learning of Morse Code.pdf:PDF
+    \endverb
+    \field{month}{09}
+    \field{year}{2016}
   \endentry
 
   \entry{Seim2016}{inproceedings}{}
@@ -1418,6 +3166,117 @@
     \field{year}{1994}
   \endentry
 
+  \entry{Shivakumarl2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SB}{%
+         family={Shivakumarl},
+         familyi={S\bibinitperiod},
+         given={BL},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rajasenathipathi},
+         familyi={R\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{SBRM1}
+    \strng{fullhash}{SBRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{8}
+    \field{pages}{635\bibrangedash 641}
+    \field{title}{Braille Glove Vibration System For Diabetic Affected Disabled Persons}
+    \field{volume}{8}
+    \field{journaltitle}{Journal of Engineering and Applied Sciences}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Swenson1999}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SAM}{%
+         family={Swenson},
+         familyi={S\bibinitperiod},
+         given={Anna\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Foundation for the Blind}%
+    }
+    \strng{namehash}{SAM1}
+    \strng{fullhash}{SAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Beginning with braille: Firsthand experiences with a balanced approach to literacy}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Thalmann2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TM}{%
+         family={Thalmann},
+         familyi={T\bibinitperiod},
+         given={Mirko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SAS}{%
+         family={Souza},
+         familyi={S\bibinitperiod},
+         given={Alessandra\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Oberauer},
+         familyi={O\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{TMSASOK1}
+    \strng{fullhash}{TMSASOK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{1}
+    \field{pages}{37}
+    \field{title}{How does chunking help working memory?}
+    \field{volume}{45}
+    \field{journaltitle}{Journal of Experimental Psychology: Learning, Memory, and Cognition}
+    \field{year}{2019}
+  \endentry
+
+  \entry{troughton1992guidelines}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TM}{%
+         family={Troughton},
+         familyi={T\bibinitperiod},
+         given={Marjorie},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TM1}
+    \strng{fullhash}{TM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Guidelines for Better Braille Literacy}
+    \field{year}{1992}
+  \endentry
+
   \entry{Troughton1992}{article}{}
     \name{author}{1}{}{%
       {{hash=TM}{%
@@ -1435,6 +3294,67 @@
     \field{sortinithash}{T}
     \field{title}{Guidelines for Better Braille Literacy}
     \field{year}{1992}
+  \endentry
+
+  \entry{tseng2020skin}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=TWJ}{%
+         family={Tseng},
+         familyi={T\bibinitperiod},
+         given={Wen-Jie},
+         giveni={W\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=LYC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Yi-Chen},
+         giveni={Y\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=PRL}{%
+         family={Peiris},
+         familyi={P\bibinitperiod},
+         given={Roshan\bibnamedelima Lalintha},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Liwei},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TWJ+1}
+    \strng{fullhash}{TWJLYCPRLCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{booktitle}{Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems}
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{A skin-stroke display on the eye-ring through head-mounted displays}
+    \field{year}{2020}
+  \endentry
+
+  \entry{tuttle1996point}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TD}{%
+         family={Tuttle},
+         familyi={T\bibinitperiod},
+         given={DW},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TD1}
+    \strng{fullhash}{TD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{3}
+    \field{title}{Point/counterpoint.}
+    \field{volume}{90}
+    \field{journaltitle}{Journal of Visual Impairment \& Blindness}
+    \field{year}{1996}
   \endentry
 
   \entry{Vaio6810}{inproceedings}{}
@@ -1490,6 +3410,134 @@
     \field{volume}{56}
     \field{journaltitle}{Neurology}
     \field{year}{2001}
+  \endentry
+
+  \entry{wang2019masque}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=WC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Chi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HDY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Da-Yuan},
+         giveni={D\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=HSw}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={Shuo-wen},
+         giveni={S\bibinithyphendelim w\bibinitperiod},
+      }}%
+      {{hash=HCE}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Chu-En},
+         giveni={C\bibinithyphendelim E\bibinitperiod},
+      }}%
+      {{hash=CYL}{%
+         family={Chiu},
+         familyi={C\bibinitperiod},
+         given={Yeu-Luen},
+         giveni={Y\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=CRC}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Ruei-Che},
+         giveni={R\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=LJY}{%
+         family={Lo},
+         familyi={L\bibinitperiod},
+         given={Jo-Yu},
+         giveni={J\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=CBY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Bing-Yu},
+         giveni={B\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WC+1}
+    \strng{fullhash}{WCHDYHSwHCECYLCRCLJYCBY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology}
+    \field{pages}{439\bibrangedash 451}
+    \field{title}{Masque: Exploring lateral skin stretch feedback on the face with head-mounted displays}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Wikipedia2023}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{note}{[Online; Stand 12. September 2024]}
+    \field{title}{Punktschriftmaschine --- Wikipedia{,} die freie Enzyklopädie}
+    \verb{url}
+    \verb https://de.wikipedia.org/w/index.php?title=Punktschriftmaschine&oldid
+    \verb =238269073
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{Subathra2024}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=YS}{%
+         family={Y},
+         familyi={Y},
+         given={Subathra},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ASJ}{%
+         family={A},
+         familyi={A},
+         given={Silviya\bibnamedelima Jebastina},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={R},
+         familyi={R},
+         given={Swetha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GRD}{%
+         family={G\bibnamedelima R},
+         familyi={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Dharanika},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Bridges;Braille;Communication systems;Instruments;Sociology;Tactile sensors;Motors;Braille;assistive technology;wearable device;deaf-blind;sensory impairment;haptic feedback}
+    \strng{namehash}{YS+1}
+    \strng{fullhash}{YSASJRSGRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{booktitle}{2024 Tenth International Conference on Bio Signals, Images, and Instrumentation (ICBSII)}
+    \verb{doi}
+    \verb 10.1109/ICBSII61384.2024.10564076
+    \endverb
+    \field{pages}{1\bibrangedash 5}
+    \field{title}{An Intelligent Braille Communication using Translation Glove}
+    \field{year}{2024}
   \endentry
 
   \entry{Yang2017}{inproceedings}{}
@@ -1548,6 +3596,117 @@
     \endverb
     \field{month}{11}
     \field{year}{2017}
+  \endentry
+
+  \entry{Zaman2019}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=ZHU}{%
+         family={Zaman},
+         familyi={Z\bibinitperiod},
+         given={Hasan\bibnamedelima U.},
+         giveni={H\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=SKS}{%
+         family={Shuravi},
+         familyi={S\bibinitperiod},
+         given={Khalida\bibnamedelima Sultana},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SMK}{%
+         family={Sakib},
+         familyi={S\bibinitperiod},
+         given={Muntasir\bibnamedelima Kabir},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SMW}{%
+         family={Sarwar},
+         familyi={S\bibinitperiod},
+         given={Mohammad\bibnamedelima Wasee},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \keyw{Sensors;Vibrations;Writing;Thumb;Bluetooth;Pins;braille;hand glove;slot sensor;vibration motor;Arduino nano}
+    \strng{namehash}{ZHU+1}
+    \strng{fullhash}{ZHUSKSSMKSMW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{booktitle}{2019 4th International Conference on Electrical Information and Communication Technology (EICT)}
+    \verb{doi}
+    \verb 10.1109/EICT48899.2019.9068769
+    \endverb
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{A Low Cost Wireless Braille System Hand Glove for Real Time Communication}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Zukin1984}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZC}{%
+         family={Zukin},
+         familyi={Z\bibinitperiod},
+         given={Cliff},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{ZCSR1}
+    \strng{fullhash}{ZCSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{number}{3}
+    \field{pages}{629\bibrangedash 638}
+    \field{title}{Passive learning: When the media environment is the message}
+    \field{volume}{48}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Learning.pd
+    \verb f:PDF
+    \endverb
+    \field{journaltitle}{Public Opinion Quarterly}
+    \field{year}{1984}
+  \endentry
+
+  \entry{zukin1984passive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZC}{%
+         family={Zukin},
+         familyi={Z\bibinitperiod},
+         given={Cliff},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{ZCSR1}
+    \strng{fullhash}{ZCSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{number}{3}
+    \field{pages}{629\bibrangedash 638}
+    \field{title}{Passive learning: When the media environment is the message}
+    \field{volume}{48}
+    \field{journaltitle}{Public Opinion Quarterly}
+    \field{year}{1984}
   \endentry
 \enddatalist
 \endinput
