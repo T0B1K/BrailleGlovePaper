@@ -278,6 +278,29 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Bertram2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BB}{%
+         family={Bertram},
+         familyi={B\bibinitperiod},
+         given={Bernd},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BB1}
+    \strng{fullhash}{BB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{6}
+    \field{pages}{267\bibrangedash 268}
+    \field{title}{Blindheit und Sehbehinderung in Deutschland: Ursachen und H{\"a}ufigkeit}
+    \field{volume}{39}
+    \field{journaltitle}{Der Augenarzt}
+    \field{year}{2005}
+  \endentry
+
   \entry{Bola2016}{article}{}
     \name{author}{6}{}{%
       {{hash=BL}{%
