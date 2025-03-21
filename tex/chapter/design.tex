@@ -1,15 +1,15 @@
-\chapter{Implementation of your Project}
+\chapter{Implementation and Design}
 \label{ch:Implementation}
 
-\section{Design}
-This section presents the design and the key design decisions we made for this project.
+\section{Implementation}
+This section presents the implementation and the key design decisions we made for this project.
 We begin by describing the hardware apparatus, which includes the actuators and the gloves themselves, as well as the design iterations undertaken during the development of the glove.
 Next, we outline the software components, detailing the encoding of the actuators, and the communication protocol, and providing a brief introduction to the associated software elements.
 Finally, we conclude this section by introducing the study design of the two studies conducted to address our research questions.
 
 
 \subsection{Hardware}
-We have divided this subsection into two parts: the first focuses on the actuators used, while the second discusses the design of the Velcro gloves.
+We have divided this subsection into two parts: the first focuses on the actuators used, while the second discusses the design of the Braille gloves.
 
 \subsubsection{Actuator Design}
 For the actuators and their setup, we adopted the design and configuration proposed by Fang et al. \cite{Fang2023}, using Velcro straps. This decision was informed by prior research \cite{Markow2010, Kohlsdorf2010, Huang2010, Fang2023a}, which highlights the importance of design factors such as weight, breathability, flexibility, and coarseness for user comfort, particularly during extended wear. Velcro straps effectively meet these criteria while enhancing dexterity, a recognized advantage of fingerless glove designs \cite{Huang2008}. This design facilitates everyday tasks and accommodates a range of finger sizes, making the gloves adaptable for different users. Furthermore, using the same actuators enables a direct comparison with Fang et al.’s prior work \cite{Fang2023}, which employed identical actuators in a one-handed, non-chorded piano learning setup.
@@ -35,7 +35,7 @@ The actuators consist of six vibration systems (three per hand), with one shown 
     \label{fig:fang-stroking}
 \end{figure}
 
-For the tapping and stroking systems, we employed six actuators for each system, utilizing mini-servo motors (Master DS208). These motors provide an actuating force of approximately 0.1–0.2 kg and complete a 45° movement in approximately 0.1 seconds. The actuators draw around 5V and 1.75A for stroking, and 5V and 2A for tapping, based on our measurements using a 
+For the tapping and stroking systems, we employed six actuators for each system, utilizing mini-servo motors (Master DS208). These motors provide an actuating force of approximately 0.1 - 0.2 kg and complete a 45° movement in approximately 0.1 seconds. The actuators draw around 5V and 1.75A for stroking, and 5V and 2A for tapping, based on our measurements using a 
 USB Current Voltage Capacity Tester (Model: KWS-V20/V21).
 Both systems are controlled via \gls{pdm} through the glove. The cases for these systems are 3D-printed using PLA. The design of the stroking system is shown in \autoref{fig:fang-stroking}, while the tapping system is depicted in \autoref{fig:fang-tapping}.
 
@@ -66,7 +66,7 @@ All actuators are positioned near the interphalangeal joints of the fingers.
 
 Our final glove design, shown in \autoref{fig:final-glove-design}, incorporates the actuators described above along with a wristband. The wristband consists of a Velcro strap mounted onto a 3D-printed PLA casing with a cushion on the bottom to enhance comfort during extended wear. Therefore, we left a small hole in the bottom to fit the cushion into it due to the cushion being not soft enough due to the clue pressing directly against the users' skin. The case design is shown in \autoref{fig:cases}.
 
-The casing measures 37.6 mm × 28.75 mm × 15 mm, making it comparable in size to the Xiaomi Mi Watch Lite smartwatch (dimensions: 41 mm × 35 mm × 10.9 mm, weight: 35 g with strap, 21 g without strap)\footnote{\url{https://www.mi.com/de/mi-watch-lite/specs/}}. Also, the bottom is fitted, so that the ESP8266 can fit even without glue in there and won't move.
+The casing measures 37.6 mm $\times$ 28.75 mm $\times$ 15 mm, making it comparable in size to the Xiaomi Mi Watch Lite smartwatch (dimensions: 41 mm × 35 mm × 10.9 mm, weight: 35 g with strap, 21 g without strap)\footnote{\url{https://www.mi.com/de/mi-watch-lite/specs/}}. Also, the bottom is fitted, so that the ESP8266 can fit even without glue in there and won't move.
 With an open case, the design is depicted here \autoref{fig:openCases}. The 9 outputs are the same as shown in the circuit diagram in \autoref{fig:circuit-diagram}.
 
 This design achieves our goal of creating a compact wearable device comparable to a modern smartwatch.
@@ -164,7 +164,7 @@ The same laptop was also used to run Gwelled, the game employed in Fang et al.'s
 
 
 \subsubsection{Communication between the gloves}
-Both gloves operate using a master-slave configuration, with the left glove functioning as the master and the right glove as the slave. To ensure flexibility in actuator motor types and encoding schemes, we implemented a layered architecture within both the master and slave gloves.
+Both gloves operate using a master-slave configuration depicted in \autoref{fig:communicatoin_architecture}, with the left glove functioning as the master and the right glove as the slave. To ensure flexibility in actuator motor types and encoding schemes, we implemented a layered architecture within both the master and slave gloves.
 
 For communication, the slave glove employs a listener that, upon receiving a message, triggers a callback function to determine how the data should be processed.
 
@@ -172,6 +172,14 @@ The slave glove can receive two types of data. The first type is the activation 
 
 This approach ensures precise synchronization, as the timing index is transmitted during the pauses between characters, preventing significant timing discrepancies. To meet the requirements of low overhead, fast latency, and high throughput, as outlined in section \ref{Glove_Design_Iteration} 
 and illustrated in \autoref{tab:comparissonESPNOW}, we leverage this speed to maintain accurate timing without the need to wait for a connection to be fully established.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{src/pictures/Wireless_communication.drawio.pdf}
+    \caption{Communication Architecture.}
+    \label{fig:communicatoin_architecture}
+\end{figure}
+
 
 \subsection{Encoding Scheme}
 This section provides an overview of the encoding methods used in our study. First, we introduce the encoding of chords, which we employ in both of our studies. Here, we differentiate between the sequential approach that we use and the \gls{ost} encoding approach.
@@ -208,7 +216,7 @@ For the offset between audio and vibration, we adopt the same value used in \cit
 
 For stroking and tapping, we follow the setup described by \cite{Fang2023}, where each finger is stroked or tapped once. However, we use the \gls{ost} encoding with the same \gls{ost} gap and pause time, as illustrated in \autoref{fig:audio_vibration_gap}, so the only difference between the affective and discriminative touch setups lies in the base duration $d$. Since this is the first study, to our knowledge, investigating \gls{ost} with stroking or tapping for affective touch, we use this pattern without any additional prior timing guidelines, except for the passive learning encoding found in Fang et al. \cite{Fang2023}.
 
-\subsubsection{Isogram Selection and carry-over effect minimisation}
+\subsubsection{Isogram Selection and Carry-Over Effect Minimisation}
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{src/pictures/handBrailleEncoding.drawio.png}
@@ -281,16 +289,7 @@ We selected the words ``the,'' ``old,'' and ``pub,'' as shown in \autoref{fig:br
  
 
 
-
-
-
-
-
-
-
-
-
- \section{Study design}
+\section{Study Design}
 
 \begin{figure}
     \centering
