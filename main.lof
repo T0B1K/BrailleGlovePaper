@@ -3,47 +3,48 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Glove variants and designs used in previous works \blx@tocontentsinit {0}\cite {Donchev2021,Fang2023,Fang2023a,Huang2008,Huang2010,Learning2024,Luzhnica2016,Markow2010,Seim2014a,Seim2017,Seim2015b,Seim2014,Vaio6810}.}}{10}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Actuator placement on the hand in previous works \blx@tocontentsinit {0}\cite {Learning2024,Fang2023,Fang2023a,Fang2022,Fang2022a,Donchev2021,Hsu2021,Yang2017,Seim2017,Seim2015b,Seim2014a,Seim2014, Huang2010, Vaio6810, Kohlsdorf2010, Markow2010, Huang2008}.}}{11}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Depiction of the human skin \blx@tocontentsinit {0}\cite {lowy2021cutaneous}.}}{12}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Chord encoding schemes used in previous literature \blx@tocontentsinit {0}\cite {Luzhnica2017,Luzhnica2016,Luzhnica2018,Luzhnica2018a}.}}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Braille finger mapping \blx@tocontentsinit {0}\cite {Seim2014a}.}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces English Braille alphabet (Grade One) \blx@tocontentsinit {0}\cite {pharmabrailleBrailleAlphabet,troughton1992guidelines}.}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Chord encoding schemes used in previous literature \blx@tocontentsinit {0}\cite {Luzhnica2017,Luzhnica2016,Luzhnica2018,Luzhnica2018a}.}}{11}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Depiction of the human skin \blx@tocontentsinit {0}\cite {lowy2021cutaneous}.}}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Braille finger mapping \blx@tocontentsinit {0}\cite {Seim2014a}.}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces English Braille alphabet (Grade One) \blx@tocontentsinit {0}\cite {pharmabrailleBrailleAlphabet,troughton1992guidelines}.}}{15}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 3D model, and the implementation on a users finger of one element of the vibration system from \blx@tocontentsinit {0}\cite {Fang2023}}}{28}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D models for the case and hammer-shaped contactor, and the implementation on a user’s finger of one element of the tapping system from \blx@tocontentsinit {0}\cite {Fang2023}}}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 3D models for the case and the contactor, and the implementation on a users finger of one element of the stroking system from \blx@tocontentsinit {0}\cite {Fang2023}.}}{28}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Final Glove- Case Design on a squared Din A5 paper for size reference.}}{29}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Final Glove Design opened on a squared Din A5 paper for size reference.}}{29}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Final Glove Design on a squared Din A5 paper for size reference.}}{30}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Old design of the circuit.}}{31}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Glove Circuit Diagram.}}{31}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Website Design in a Mobile Phone.}}{33}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Testing Site for the Writing Test.}}{33}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Audio vibration offset.}}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Encoding of the character D as an example for hand encodings.}}{36}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Sentence used in the pre-study and its braille part.}}{38}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Study design.}}{38}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 3D model, and the implementation on a users finger of one element of the vibration system from \blx@tocontentsinit {0}\cite {Fang2023}}}{28}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D models for the case and hammer-shaped contactor, and the implementation on a user’s finger of one element of the tapping system from \blx@tocontentsinit {0}\cite {Fang2023}}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 3D models for the case and the contactor, and the implementation on a users finger of one element of the stroking system from \blx@tocontentsinit {0}\cite {Fang2023}.}}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Final Glove- Case Design on a squared Din A5 paper for size reference.}}{29}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Final Glove Design opened on a squared Din A5 paper for size reference.}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Final Glove Design on a squared Din A5 paper for size reference.}}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Old design of the circuit.}}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Glove Circuit Diagram.}}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Website Design in a Mobile Phone.}}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Testing Site for the Writing Test.}}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Communication Architecture.}}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Audio vibration offset.}}{36}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Encoding of the character D as an example for hand encodings.}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sentence used in the pre-study and its braille part.}}{38}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Study design.}}{38}{figure.caption.38}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Participant Click-differences.}}{42}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Raw Nasa TLX scores for the different Stimuli grouped by the Nasa TLX dimensions. Each dot represents one participant.}}{43}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Self-assessment Results of the different Stimuli grouped by the self-assessment categories. 4 is the best score and 0 the worst score. Each dot represents one participant.}}{44}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Results of the direct comparison between the different stimuli.}}{46}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Jaccard coefficient results grouped by the Braille character during learning for the different stimuli. Each dot represents one participant.}}{47}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Jaccard Word-Test results grouped by the results for the Braille test-words \enquote {THE}, \enquote {OLD} and \enquote {PUB} for different stimuli.}}{49}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Jaccard Score comparison for the different Stimuli grouped by the Braille test-word characters.}}{50}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces FN (Missed) and FP (Surplus) key(s) for each stimuli.}}{52}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces FN (Missed) Character in blue and FP (Surplus) keys in red in percent for each Braille character grouped by stimulus.}}{52}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Cosine Similariy for each of the Stimuli. Plotted using a \gls {pca} dimensionality reduction.}}{54}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Participant Click-differences.}}{55}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Raw Nasa TLX scores of the different Encodings grouped by the Nasa TLX dimensions.}}{56}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Self-assessment Results of the different Stimuli grouped by the self-assessment categories.}}{57}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Results of the direct comparison between the different encodings.}}{58}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Jaccard coefficient results grouped by the Braille characters during learning for the different Encodings.}}{59}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Jaccard Word-Test results grouped by the Braille test-words for the different stimuli.}}{60}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Jaccard Score comparison for the different Encodings grouped by Braille character.}}{61}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces FN (Missed) and FP (Surplus) Key(s) for each Braille Character by Encoding.}}{63}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces FN (Missed) and FP (Surplus) Key(s) in percent for each Braille character grouped by Encoding.}}{63}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Cosine Similariy for each Encoding. Plotted using a PCA dimensionality reduction.}}{64}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Participant Click-differences.}}{42}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Raw Nasa TLX scores for the different Stimuli grouped by the Nasa TLX dimensions. Each dot represents one participant.}}{43}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Self-assessment Results of the different Stimuli grouped by the self-assessment categories. 4 is the best score and 0 the worst score. Each dot represents one participant.}}{44}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Results of the direct comparison between the different stimuli.}}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Jaccard coefficient results grouped by the Braille character during learning for the different stimuli. Each dot represents one participant.}}{47}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Jaccard Word-Test results grouped by the results for the Braille test-words \enquote {THE}, \enquote {OLD} and \enquote {PUB} for different stimuli.}}{49}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Jaccard Score comparison for the different Stimuli grouped by the Braille test-word characters.}}{50}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces FN (Missed) and FP (Surplus) key(s) for each stimuli.}}{52}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces FN (Missed) Character in blue and FP (Surplus) keys in red in percent for each Braille character grouped by stimulus.}}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cosine Similariy for each of the Stimuli. Plotted using a \gls {pca} dimensionality reduction.}}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Participant Click-differences.}}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Raw Nasa TLX scores of the different Encodings grouped by the Nasa TLX dimensions.}}{56}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Self-assessment Results of the different Stimuli grouped by the self-assessment categories.}}{57}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Results of the direct comparison between the different encodings.}}{58}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Jaccard coefficient results grouped by the Braille characters during learning for the different Encodings.}}{59}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Jaccard Word-Test results grouped by the Braille test-words for the different stimuli.}}{60}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Jaccard Score comparison for the different Encodings grouped by Braille character.}}{61}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces FN (Missed) and FP (Surplus) Key(s) for each Braille Character by Encoding.}}{63}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces FN (Missed) and FP (Surplus) Key(s) in percent for each Braille character grouped by Encoding.}}{63}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Cosine Similariy for each Encoding. Plotted using a PCA dimensionality reduction.}}{64}{figure.caption.72}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Threats to validity}}{71}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Threats to validity}}{71}{figure.caption.73}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

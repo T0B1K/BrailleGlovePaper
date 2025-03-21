@@ -173,6 +173,32 @@
     \field{year}{2004}
   \endentry
 
+  \entry{Aveni2019a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ATJ}{%
+         family={Aveni},
+         familyi={A\bibinitperiod},
+         given={Timothy\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Georgia Institute of Technology}%
+    }
+    \strng{namehash}{ATJ1}
+    \strng{fullhash}{ATJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Passive Haptic Learning for Computer Stenography}
+    \verb{file}
+    \verb :/Users/toka/Documents/Semester_III/Master_Thesis/Passive Haptic Lear
+    \verb ning for Computer Stenography.pdf:PDF
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{Aveni2019}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=ATJ}{%
@@ -2440,6 +2466,38 @@
     \field{pages}{2014\bibrangedash 2018}
     \field{title}{SmartFingerBraille: A tactile sensing and actuation based communication glove for deafblind people}
     \field{year}{2017}
+  \endentry
+
+  \entry{Pascolini2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PD}{%
+         family={Pascolini},
+         familyi={P\bibinitperiod},
+         given={Donatella},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MSP}{%
+         family={Mariotti},
+         familyi={M\bibinitperiod},
+         given={Silvio\bibnamedelima Paolo},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BMJ Publishing Group Ltd}%
+    }
+    \strng{namehash}{PDMSP1}
+    \strng{fullhash}{PDMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{5}
+    \field{pages}{614\bibrangedash 618}
+    \field{title}{Global estimates of visual impairment: 2010}
+    \field{volume}{96}
+    \field{journaltitle}{British Journal of Ophthalmology}
+    \field{year}{2012}
   \endentry
 
   \entry{peiris2019thermalbracelet}{inproceedings}{}
