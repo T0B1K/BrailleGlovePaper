@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.26)  6 APR 2025 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.26)  16 APR 2025 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1219,7 +1219,27 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux (./tex/chapter/introduction.aux) (./tex/chapter/background.aux) (./tex/chapter/relatedWorks.aux) (./tex/chapter/design.aux) (./tex/chapter/implementation.aux) (./tex/chapter/analysis.aux) (./tex/chapter/evaluation.aux) (./tex/chapter/futurework.aux) (./tex/summary.aux))
+ (./main.aux (./tex/chapter/introduction.aux) (./tex/chapter/background.aux) (./tex/chapter/relatedWorks.aux) (./tex/chapter/design.aux) (./tex/chapter/implementation.aux) (./tex/chapter/analysis.aux
+
+LaTeX Warning: Label `table:learning_results_firstStudy' multiply defined.
+
+
+LaTeX Warning: Label `table:testing_results_firstStudy' multiply defined.
+
+
+LaTeX Warning: Label `table:individualQuestions_significance_secondStudy' multiply defined.
+
+) (./tex/chapter/evaluation.aux
+
+LaTeX Warning: Label `ch:Evaluation' multiply defined.
+
+
+LaTeX Warning: Label `fig:learning_results_secondStudy' multiply defined.
+
+
+LaTeX Warning: Label `table:questionnaire_correlation_secondStudy' multiply defined.
+
+) (./tex/chapter/futurework.aux) (./tex/summary.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1353,7 +1373,7 @@ Package biblatex Warning: BibTeX reported the following issues
 )
 Package biblatex Info: Reference section=0 on input line 48.
 Package biblatex Info: Reference segment=0 on input line 48.
-<titelseiten.pdf, id=167, 597.23125pt x 845.1575pt>
+<titelseiten.pdf, id=208, 597.23125pt x 845.1575pt>
 File: titelseiten.pdf Graphic file (type pdf)
 <use titelseiten.pdf>
 Package pdftex.def Info: titelseiten.pdf  used on input line 57.
@@ -1362,7 +1382,7 @@ File: titelseiten.pdf Graphic file (type pdf)
 <use titelseiten.pdf>
 Package pdftex.def Info: titelseiten.pdf  used on input line 57.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<titelseiten.pdf, id=170, page=1, 597.23125pt x 845.1575pt>
+<titelseiten.pdf, id=211, page=1, 597.23125pt x 845.1575pt>
 File: titelseiten.pdf Graphic file (type pdf)
 <use titelseiten.pdf, page 1>
 Package pdftex.def Info: titelseiten.pdf , page1 used on input line 57.
@@ -1390,7 +1410,7 @@ Package pdftex.def Info: titelseiten.pdf , page1 used on input line 57.
 
 
  <./titelseiten.pdf>]
-<titelseiten.pdf, id=208, page=2, 597.23125pt x 845.1575pt>
+<titelseiten.pdf, id=248, page=2, 597.23125pt x 845.1575pt>
 File: titelseiten.pdf Graphic file (type pdf)
 <use titelseiten.pdf, page 2>
 Package pdftex.def Info: titelseiten.pdf , page2 used on input line 57.
@@ -1406,7 +1426,7 @@ Package pdftex.def Info: titelseiten.pdf , page2 used on input line 57.
  [2
 
  <./titelseiten.pdf>]
-<titelseiten.pdf, id=213, page=3, 597.23125pt x 845.1575pt>
+<titelseiten.pdf, id=253, page=3, 597.23125pt x 845.1575pt>
 File: titelseiten.pdf Graphic file (type pdf)
 <use titelseiten.pdf, page 3>
 Package pdftex.def Info: titelseiten.pdf , page3 used on input line 57.
@@ -1422,7 +1442,7 @@ Package pdftex.def Info: titelseiten.pdf , page3 used on input line 57.
  [3
 
  <./titelseiten.pdf>]
-<titelseiten.pdf, id=222, page=4, 597.23125pt x 845.1575pt>
+<titelseiten.pdf, id=262, page=4, 597.23125pt x 845.1575pt>
 File: titelseiten.pdf Graphic file (type pdf)
 <use titelseiten.pdf, page 4>
 Package pdftex.def Info: titelseiten.pdf , page4 used on input line 57.
@@ -1449,7 +1469,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...Conclusion and Future Work}{73}{chapter.6}
+l.38 ...riment results}{53}{subsubsection.5.0.1.1}
                                                   % [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
@@ -1465,7 +1485,7 @@ l.68 }
 pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 ... one participant.}}{44}{figure.caption.43}
+l.30 ... the first study.}}{45}{figure.caption.45}
                                                   % [3
 
 ])
@@ -1478,18 +1498,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has 
                    \relax 
 l.68 }
        [4] (./main.lot
-Overfull \hbox (13.49367pt too wide) in paragraph at lines 12--12
- [][] [][][]\T1/aer/m/n/12 Results of the Kruskal-Wallis sig-nif-i-cance tests for the dif-fer-ent NasaTLX 
+Overfull \hbox (7.06152pt too wide) in paragraph at lines 17--17
+ [][] [][][]\T1/aer/m/n/12 Results of the Posthock Anal-yse for the self-assessment with a Wilcoxon 
  []
 
 
-Overfull \hbox (7.30153pt too wide) in paragraph at lines 16--16
- [][] [][][]\T1/aer/m/n/12 Results of the Kruskal-Wallis sig-nif-i-cance tests for the wordtests ^^P  THE^^Q, 
+Overfull \hbox (12.80962pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/aer/m/n/12 Results of the Wilcoxon sig-nif-i-cance tests for the dif-fer-ent self-assessment 
+ []
+
+
+Overfull \hbox (12.80962pt too wide) in paragraph at lines 23--23
+ [][] [][][]\T1/aer/m/n/12 Results of the Wilcoxon sig-nif-i-cance tests for the dif-fer-ent self-assessment 
  []
 
 [5
 
-])
+]
+Overfull \hbox (7.30153pt too wide) in paragraph at lines 26--26
+ [][] [][][]\T1/aer/m/n/12 Results of the Kruskal-Wallis sig-nif-i-cance tests for the wordtests ^^P  THE^^Q, 
+ []
+
+)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
@@ -1527,7 +1557,7 @@ Underfull \vbox (badness 6859) has occurred while \output is active []
 
 
 ] [6] [7] [8]
-<src/pictures/hand_haptics.drawio.png, id=848, 1829.83624pt x 666.49pt>
+<src/pictures/hand_haptics.drawio.png, id=925, 1829.83624pt x 666.49pt>
 File: src/pictures/hand_haptics.drawio.png Graphic file (type png)
 <use src/pictures/hand_haptics.drawio.png>
 Package pdftex.def Info: src/pictures/hand_haptics.drawio.png  used on input line 161.
@@ -1535,7 +1565,7 @@ Package pdftex.def Info: src/pictures/hand_haptics.drawio.png  used on input lin
  [9]
 
 pdfTeX warning: pdflatex (file ./src/pictures/hand_Depiction.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/hand_Depiction.drawio.pdf, id=883, 434.58359pt x 192.72pt>
+<src/pictures/hand_Depiction.drawio.pdf, id=961, 434.58359pt x 192.72pt>
 File: src/pictures/hand_Depiction.drawio.pdf Graphic file (type pdf)
 <use src/pictures/hand_Depiction.drawio.pdf>
 Package pdftex.def Info: src/pictures/hand_Depiction.drawio.pdf  used on input line 170.
@@ -1546,13 +1576,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10 <./src/pictures/hand_haptics.drawio.png>]
 
 pdfTeX warning: pdflatex (file ./src//pictures/ost_diagram.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src//pictures/ost_diagram.drawio.pdf, id=934, 511.9125pt x 154.6578pt>
+<src//pictures/ost_diagram.drawio.pdf, id=1011, 511.9125pt x 154.6578pt>
 File: src//pictures/ost_diagram.drawio.pdf Graphic file (type pdf)
 <use src//pictures/ost_diagram.drawio.pdf>
 Package pdftex.def Info: src//pictures/ost_diagram.drawio.pdf  used on input line 181.
 (pdftex.def)             Requested size: 426.79135pt x 128.94174pt.
 [11 <./src/pictures/hand_Depiction.drawio.pdf> <./src//pictures/ost_diagram.drawio.pdf>]
-<src//pictures/skin.jpg, id=1030, 1778.645pt x 1367.1075pt>
+<src//pictures/skin.jpg, id=1108, 1778.645pt x 1367.1075pt>
 File: src//pictures/skin.jpg Graphic file (type jpg)
 <use src//pictures/skin.jpg>
 Package pdftex.def Info: src//pictures/skin.jpg  used on input line 203.
@@ -1561,12 +1591,12 @@ Package pdftex.def Info: src//pictures/skin.jpg  used on input line 203.
 Underfull \vbox (badness 1845) has occurred while \output is active []
 
  [12] [13 <./src//pictures/skin.jpg>]
-<src//pictures/Screenshot 2024-09-12 at 20.13.38.png, id=1079, 483.8075pt x 432.61626pt>
+<src//pictures/Screenshot 2024-09-12 at 20.13.38.png, id=1156, 483.8075pt x 432.61626pt>
 File: src//pictures/Screenshot 2024-09-12 at 20.13.38.png Graphic file (type png)
 <use src//pictures/Screenshot 2024-09-12 at 20.13.38.png>
 Package pdftex.def Info: src//pictures/Screenshot 2024-09-12 at 20.13.38.png  used on input line 227.
 (pdftex.def)             Requested size: 213.39568pt x 190.81383pt.
-<src//pictures/braille_alphabet.png, id=1082, 1445.4pt x 608.2725pt>
+<src//pictures/braille_alphabet.png, id=1159, 1445.4pt x 608.2725pt>
 File: src//pictures/braille_alphabet.png Graphic file (type png)
 <use src//pictures/braille_alphabet.png>
 Package pdftex.def Info: src//pictures/braille_alphabet.png  used on input line 233.
@@ -1588,120 +1618,125 @@ Package pdftex.def Info: src//pictures/braille_alphabet.png  used on input line 
 
 ]
 Chapter 3.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 10.
+
 [27]
-<src/pictures/Screenshot 2024-09-12 at 15.11.57.png, id=1370, 533.995pt x 321.2pt>
+<src/pictures/Screenshot 2024-09-12 at 15.11.57.png, id=1450, 533.995pt x 321.2pt>
 File: src/pictures/Screenshot 2024-09-12 at 15.11.57.png Graphic file (type png)
 <use src/pictures/Screenshot 2024-09-12 at 15.11.57.png>
-Package pdftex.def Info: src/pictures/Screenshot 2024-09-12 at 15.11.57.png  used on input line 21.
+Package pdftex.def Info: src/pictures/Screenshot 2024-09-12 at 15.11.57.png  used on input line 30.
 (pdftex.def)             Requested size: 213.39568pt x 128.36009pt.
-<src/pictures/Screenshot 2024-09-12 at 15.11.38.png, id=1373, 758.835pt x 294.09875pt>
+<src/pictures/Screenshot 2024-09-12 at 15.11.38.png, id=1453, 758.835pt x 294.09875pt>
 File: src/pictures/Screenshot 2024-09-12 at 15.11.38.png Graphic file (type png)
 <use src/pictures/Screenshot 2024-09-12 at 15.11.38.png>
-Package pdftex.def Info: src/pictures/Screenshot 2024-09-12 at 15.11.38.png  used on input line 27.
+Package pdftex.def Info: src/pictures/Screenshot 2024-09-12 at 15.11.38.png  used on input line 36.
 (pdftex.def)             Requested size: 213.39568pt x 82.7016pt.
-<src/pictures/Screenshot 2024-09-12 at 15.10.49.png, id=1376, 758.835pt x 256.96pt>
+<src/pictures/Screenshot 2024-09-12 at 15.10.49.png, id=1456, 758.835pt x 256.96pt>
 File: src/pictures/Screenshot 2024-09-12 at 15.10.49.png Graphic file (type png)
 <use src/pictures/Screenshot 2024-09-12 at 15.10.49.png>
-Package pdftex.def Info: src/pictures/Screenshot 2024-09-12 at 15.10.49.png  used on input line 33.
+Package pdftex.def Info: src/pictures/Screenshot 2024-09-12 at 15.10.49.png  used on input line 42.
 (pdftex.def)             Requested size: 213.39568pt x 72.25806pt.
-LaTeX Font Info:    Trying to load font information for TS1+aer on input line 38.
-LaTeX Font Info:    No file TS1aer.fd. on input line 38.
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 47.
+LaTeX Font Info:    No file TS1aer.fd. on input line 47.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textdegree' on input line 38.
+(Font)              for symbol `textdegree' on input line 47.
 
 [28{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./src/pictures/Screenshot 2024-09-12 at 15.11.57.png> <./src/pictures/Screenshot 2024-09-12 at 15.11.38.png> <./src/pictures/Screenshot 2024-09-12 at 15.10.49.png>]
-<src/pictures/GloveDesigns/cases.jpg, id=1396, 1708.3825pt x 1280.785pt>
+<src/pictures/GloveDesigns/cases.jpg, id=1474, 1708.3825pt x 1280.785pt>
 File: src/pictures/GloveDesigns/cases.jpg Graphic file (type jpg)
 <use src/pictures/GloveDesigns/cases.jpg>
-Package pdftex.def Info: src/pictures/GloveDesigns/cases.jpg  used on input line 55.
+Package pdftex.def Info: src/pictures/GloveDesigns/cases.jpg  used on input line 64.
 (pdftex.def)             Requested size: 213.39568pt x 159.98047pt.
-<src/pictures/GloveDesigns/openCase.jpg, id=1397, 1708.3825pt x 1280.785pt>
+<src/pictures/GloveDesigns/openCase.jpg, id=1475, 1708.3825pt x 1280.785pt>
 File: src/pictures/GloveDesigns/openCase.jpg Graphic file (type jpg)
 <use src/pictures/GloveDesigns/openCase.jpg>
-Package pdftex.def Info: src/pictures/GloveDesigns/openCase.jpg  used on input line 62.
+Package pdftex.def Info: src/pictures/GloveDesigns/openCase.jpg  used on input line 71.
 (pdftex.def)             Requested size: 213.39568pt x 159.98047pt.
- [29 <./src/pictures/GloveDesigns/cases.jpg> <./src/pictures/GloveDesigns/openCase.jpg>]
-<src/pictures/GloveDesigns/casesFinished.jpg, id=1408, 1708.3825pt x 1280.785pt>
+ [29 <./src/pictures/GloveDesigns/cases.jpg>]
+<src/pictures/GloveDesigns/casesFinished.jpg, id=1491, 1708.3825pt x 1280.785pt>
 File: src/pictures/GloveDesigns/casesFinished.jpg Graphic file (type jpg)
 <use src/pictures/GloveDesigns/casesFinished.jpg>
-Package pdftex.def Info: src/pictures/GloveDesigns/casesFinished.jpg  used on input line 76.
+Package pdftex.def Info: src/pictures/GloveDesigns/casesFinished.jpg  used on input line 85.
 (pdftex.def)             Requested size: 213.39568pt x 159.98047pt.
-<src/pictures/GloveDesigns/oldDesign.jpg, id=1415, 1708.3825pt x 1280.785pt>
+<src/pictures/GloveDesigns/oldDesign.jpg, id=1498, 1708.3825pt x 1280.785pt>
 File: src/pictures/GloveDesigns/oldDesign.jpg Graphic file (type jpg)
 <use src/pictures/GloveDesigns/oldDesign.jpg>
-Package pdftex.def Info: src/pictures/GloveDesigns/oldDesign.jpg  used on input line 99.
+Package pdftex.def Info: src/pictures/GloveDesigns/oldDesign.jpg  used on input line 108.
 (pdftex.def)             Requested size: 213.39568pt x 159.98047pt.
 LaTeX Font Info:    Faking \texteuro for font family aer
-(Font)              in TS1 encoding on input line 104.
- [30 <./src/pictures/GloveDesigns/casesFinished.jpg>]
+(Font)              in TS1 encoding on input line 113.
+ [30 <./src/pictures/GloveDesigns/openCase.jpg> <./src/pictures/GloveDesigns/casesFinished.jpg>]
 
 pdfTeX warning: pdflatex (file ./src/pictures/CircuitDiagramGlove.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/CircuitDiagramGlove.drawio.pdf, id=1430, 289.08pt x 220.9053pt>
+<src/pictures/CircuitDiagramGlove.drawio.pdf, id=1510, 289.08pt x 220.9053pt>
 File: src/pictures/CircuitDiagramGlove.drawio.pdf Graphic file (type pdf)
 <use src/pictures/CircuitDiagramGlove.drawio.pdf>
-Package pdftex.def Info: src/pictures/CircuitDiagramGlove.drawio.pdf  used on input line 111.
+Package pdftex.def Info: src/pictures/CircuitDiagramGlove.drawio.pdf  used on input line 120.
 (pdftex.def)             Requested size: 213.39568pt x 163.06961pt.
 [31 <./src/pictures/GloveDesigns/oldDesign.jpg> <./src/pictures/CircuitDiagramGlove.drawio.pdf>]
-Overfull \hbox (7.95422pt too wide) in paragraph at lines 141--144
+Overfull \hbox (7.95422pt too wide) in paragraph at lines 150--153
 []\T1/aer/m/n/12 The web-site plays the cor-re-spond-ing au-dio for the se-lected char-ac-ter us-ing a JavaScript
  []
 
 
 
 pdfTeX warning: pdflatex (file ./src/pictures/MobileWebsiteVersion.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/MobileWebsiteVersion.drawio.pdf, id=1476, 964.56357pt x 883.38025pt>
+<src/pictures/MobileWebsiteVersion.drawio.pdf, id=1556, 964.56357pt x 883.38025pt>
 File: src/pictures/MobileWebsiteVersion.drawio.pdf Graphic file (type pdf)
 <use src/pictures/MobileWebsiteVersion.drawio.pdf>
-Package pdftex.def Info: src/pictures/MobileWebsiteVersion.drawio.pdf  used on input line 147.
+Package pdftex.def Info: src/pictures/MobileWebsiteVersion.drawio.pdf  used on input line 156.
 (pdftex.def)             Requested size: 213.39568pt x 195.43607pt.
-<src/pictures/testingSite.png, id=1480, 2168.1pt x 1626.075pt>
+<src/pictures/testingSite.png, id=1560, 2168.1pt x 1626.075pt>
 File: src/pictures/testingSite.png Graphic file (type png)
 <use src/pictures/testingSite.png>
-Package pdftex.def Info: src/pictures/testingSite.png  used on input line 160.
+Package pdftex.def Info: src/pictures/testingSite.png  used on input line 169.
 (pdftex.def)             Requested size: 213.39568pt x 160.03659pt.
 [32] [33 <./src/pictures/MobileWebsiteVersion.drawio.pdf> <./src/pictures/testingSite.png>]
 
 pdfTeX warning: pdflatex (file ./src/pictures/Wireless_communication.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/Wireless_communication.drawio.pdf, id=1506, 379.4175pt x 210.7875pt>
+<src/pictures/Wireless_communication.drawio.pdf, id=1586, 379.4175pt x 210.7875pt>
 File: src/pictures/Wireless_communication.drawio.pdf Graphic file (type pdf)
 <use src/pictures/Wireless_communication.drawio.pdf>
-Package pdftex.def Info: src/pictures/Wireless_communication.drawio.pdf  used on input line 178.
+Package pdftex.def Info: src/pictures/Wireless_communication.drawio.pdf  used on input line 187.
 (pdftex.def)             Requested size: 426.79135pt x 237.10962pt.
-[34 <./src/pictures/Wireless_communication.drawio.pdf>] [35]
+[34 <./src/pictures/Wireless_communication.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./src/pictures/audio_vibration_diagram.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/audio_vibration_diagram.drawio.pdf, id=1568, 518.89856pt x 154.6578pt>
+<src/pictures/audio_vibration_diagram.drawio.pdf, id=1641, 518.89856pt x 154.6578pt>
 File: src/pictures/audio_vibration_diagram.drawio.pdf Graphic file (type pdf)
 <use src/pictures/audio_vibration_diagram.drawio.pdf>
-Package pdftex.def Info: src/pictures/audio_vibration_diagram.drawio.pdf  used on input line 209.
+Package pdftex.def Info: src/pictures/audio_vibration_diagram.drawio.pdf  used on input line 218.
 (pdftex.def)             Requested size: 426.79135pt x 127.20958pt.
-<src/pictures/handBrailleEncoding.drawio.png, id=1577, 434.62375pt x 349.305pt>
+[35]
+<src/pictures/handBrailleEncoding.drawio.png, id=1658, 434.62375pt x 349.305pt>
 File: src/pictures/handBrailleEncoding.drawio.png Graphic file (type png)
 <use src/pictures/handBrailleEncoding.drawio.png>
-Package pdftex.def Info: src/pictures/handBrailleEncoding.drawio.png  used on input line 222.
+Package pdftex.def Info: src/pictures/handBrailleEncoding.drawio.png  used on input line 231.
 (pdftex.def)             Requested size: 213.39568pt x 171.50739pt.
-[36 <./src/pictures/audio_vibration_diagram.drawio.pdf> <./src/pictures/handBrailleEncoding.drawio.png>]
-LaTeX Font Info:    Trying to load font information for OMS+aer on input line 250.
+ [36 <./src/pictures/audio_vibration_diagram.drawio.pdf> <./src/pictures/handBrailleEncoding.drawio.png>]
+LaTeX Font Info:    Trying to load font information for OMS+aer on input line 259.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ae/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 250.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 259.
  [37]
 
 pdfTeX warning: pdflatex (file ./src/pictures/braille_prestudy_characters.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/braille_prestudy_characters.drawio.pdf, id=1655, 231.74579pt x 62.15219pt>
+<src/pictures/braille_prestudy_characters.drawio.pdf, id=1737, 231.74579pt x 62.15219pt>
 File: src/pictures/braille_prestudy_characters.drawio.pdf Graphic file (type pdf)
 <use src/pictures/braille_prestudy_characters.drawio.pdf>
-Package pdftex.def Info: src/pictures/braille_prestudy_characters.drawio.pdf  used on input line 285.
+Package pdftex.def Info: src/pictures/braille_prestudy_characters.drawio.pdf  used on input line 294.
 (pdftex.def)             Requested size: 320.0935pt x 85.85544pt.
-<src/pictures/StudyData/Study_design.drawio.png, id=1656, 1266.7325pt x 503.8825pt>
+<src/pictures/StudyData/Study_design.drawio.png, id=1738, 1266.7325pt x 503.8825pt>
 File: src/pictures/StudyData/Study_design.drawio.png Graphic file (type png)
 <use src/pictures/StudyData/Study_design.drawio.png>
-Package pdftex.def Info: src/pictures/StudyData/Study_design.drawio.png  used on input line 296.
+Package pdftex.def Info: src/pictures/StudyData/Study_design.drawio.png  used on input line 305.
 (pdftex.def)             Requested size: 320.0935pt x 127.3235pt.
 [38 <./src/pictures/braille_prestudy_characters.drawio.pdf> <./src/pictures/StudyData/Study_design.drawio.png>]) [39]
 \openout2 = `tex/chapter/implementation.aux'.
@@ -1723,190 +1758,221 @@ Chapter 4.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 10.
 
-<src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf, id=1722, 867.24pt x 2601.72pt>
+<src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf, id=1802, 867.24pt x 2601.72pt>
 File: src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf Graphic file (type pdf)
 <use src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf  used on input line 35.
+Package pdftex.def Info: src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf  used on input line 34.
 (pdftex.def)             Requested size: 213.39568pt x 640.18607pt.
-<src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf, id=1725, 1084.05pt x 433.62pt>
-File: src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf  used on input line 47.
-(pdftex.def)             Requested size: 426.79135pt x 170.71892pt.
-[41] [42 <./src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf>] [43 <./src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf>]
-<src/pictures/Study1Data_questionnaire/questions_special_study1.pdf, id=1887, 1084.05pt x 433.62pt>
-File: src/pictures/Study1Data_questionnaire/questions_special_study1.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_questionnaire/questions_special_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_questionnaire/questions_special_study1.pdf  used on input line 94.
-(pdftex.def)             Requested size: 426.79135pt x 170.71892pt.
-
-Underfull \vbox (badness 1210) has occurred while \output is active []
-
- [44 <./src/pictures/Study1Data_questionnaire/questions_special_study1.pdf>]
-<src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf, id=1961, 1084.05pt x 433.62pt>
-File: src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf  used on input line 145.
-(pdftex.def)             Requested size: 426.79135pt x 170.71892pt.
- [45]
-<src/pictures/Study1Data_Experiment/study1_learning_results.pdf, id=1979, 1084.05pt x 722.7pt>
-File: src/pictures/Study1Data_Experiment/study1_learning_results.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/study1_learning_results.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/study1_learning_results.pdf  used on input line 178.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
- [46 <./src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf>] [47 <./src/pictures/Study1Data_Experiment/study1_learning_results.pdf>]
-<src/pictures/Study1Data_Experiment/study1_test_results.pdf, id=2114, 1084.05pt x 722.7pt>
-File: src/pictures/Study1Data_Experiment/study1_test_results.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/study1_test_results.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/study1_test_results.pdf  used on input line 224.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
- [48]
-<src/pictures/Study1Data_Experiment/character_jaccard_test_study1.pdf, id=2121, 1084.05pt x 722.7pt>
-File: src/pictures/Study1Data_Experiment/character_jaccard_test_study1.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/character_jaccard_test_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/character_jaccard_test_study1.pdf  used on input line 266.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
- [49 <./src/pictures/Study1Data_Experiment/study1_test_results.pdf>]
-<src/pictures/Study1Data_Experiment/missed_surplus_test_study1.pdf, id=2191, 1084.05pt x 722.7pt>
-File: src/pictures/Study1Data_Experiment/missed_surplus_test_study1.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/missed_surplus_test_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/missed_surplus_test_study1.pdf  used on input line 320.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
- [50 <./src/pictures/Study1Data_Experiment/character_jaccard_test_study1.pdf>]
-<src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_T.pdf, id=2273, 1084.05pt x 433.62pt>
-File: src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_T.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_T.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_T.pdf  used on input line 343.
-(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
-<src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_S.pdf, id=2274, 1084.05pt x 433.62pt>
-File: src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_S.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_S.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_S.pdf  used on input line 348.
-(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
-<src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_V.pdf, id=2275, 1084.05pt x 433.62pt>
-File: src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_V.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_V.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_V.pdf  used on input line 353.
-(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[51] [52 <./src/pictures/Study1Data_Experiment/missed_surplus_test_study1.pdf> <./src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_T.pdf> <./src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_S.pdf> <./src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_V.pdf>]
-<src/pictures/Study1Data_Experiment/Vectors_study1.pdf, id=2519, 1084.05pt x 1084.05pt>
-File: src/pictures/Study1Data_Experiment/Vectors_study1.pdf Graphic file (type pdf)
-<use src/pictures/Study1Data_Experiment/Vectors_study1.pdf>
-Package pdftex.def Info: src/pictures/Study1Data_Experiment/Vectors_study1.pdf  used on input line 378.
-(pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
-<src/pictures/Study2Data_questionnaire/participantPlots_study2.pdf, id=2527, 867.24pt x 1734.48pt>
-File: src/pictures/Study2Data_questionnaire/participantPlots_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_questionnaire/participantPlots_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_questionnaire/participantPlots_study2.pdf  used on input line 415.
-(pdftex.def)             Requested size: 213.39568pt x 426.79071pt.
-<src/pictures/Study2Data_questionnaire/nasaTLX_study2.pdf, id=2529, 1084.05pt x 578.16pt>
-File: src/pictures/Study2Data_questionnaire/nasaTLX_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_questionnaire/nasaTLX_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_questionnaire/nasaTLX_study2.pdf  used on input line 425.
-(pdftex.def)             Requested size: 426.79135pt x 227.62523pt.
- [53] [54 <./src/pictures/Study1Data_Experiment/Vectors_study1.pdf>] [55 <./src/pictures/Study2Data_questionnaire/participantPlots_study2.pdf>]
-<src/pictures/Study2Data_questionnaire/questions_special_study2.pdf, id=2682, 1084.05pt x 578.16pt>
-File: src/pictures/Study2Data_questionnaire/questions_special_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_questionnaire/questions_special_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_questionnaire/questions_special_study2.pdf  used on input line 463.
-(pdftex.def)             Requested size: 426.79135pt x 227.62523pt.
- [56 <./src/pictures/Study2Data_questionnaire/nasaTLX_study2.pdf>]
-<src/pictures/Study2Data_questionnaire/questions_compare_study2.pdf, id=2766, 1084.05pt x 433.62pt>
-File: src/pictures/Study2Data_questionnaire/questions_compare_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_questionnaire/questions_compare_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_questionnaire/questions_compare_study2.pdf  used on input line 503.
-(pdftex.def)             Requested size: 426.79135pt x 170.71892pt.
- [57 <./src/pictures/Study2Data_questionnaire/questions_special_study2.pdf>]
-<src/pictures/Study2Data_Experiment/study2_learning_results.pdf, id=2839, 1084.05pt x 578.16pt>
-File: src/pictures/Study2Data_Experiment/study2_learning_results.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/study2_learning_results.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/study2_learning_results.pdf  used on input line 533.
-(pdftex.def)             Requested size: 426.79135pt x 227.62523pt.
- [58 <./src/pictures/Study2Data_questionnaire/questions_compare_study2.pdf>]
-<src/pictures/Study2Data_Experiment/study2_test_results.pdf, id=2899, 1084.05pt x 578.16pt>
-File: src/pictures/Study2Data_Experiment/study2_test_results.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/study2_test_results.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/study2_test_results.pdf  used on input line 569.
-(pdftex.def)             Requested size: 426.79135pt x 227.62523pt.
- [59 <./src/pictures/Study2Data_Experiment/study2_learning_results.pdf>]
-<src/pictures/Study2Data_Experiment/character_jaccard_test_study2.pdf, id=2967, 1084.05pt x 722.7pt>
-File: src/pictures/Study2Data_Experiment/character_jaccard_test_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/character_jaccard_test_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/character_jaccard_test_study2.pdf  used on input line 596.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
- [60 <./src/pictures/Study2Data_Experiment/study2_test_results.pdf>]
-<src/pictures/Study2Data_Experiment/missed_surplus_test_study2.pdf, id=3031, 1084.05pt x 722.7pt>
-File: src/pictures/Study2Data_Experiment/missed_surplus_test_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/missed_surplus_test_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/missed_surplus_test_study2.pdf  used on input line 633.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
-<src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_ost.pdf, id=3033, 1084.05pt x 433.62pt>
-File: src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_ost.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_ost.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_ost.pdf  used on input line 644.
-(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
-<src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_seq.pdf, id=3036, 1084.05pt x 433.62pt>
-File: src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_seq.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_seq.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_seq.pdf  used on input line 649.
-(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[61 <./src/pictures/Study2Data_Experiment/character_jaccard_test_study2.pdf>]
-<src/pictures/Study2Data_Experiment/Vectors_study2.pdf, id=3118, 1084.05pt x 722.7pt>
-File: src/pictures/Study2Data_Experiment/Vectors_study2.pdf Graphic file (type pdf)
-<use src/pictures/Study2Data_Experiment/Vectors_study2.pdf>
-Package pdftex.def Info: src/pictures/Study2Data_Experiment/Vectors_study2.pdf  used on input line 684.
-(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
- [62]) [63 <./src/pictures/Study2Data_Experiment/missed_surplus_test_study2.pdf> <./src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_ost.pdf> <./src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_seq.pdf>] [64 <./src/pictures/Study2Data_Experiment/Vectors_study2.pdf>]
-\openout2 = `tex/chapter/evaluation.aux'.
-
- (./tex/chapter/evaluation.tex
-Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 10.
+(hyperref)                than one, level fixed on input line 43.
 
-[65
+<src/pictures/Study1Data_Experiment/learn_data_averaged.pdf, id=1805, 722.7pt x 361.35pt>
+File: src/pictures/Study1Data_Experiment/learn_data_averaged.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/learn_data_averaged.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/learn_data_averaged.pdf  used on input line 47.
+(pdftex.def)             Requested size: 213.39568pt x 106.69656pt.
+[41] [42 <./src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf>] [43 <./src/pictures/Study1Data_Experiment/learn_data_averaged.pdf>]
+<src/pictures/Study1Data_Experiment/test_data_averaged.pdf, id=1939, 722.7pt x 361.35pt>
+File: src/pictures/Study1Data_Experiment/test_data_averaged.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/test_data_averaged.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/test_data_averaged.pdf  used on input line 80.
+(pdftex.def)             Requested size: 213.39568pt x 106.69656pt.
+<src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf, id=1942, 1084.05pt x 433.62pt>
+File: src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf  used on input line 115.
+(pdftex.def)             Requested size: 213.39568pt x 85.35284pt.
+ [44 <./src/pictures/Study1Data_Experiment/test_data_averaged.pdf>]
+<src/pictures/Study1Data_questionnaire/questions_special_study1.pdf, id=1985, 1084.05pt x 433.62pt>
+File: src/pictures/Study1Data_questionnaire/questions_special_study1.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_questionnaire/questions_special_study1.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_questionnaire/questions_special_study1.pdf  used on input line 180.
+(pdftex.def)             Requested size: 213.39568pt x 85.35284pt.
+ [45 <./src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf>]
+<src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf, id=2055, 1084.05pt x 433.62pt>
+File: src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf  used on input line 265.
+(pdftex.def)             Requested size: 213.39568pt x 85.35284pt.
+ [46 <./src/pictures/Study1Data_questionnaire/questions_special_study1.pdf> <./src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf>]
+<src/pictures/Study2Data_questionnaire/participantPlots.pdf, id=2165, 867.24pt x 1734.48pt>
+File: src/pictures/Study2Data_questionnaire/participantPlots.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_questionnaire/participantPlots.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_questionnaire/participantPlots.pdf  used on input line 299.
+(pdftex.def)             Requested size: 213.39568pt x 426.79071pt.
+<src/pictures/Study2Data_Experiment/learning_averaged.pdf, id=2168, 722.7pt x 361.35pt>
+File: src/pictures/Study2Data_Experiment/learning_averaged.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/learning_averaged.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/learning_averaged.pdf  used on input line 319.
+(pdftex.def)             Requested size: 213.39568pt x 106.69656pt.
+ [47] [48 <./src/pictures/Study2Data_questionnaire/participantPlots.pdf> <./src/pictures/Study2Data_Experiment/learning_averaged.pdf>]
+<src/pictures/Study2Data_Experiment/test_averaged-2.pdf, id=2282, 722.7pt x 361.35pt>
+File: src/pictures/Study2Data_Experiment/test_averaged-2.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/test_averaged-2.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/test_averaged-2.pdf  used on input line 350.
+(pdftex.def)             Requested size: 213.39568pt x 106.69656pt.
+<src/pictures/Study2Data_questionnaire/NasaTLX.pdf, id=2289, 1084.05pt x 433.62pt>
+File: src/pictures/Study2Data_questionnaire/NasaTLX.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_questionnaire/NasaTLX.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_questionnaire/NasaTLX.pdf  used on input line 384.
+(pdftex.def)             Requested size: 213.39568pt x 85.35284pt.
+ [49 <./src/pictures/Study2Data_Experiment/test_averaged-2.pdf>]
+<src/pictures/Study2Data_questionnaire/self_evaluation.pdf, id=2337, 1084.05pt x 433.62pt>
+File: src/pictures/Study2Data_questionnaire/self_evaluation.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_questionnaire/self_evaluation.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_questionnaire/self_evaluation.pdf  used on input line 426.
+(pdftex.def)             Requested size: 213.39568pt x 85.35284pt.
+ [50 <./src/pictures/Study2Data_questionnaire/NasaTLX.pdf> <./src/pictures/Study2Data_questionnaire/self_evaluation.pdf>]
+<src/pictures/Study2Data_questionnaire/questions_special_study2.pdf, id=2465, 1084.05pt x 433.62pt>
+File: src/pictures/Study2Data_questionnaire/questions_special_study2.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_questionnaire/questions_special_study2.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_questionnaire/questions_special_study2.pdf  used on input line 473.
+(pdftex.def)             Requested size: 213.39568pt x 85.35284pt.
+) [51 <./src/pictures/Study2Data_questionnaire/questions_special_study2.pdf>]
+\openout2 = `tex/chapter/evaluation.aux'.
 
-
-
-
-] [66] [67] [68] [69] [70]
-
-pdfTeX warning: pdflatex (file ./src/pictures/StudyData/Threats_to_validity.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pictures/StudyData/Threats_to_validity.drawio.pdf, id=3415, 319.1925pt x 217.77359pt>
-File: src/pictures/StudyData/Threats_to_validity.drawio.pdf Graphic file (type pdf)
-<use src/pictures/StudyData/Threats_to_validity.drawio.pdf>
-Package pdftex.def Info: src/pictures/StudyData/Threats_to_validity.drawio.pdf  used on input line 210.
-(pdftex.def)             Requested size: 213.39568pt x 145.59186pt.
-) [71 <./src/pictures/StudyData/Threats_to_validity.drawio.pdf>]
-\openout2 = `tex/chapter/futurework.aux'.
-
- (./tex/chapter/futurework.tex [72
+ (./tex/chapter/evaluation.tex [52
 
 
 
 
 ]
+Chapter 5.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 10.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 12.
+
+<src/pictures/Study1Data_Experiment/Test_single_char.pdf, id=2520, 1084.05pt x 722.7pt>
+File: src/pictures/Study1Data_Experiment/Test_single_char.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/Test_single_char.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/Test_single_char.pdf  used on input line 16.
+(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
+[53]
+<src/pictures/Study1Data_Experiment/JaccardTest.pdf, id=2527, 1084.05pt x 289.08pt>
+File: src/pictures/Study1Data_Experiment/JaccardTest.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/JaccardTest.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/JaccardTest.pdf  used on input line 63.
+(pdftex.def)             Requested size: 426.79135pt x 113.8126pt.
+ [54 <./src/pictures/Study1Data_Experiment/Test_single_char.pdf>]
+<src/pictures/Study1Data_Experiment/boxplot_with_swarm_single_chars_test.pdf, id=2615, 1084.05pt x 722.7pt>
+File: src/pictures/Study1Data_Experiment/boxplot_with_swarm_single_chars_test.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/boxplot_with_swarm_single_chars_test.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/boxplot_with_swarm_single_chars_test.pdf  used on input line 105.
+(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
+ [55 <./src/pictures/Study1Data_Experiment/JaccardTest.pdf>] [56 <./src/pictures/Study1Data_Experiment/boxplot_with_swarm_single_chars_test.pdf>]
+<src/pictures/Study1Data_Experiment/columnChart.pdf, id=2768, 1084.05pt x 722.7pt>
+File: src/pictures/Study1Data_Experiment/columnChart.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/columnChart.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/columnChart.pdf  used on input line 159.
+(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
+ [57]
+<src/pictures/Study1Data_Experiment/heatmap_T_correlations_by_conditions_percentages.pdf, id=2774, 1084.05pt x 433.62pt>
+File: src/pictures/Study1Data_Experiment/heatmap_T_correlations_by_conditions_percentages.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/heatmap_T_correlations_by_conditions_percentages.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/heatmap_T_correlations_by_conditions_percentages.pdf  used on input line 182.
+(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
+<src/pictures/Study1Data_Experiment/heatmap_S_correlations_by_conditions_percentages.pdf, id=2775, 1084.05pt x 433.62pt>
+File: src/pictures/Study1Data_Experiment/heatmap_S_correlations_by_conditions_percentages.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/heatmap_S_correlations_by_conditions_percentages.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/heatmap_S_correlations_by_conditions_percentages.pdf  used on input line 187.
+(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
+<src/pictures/Study1Data_Experiment/heatmap_V_correlations_by_conditions_percentages.pdf, id=2776, 1084.05pt x 433.62pt>
+File: src/pictures/Study1Data_Experiment/heatmap_V_correlations_by_conditions_percentages.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/heatmap_V_correlations_by_conditions_percentages.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/heatmap_V_correlations_by_conditions_percentages.pdf  used on input line 192.
+(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
+
+Underfull \vbox (badness 2057) has occurred while \output is active []
+
+ [58 <./src/pictures/Study1Data_Experiment/columnChart.pdf> <./src/pictures/Study1Data_Experiment/heatmap_T_correlations_by_conditions_percentages.pdf> <./src/pictures/Study1Data_Experiment/heatmap_S_correlations_by_conditions_percentages.pdf> <./src/pictures/Study1Data_Experiment/heatmap_V_correlations_by_conditions_percentages.pdf>]
+<src/pictures/Study1Data_Experiment/Vectors_study1.pdf, id=3001, 1084.05pt x 1084.05pt>
+File: src/pictures/Study1Data_Experiment/Vectors_study1.pdf Graphic file (type pdf)
+<use src/pictures/Study1Data_Experiment/Vectors_study1.pdf>
+Package pdftex.def Info: src/pictures/Study1Data_Experiment/Vectors_study1.pdf  used on input line 217.
+(pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
+ [59] [60 <./src/pictures/Study1Data_Experiment/Vectors_study1.pdf>]
+Overfull \hbox (4.26988pt too wide) in paragraph at lines 296--299
+[]\T1/aer/m/n/12 The us-abil-ity ques-tion-naire also re-vealed sev-eral di-men-sion pairs with at least medium
+ []
+
+[61]
+<src/pictures/Study2Data_Experiment/Eval/learn_jaccard_coefficient.pdf, id=3077, 1084.05pt x 578.16pt>
+File: src/pictures/Study2Data_Experiment/Eval/learn_jaccard_coefficient.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/learn_jaccard_coefficient.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/learn_jaccard_coefficient.pdf  used on input line 357.
+(pdftex.def)             Requested size: 426.79135pt x 227.62523pt.
+ [62 <./src/pictures/Study2Data_Experiment/Eval/learn_jaccard_coefficient.pdf>]
+<src/pictures/Study2Data_Experiment/Eval/learn_jaccard_word_score-2.pdf, id=3156, 1084.05pt x 361.35pt>
+File: src/pictures/Study2Data_Experiment/Eval/learn_jaccard_word_score-2.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/learn_jaccard_word_score-2.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/learn_jaccard_word_score-2.pdf  used on input line 393.
+(pdftex.def)             Requested size: 426.79135pt x 142.26578pt.
+ [63 <./src/pictures/Study2Data_Experiment/Eval/learn_jaccard_word_score-2.pdf>]
+<src/pictures/Study2Data_Experiment/Eval/test.pdf, id=3214, 1084.05pt x 722.7pt>
+File: src/pictures/Study2Data_Experiment/Eval/test.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/test.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/test.pdf  used on input line 420.
+(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
+ [64 <./src/pictures/Study2Data_Experiment/Eval/test.pdf>]
+<src/pictures/Study2Data_Experiment/Eval/sjkne_OST.pdf, id=3286, 1084.05pt x 722.7pt>
+File: src/pictures/Study2Data_Experiment/Eval/sjkne_OST.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/sjkne_OST.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/sjkne_OST.pdf  used on input line 457.
+(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
+<src/pictures/Study2Data_Experiment/Eval/heatmap_O_correlations_by_conditions_counts.pdf, id=3288, 1084.05pt x 433.62pt>
+File: src/pictures/Study2Data_Experiment/Eval/heatmap_O_correlations_by_conditions_counts.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/heatmap_O_correlations_by_conditions_counts.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/heatmap_O_correlations_by_conditions_counts.pdf  used on input line 469.
+(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
+<src/pictures/Study2Data_Experiment/Eval/heatmap_S_correlations_by_conditions_counts.pdf, id=3291, 1084.05pt x 433.62pt>
+File: src/pictures/Study2Data_Experiment/Eval/heatmap_S_correlations_by_conditions_counts.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/heatmap_S_correlations_by_conditions_counts.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/heatmap_S_correlations_by_conditions_counts.pdf  used on input line 474.
+(pdftex.def)             Requested size: 192.0548pt x 76.81755pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[65] [66 <./src/pictures/Study2Data_Experiment/Eval/sjkne_OST.pdf> <./src/pictures/Study2Data_Experiment/Eval/heatmap_O_correlations_by_conditions_counts.pdf> <./src/pictures/Study2Data_Experiment/Eval/heatmap_S_correlations_by_conditions_counts.pdf>]
+<src/pictures/Study2Data_Experiment/Eval/vector.pdf, id=3471, 1084.05pt x 722.7pt>
+File: src/pictures/Study2Data_Experiment/Eval/vector.pdf Graphic file (type pdf)
+<use src/pictures/Study2Data_Experiment/Eval/vector.pdf>
+Package pdftex.def Info: src/pictures/Study2Data_Experiment/Eval/vector.pdf  used on input line 509.
+(pdftex.def)             Requested size: 426.79135pt x 284.53154pt.
+ [67 <./src/pictures/Study2Data_Experiment/Eval/vector.pdf>] [68] [69]
+
+pdfTeX warning: pdflatex (file ./src/pictures/StudyData/Threats_to_validity.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<src/pictures/StudyData/Threats_to_validity.drawio.pdf, id=3568, 319.1925pt x 217.77359pt>
+File: src/pictures/StudyData/Threats_to_validity.drawio.pdf Graphic file (type pdf)
+<use src/pictures/StudyData/Threats_to_validity.drawio.pdf>
+Package pdftex.def Info: src/pictures/StudyData/Threats_to_validity.drawio.pdf  used on input line 659.
+(pdftex.def)             Requested size: 213.39568pt x 145.59186pt.
+) [70 <./src/pictures/StudyData/Threats_to_validity.drawio.pdf>]
+\openout2 = `tex/chapter/futurework.aux'.
+
+ (./tex/chapter/futurework.tex
 Chapter 6.
-[73]) [74]
+[71
+
+
+
+
+]) [72]
 \openout2 = `tex/summary.aux'.
 
  (./tex/summary.tex
 Chapter 7.
-) [75
+) [73
 
 
 
 
-] [76
+] [74
 
 
 
@@ -1920,9 +1986,9 @@ Overfull \hbox (5.06505pt too wide) in paragraph at lines 115--115
 \T1/aer/m/n/12 land-scape^^Q. In: \T1/aer/m/it/12 Af-fec-tive Touch and the Neu-ro-phys-i-ol-ogy of CT Af-fer-ents \T1/aer/m/n/12 (2016),
  []
 
-[77
+[75
 
-] [78] [79] [80] [81] [82] [83] (./main.aux (./tex/chapter/introduction.aux) (./tex/chapter/background.aux) (./tex/chapter/relatedWorks.aux) (./tex/chapter/design.aux) (./tex/chapter/implementation.aux) (./tex/chapter/analysis.aux) (./tex/chapter/evaluation.aux) (./tex/chapter/futurework.aux) (./tex/summary.aux))
+] [76] [77] [78] [79] [80] [81] (./main.aux (./tex/chapter/introduction.aux) (./tex/chapter/background.aux) (./tex/chapter/relatedWorks.aux) (./tex/chapter/design.aux) (./tex/chapter/implementation.aux) (./tex/chapter/analysis.aux) (./tex/chapter/evaluation.aux) (./tex/chapter/futurework.aux) (./tex/summary.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1931,23 +1997,23 @@ L3 programming layer <2024-02-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 06A0FDC4BAC17FC7329DC32CFA044D5B;7088.
+(rerunfilecheck)             Checksum: 83B54590599FBC0682CC26694DBEEFD1;9645.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57904 strings out of 474116
- 1314804 string characters out of 5743682
- 2173783 words of memory out of 5000000
- 78983 multiletter control sequences out of 15000+600000
+ 57968 strings out of 474116
+ 1317263 string characters out of 5743682
+ 2175186 words of memory out of 5000000
+ 79027 multiletter control sequences out of 15000+600000
  605113 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,18n,104p,2416b,3089s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:emgf} has been referenced but does not exist, replaced by a fixed one
-
 
 pdfTeX warning (dest): name{glo:mvp} has been referenced but does not exist, replaced by a fixed one
 
@@ -1979,19 +2045,16 @@ pdfTeX warning (dest): name{glo:ost} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:phl} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{glo:csgf} has been referenced but does not exist, replaced by a fixed one
-
-
 pdfTeX warning (dest): name{glo:mwu} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:pca} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (95 pages, 7329808 bytes).
+Output written on main.pdf (93 pages, 7364453 bytes).
 PDF statistics:
- 3644 PDF objects out of 4296 (max. 8388607)
- 2130 compressed objects within 22 object streams
- 332 named destinations out of 1000 (max. 500000)
- 593 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3796 PDF objects out of 4296 (max. 8388607)
+ 2198 compressed objects within 22 object streams
+ 352 named destinations out of 1000 (max. 500000)
+ 693 words of extra memory for PDF output out of 10000 (max. 10000000)
 

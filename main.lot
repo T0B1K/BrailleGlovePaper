@@ -6,22 +6,33 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of Wi-Fi, Bluetooth and Esp-Now \blx@tocontentsinit {0}\cite {eridani2021comparative}. EE stands for Energy Efficiency, R stands for receiver and T for transmitter.}}{30}{table.caption.27}%
 \contentsline {table}{\numberline {3.2}{\ignorespaces Probability for each dot occurring.}}{37}{table.caption.35}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Entropy for each Braille letter rounded to $4$ decimal places.}}{38}{table.caption.36}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Entropy for each Braille letter rounded to $4$ decimal places.}}{37}{table.caption.36}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces General participant data in the first study.}}{43}{table.caption.39}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Results of the Kruskal-Wallis significance tests for the different NasaTLX dimensions with a $\eta ^2$ Effect Size.}}{44}{table.caption.42}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Results of the Kruskal-Wallis significance tests for the different self-assessment dimensions with a $\eta ^2$ Effect Size.}}{46}{table.caption.44}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Statistical Test Results for the direct comparison between the stimuli. \text {*} indicates results obtained via Negative Log-Likelihood under $H_0$.}}{46}{table.caption.46}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Results of Kruskal-Wallis significance tests for the different Braille characters during learning with a $\eta ^2$ Effect Size.}}{48}{table.caption.48}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Results of the Kruskal-Wallis significance tests for the wordtests \enquote {THE}, \enquote {OLD}, and \enquote {PUB} with a $\eta ^2$ Effect Size.}}{49}{table.caption.50}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Results of Kruskal-Wallis significance tests for the different Braille characters during testing with a $\eta ^2$ Effect Size.}}{51}{table.caption.52}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Second study participant data}}{54}{table.caption.56}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Results of \gls {mwu} significance tests for the different NasaTLX dimensions with Cohens d.}}{56}{table.caption.59}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Results of the \gls {mwu} test for significance grouped by the different self-assessment dimensions with a Cohens d Effect Size.}}{58}{table.caption.61}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Statistical \gls {csgf} Results for the direct comparison between the stimuli.}}{58}{table.caption.63}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Results of the \gls {mwu} tests for significance grouped by the different Braille characters during training for the different Encodings with Cohen's d.}}{59}{table.caption.65}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Results of the \gls {mwu} tests for significance for the different Braille tests-words with a Cohens d Effect Size.}}{60}{table.caption.67}%
-\contentsline {table}{\numberline {4.14}{\ignorespaces Results of the \gls {mwu} for significance grouped by the different Braille characters during learning for the different Encodings with Cohen's d.}}{62}{table.caption.69}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results of the Friedman significance tests during learning with a Kendall's W Effect Size.}}{44}{table.caption.42}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results of the Friedman significance tests during learning with a Kendall's W Effect Size.}}{44}{table.caption.44}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Results of the Friedman significance tests for the different NasaTLX dimensions with a Kendall's W Effect Size.}}{45}{table.caption.46}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Results of the Posthock Analyse for the NasaTLX performance dimension with a Wilcoxon test.}}{45}{table.caption.47}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Results of the Kruskal-Wallis significance tests for the different self-assessment dimensions with a $\eta ^2$ Effect Size.}}{46}{table.caption.49}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Results of the Posthock Analyse for the self-assessment with a Wilcoxon test.}}{47}{table.caption.50}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Second study participant data}}{47}{table.caption.52}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Results of the Wilcoxon significance tests during learning with a Cohens D Effect Size.}}{49}{table.caption.55}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Results of the Wilcoxon significance tests during learning with a Cohens D Effect Size.}}{49}{table.caption.57}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces Results of the Friedman significance tests for the different NasaTLX dimensions with a Kendall's W Effect Size.}}{50}{table.caption.59}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Results of the Wilcoxon significance tests for the different self-assessment dimensions with a Cohens D Effect Size.}}{51}{table.caption.61}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces Results of the Wilcoxon significance tests for the different self-assessment dimensions with a Cohens D Effect Size.}}{51}{table.caption.63}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Results of Kruskal-Wallis significance tests for the different Braille characters during learning with a $\eta ^2$ Effect Size.}}{55}{table.caption.65}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Results of the Kruskal-Wallis significance tests for the wordtests \enquote {THE}, \enquote {OLD}, and \enquote {PUB} with a $\eta ^2$ Effect Size.}}{56}{table.caption.67}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results of Kruskal-Wallis significance tests for the different Braille characters during testing with a $\eta ^2$ Effect Size.}}{57}{table.caption.69}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Correlation within the Nasa TLX dimensions.}}{61}{table.caption.73}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Correlation between the Nasa TLX and Usability questionnaire dimensions.}}{61}{table.caption.74}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Correlation within the Usability questionnaire dimensions.}}{61}{table.caption.75}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Results of the \gls {mwu} tests for significance grouped by the different Braille characters during training for the different Encodings with Cohen's d.}}{63}{table.caption.77}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Results of the \gls {mwu} tests for significance for the different Braille tests-words with a Cohens d Effect Size.}}{64}{table.caption.79}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Results of the \gls {mwu} for significance grouped by the different Braille characters during learning for the different Encodings with Cohen's d.}}{65}{table.caption.81}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces within NasaTLX tmp.}}{68}{table.caption.85}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Within Usability tmp.}}{68}{table.caption.86}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces within between Questionnaires tmp.}}{69}{table.caption.87}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
