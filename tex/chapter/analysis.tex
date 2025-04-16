@@ -1,19 +1,18 @@
 \chapter{Analysis}
 \label{ch:Analysis}
 
-
-
 This section analyzes the results of the collected data from the first and second studies. For both studies, we begin by analyzing the participant data, followed by an assessment of how the participants perceived the different tests in terms of difficulty, using the NASA-TLX and questions related to the comparison of the setups. Specifically, we focus on which setup participants found to be better. Next, we examine the actual performance results to compare perceived performance with actual performance.
 
 To describe the Braille-dot components, we represent the keys using their respective numbers within a dot, as shown here: \textcircled{i} for character $i$, similar to the figures presented previously.
 
-\subsection{First Study}
 
+
+\subsection{First Study}
 \begin{table}
 \resizebox{\columnwidth}{!}{
     \centering
     \begin{tabular}{|c|c|c|c|} \hline 
-        Gender & Age & Dominant Hand & Previous Braille Knowledge\\ \hline 
+        \textbf{Gender}& \textbf{Age}& \textbf{Dominant Hand}& \textbf{Previous Braille Knowledge}\\ \hline 
         M & 27 & R & No\\ \hline 
         M & 27 & R & No\\ \hline 
         M & 22 & R & No\\ \hline 
@@ -33,7 +32,7 @@ To describe the Braille-dot components, we represent the keys using their respec
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{src/pictures/Study1Data_questionnaire/participantPlots_study1.pdf}
-    \caption{Participant Click-differences.}
+    \caption{Participant click scores.}
     \label{fig:participant_clicks-firstStudy}
 \end{figure}
 
@@ -41,26 +40,104 @@ In the first study, we interviewed 12 participants (3 female, 9 male), aged betw
 
 First, we assessed the validity of our data by ensuring that the participants were focused on the game and not on the sensations themselves. To do so, we measured the click rate for each character to detect any differences in performance. Given that participants tended to become more fatigued later in the game, we compared the click rates with those from the previous round to determine whether the data showed a 40\% improvement or decline, as indicated by the two red lines in \autoref{fig:participant_clicks-firstStudy}. As shown, the data passed the test, with the exception of participant 7, where the observed difference can be attributed to the stimulus change and the completion of questionnaires between sessions.
 
+\subsubsection{First study experiment results}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf}
-    \caption{Raw Nasa TLX scores for the different Stimuli grouped by the Nasa TLX dimensions.\\ Each dot represents one participant.}
-    \label{fig:nasaTLX-firstStudy}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study1Data_Experiment/learn_data_averaged.pdf}
+    \caption{Character-test results during learning for the different stimuli.}
+    \label{fig:learning_results}
 \end{figure}
+% The \autoref{fig:learning_results} depict the results we measured the averaged values for each stimuli after the learning of each character.
+% As can be seen, the medians are rather similar with values of
+% about $0.7$ for stroke, $0.6$ for Tap and $0.7$ for Vilolation.
+% Both Stroke, and Tap look rather similar, however, the Tap boxplot is different, as its's lowest value is higher thanthe lowest value for the other two.
+% Moreover it is the only one, where one participant reached a perfect score.
 
-The raw NASA-TLX scores are presented in \autoref{fig:nasaTLX-firstStudy}, which displays boxplots for the different stimuli and their corresponding NASA-TLX scores, grouped by the respective NASA-TLX dimensions.
+% Testing the significance with a resulted in a non-significance with a friedman test with a test statistic of $2.4255$ p-value of $0.2974$ as depicted in \autoref{table:learning_results_firstStudy}
 
-Overall, the medians for the dimensions are similar, with the most notable difference observed in the "performance" dimension. Specifically, the medians are 25.0 for tapping, 50.0 for stroking, and 50.0 for vibration.
+The \autoref{fig:learning_results} shows the averaged results for each stimulus after participants completed the learning phase for each character.
 
-In the "physical demand" dimension, a noticeable difference in the quantiles is apparent. The quantile for tapping is slightly larger, indicating that it performed worse on average. Similarly, in the "effort" dimension, slight differences in the quantiles and medians are observed. The medians for stroking and tapping are 50 and 47.5, respectively, while the median for vibration is 60.
+The median scores are relatively similar: approximately $0.7$ for Stroke, $0.6$ for Tap, and $0.7$ for Violation. While Stroke and Tap appear similar overall, the Tap boxplot differs in that its minimum value is higher than those of the other two stimuli. Notably, Tap is also the only condition in which a participant achieved a perfect score.
 
-In the "frustration" dimension, the quantile range is larger, particularly for the boxplot representing stroking, which has a quantile range of Q1 = 20, Q3 = 70, with a median of 50. In contrast, tapping has a Q1 of 25, Q3 of 55, and a median of 37.5. Vibration shows the smallest quantile range, with a Q1 of 23.5, Q3 of 42.5, and a median of 40.
+To test for statistical significance, we conducted a Friedman test. The results were not significant, with a test statistic of $2.4255$ and a $p$-value of $0.2974$, as shown in \autoref{table:learning_results_firstStudy}.
 
-Subsequently, we tested for significant differences between the sets using Kruskal-Wallis significance tests, the results of which are tabulated in \autoref{table:nasaTLX_significance_firstStudy_nonParam}.
-The results indicate no significant differences between the sets, with p-values exceeding the threshold value of $\alpha=0.05$.
-The closest p-value to passing the threshold is found in the \enquote{Performance} dimension, with a p-value of 0.1496, which is not close to being statistically significant.
 
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Question}                              & \textbf{Friedman test statistic}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Kendall's W}\\ \hline
+Learning Data& 2.4255& 0.2974& Not Significant                 &0.1011\\\hline
+\end{tabular}}
+\caption{Results of the Friedman significance tests during learning with a Kendall's W Effect Size.}
+\label{table:learning_results_firstStudy}
+\end{table}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study1Data_Experiment/test_data_averaged.pdf}
+    \caption{Word-test results for the different stimuli.}
+    \label{fig:testing_results}
+\end{figure}
+% After all the learning was completed, we condicted the whole word tests.
+% The averaged word test resukts are depicted in \autoref{fig:testing_results}.
+% As can be seen, the strokeing results are slightly worse than the tapping and vibration one, where the bpxplots look rather similar.
+% However, it can be seen, that the median is the best for the vibraiton stimili with a median of $0.59$ vs $0.525$ for tapping and $0.45$ for stroking.
+
+% Testing for a significant difference between the stimuli fith a friedman test resulted in a test statistic of 3.5 an a p value of 0.1738 showing no significant difference as depicted in \autoref{table:testing_results_firstStudy}.
+After completing all learning phases, we conducted the whole word tests. The averaged results are shown in \autoref{fig:testing_results}.
+
+Overall, the Stroking condition performed slightly worse than Tapping and Vibration, whose boxplots appear similar. Among the three, the Vibration stimulus yielded the highest median accuracy at $0.59$, followed by Tapping at $0.525$ and Stroking at $0.45$.
+
+To assess statistical significance, we performed a Friedman test. The result was not significant, with a test statistic of $3.5$ and a $p$-value of $0.1738$, as shown in \autoref{table:testing_results_firstStudy}.
+
+
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Question}                              & \textbf{Friedman test statistic}& \textbf{p-value}       & \textbf{Significance}           &Kendall's W\\ \hline
+Testing Data& 3.5& 0.1738& Not Significant                 &0.1458\\\hline
+\end{tabular}}
+\caption{Results of the Friedman significance tests during learning with a Kendall's W Effect Size.}
+\label{table:testing_results_firstStudy}
+\end{table}
+
+
+\subsubsection{First study Questionnaire results}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study1Data_questionnaire/NasaTLX_study1.pdf}
+    \caption{Nasa TLX results for the first study.}
+    \label{fig:nasa_tlx_first_study}
+\end{figure}
+% After each study was conducted, we measuered the nasa tlx resulted as depicted in \autoref{fig:nasa_tlx_first_study}.
+
+% The largest differences can be seen in the performance chategory, where the tapping results were worse than the stroke and vibration ones as depicted with the medians of about 50 for the stroke and vibration compared to the 25 for tapping.
+% Another larger difference can be seen for the median in the dimension Frustration and effort.
+% With medians of about 50, 37.5 and 40 for stroking tapping and vibration respectively in the frustration category.
+% And medians of about 50, 47.5 and 60 for the stroking, tapping and vibration respectively in the effort category.
+
+% However, after checking for the significance, we only found a significance in the performance dimension with an friedman statistic of $7.0870$ with an p-value of $0.0289$ and an Kendall's W effect size of $0.2953$ as depicted in \autoref{table:nasaTLX_significance_firstStudy_nonParam}.
+
+% After conducting a post-hock test, that is depicted in \autoref{table:nasaTLX_significance_firstStudy_nonParam_PostHock}, we showed, that the approaching signifficance is between tapping and stroking with an wilcoxon test statistic of $2.0$ and an p-value of $0.0057$.
+
+% However, after correcting the alpha with a Bonferroni-corrected alpha of $0.0167$, we only see, that the signifficance is approaching signifficant.
+
+After each study, we measured the NASA-TLX scores, as shown in \autoref{fig:nasa_tlx_first_study}.
+
+The most noticeable differences appeared in the Performance category. Here, Tapping scored worse than both Stroking and Vibration, with median values of approximately $50$ for Stroking and Vibration, compared to $25$ for Tapping. Additional differences were observed in the Frustration and Effort dimensions. In the Frustration category, the median scores were roughly $50$ for Stroking, $37.5$ for Tapping, and $40$ for Vibration. For Effort, the median scores were about $50$, $47.5$, and $60$, respectively.
+
+Significance testing revealed a statistically significant difference only in the Performance dimension, with a Friedman test statistic of $7.0870$, a $p$-value of $0.0289$, and a Kendall’s W effect size of $0.2953$ (\autoref{table:nasaTLX_significance_firstStudy_nonParam}).
+
+A follow-up post-hoc analysis, shown in \autoref{table:nasaTLX_significance_firstStudy_nonParam_PostHock}, indicated that the potential source of this difference lies between the Tapping and Stroking conditions. A Wilcoxon signed-rank test yielded a test statistic of $2.0$ and a $p$-value of $0.0057$.
+
+However, after applying a Bonferroni correction with an adjusted alpha level of $0.0167$, this difference is considered to be approaching significance, but not statistically significant.
 
 
 
@@ -69,54 +146,77 @@ The closest p-value to passing the threshold is found in the \enquote{Performanc
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{Question}        & \textbf{H-Statistic}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\textbf{Mental Demand}    & 0.5311& 0.7668& Not Significant                 &0.0152\\ \hline
-\textbf{Physical Demand}  & 0.358& 0.8361                 & Not Significant                 &0.0102\\ \hline
-\textbf{Temporal Demand}  & 1.6356& 0.4414& Not Significant                 &0.0467\\ \hline
-\textbf{Performance}      & 3.7994& 0.1496& Not Significant                 &0.1086\\ \hline
-\textbf{Effort}           & 0.7655& 0.6820& Not Significant                 &0.0219\\ \hline
-\textbf{Frustration}      & 0.9098& 0.6345& Not Significant                 &0.0260\\ \hline
+\textbf{Question}        & \textbf{Friedman statistic}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Kendall's W Effect Size}\\ \hline
+\textbf{Mental Demand}    & 0.0476& 0.9765& Not Significant                 &0.002\\ \hline
+\textbf{Physical Demand}  & 0.4375& 0.8035& Not Significant                 &0.0182\\ \hline
+\textbf{Temporal Demand}  & 4.2273& 0.1208& Not Significant                 &0.1761\\ \hline
+\textbf{Performance}      & 7.0870& 0.0289& \textbf{Significant}&0.2953\\ \hline
+\textbf{Effort}           & 1.5652& 0.4572& Not Significant                 &0.0652\\ \hline
+\textbf{Frustration}      & 2.2609& 0.3229& Not Significant                 &0.0942\\ \hline
 \end{tabular}}
-\caption{Results of the Kruskal-Wallis significance tests for the different NasaTLX dimensions with a $\eta^2$ Effect Size.}
+\caption{Results of the Friedman significance tests for the different NasaTLX dimensions with a Kendall's W Effect Size.}
 \label{table:nasaTLX_significance_firstStudy_nonParam}
 \end{table}
 
-% Henceforth, with the prerequisites satisfied for almost all of the NASA-TLX dimensions, except for the \enquote{Physical Demand} dimension due to an approximately non-normally distributed dataset (for which we used a Kruskal-Wallis test), we were able to use an ANOVA test for the other dimensions, as shown in \autoref{table:nasaTLX_significance_firstStudy}.
-% As seen in the table, the p-values for all the NASA-TLX dimensions are greater than the threshold $\alpha = 0.05$, with the closest value being in the \enquote{performance} dimension, which has a p-value of 0.7342.
-% This indicates that there is no statistical significance for any of the dimensions of the NASA-TLX test.
 
-
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Question}        & \textbf{Difference}& \textbf{Wilcoxon w- statistic}& \textbf{p-value}       &\textbf{Significance}           \\ \hline
+\textbf{Performance} (POST-HOCK)& T vs S& 2.0& 0.0057&approaching \textbf{Significant}\\ \hline
+& T vs V& 15.5& 0.1188&Not Significant                 \\ \hline
+& S vs V& 30.0& 0.5186&Not Significant                 \\\hline
+\end{tabular}}
+\caption{Results of the Posthock Analyse for the NasaTLX performance dimension with a Wilcoxon test.}
+\label{table:nasaTLX_significance_firstStudy_nonParam_PostHock}
+\end{table}
 
 
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_questionnaire/questions_special_study1.pdf}
-    \caption{Self-assessment Results of the different Stimuli grouped by the self-assessment categories.\\4 is the best score and 0 the worst score.\\Each dot represents one participant.}
-    \label{fig:questions_individual_firstStudy}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study1Data_questionnaire/questions_special_study1.pdf}
+    \caption{Usability questions results for the first study.}
+    \label{fig:special_study_first_study}
 \end{figure}
+% After learning a word with a stimuli, we also tested for the usability for six dimensions, whose results are depicted in \autoref{fig:special_study_first_study} 
 
-After the Task Load Index, we surveyed five dimensions to assess how the participants perceived learning and usability with the different actuators, comparing the stimuli across six different dimensions, as shown in \autoref{fig:questions_individual_firstStudy}.
+% Larger differences can be seen in the medians for \enquote{Feeling Pleasant} with medians of 3.0 for tapping and viobration and 4.0 for stroking.
 
-As shown in the figure, there are larger differences in the dimensions \enquote{Helped learning}, \enquote{Would have learned faster}, \enquote{Would use actuators to support the learning process}, and \enquote{Satisfaction overall}.
+% another larger difference can be seen in the medians in the \enquote{able to understand hapric feedback} dimension with medians of 2.5 for vibration and stroking and 3 for tapping, however the boxplots are basically the same with outliers also being similar except fort the stroking condition, which didn't have anyone voting for a perfect score.
 
-For the \enquote{Feeling pleasant} dimension, the median values differ by 4 for stroking, and 3 for tapping and vibration. However, the Q1-Q3 quantile ranges are similar, with ranges of 3 to 4 for tapping and vibration, and 2.75 to 4 for stroking. Although the median for stroking is better, there are more outliers for stroking compared to the other two stimuli.
+% Another larger differecne can be seen in the dimension \enquote{satisfaction overall}, for which the tapping stimulus is the best one, as the quantile range is between 3 and 4 for tapping and 2 and 3 for stroking and vibration.
 
-In the \enquote{Helped learning} dimension, the medians are identical for all stimuli, each with a value of 3. However, the quantile ranges differ slightly, with a Q1-Q3 range of 2 to 3 for stroking, 2.75 to 4 for tapping, and 2 to 4 for vibration.
+% other larger differences can be seen in the category \enquote{helped learning}, where the medians are the same at 3, but their q1-q3 quantile differences are 2-3 for stroke, 2.75-4 for tapping and 2-4 for vibration.
 
-For the \enquote{Would have learned faster} dimension, the medians differ: 2.5 for stroking, 3 for vibration, and 2.0 for tapping, as shown in orange.
+% moreover another notewirthy difference is at \enquote{would have learned faster}, with medians of 2.5 for vibration, 2 for tapping and 3 for stroking and with q1-q3 differences of 2-3 for strking, 1-2.25 to tapping and 2-3.25 for vibration.
 
-In the \enquote{Would use actuators to support the learning process} dimension, the medians are the same for all three stimuli. However, the variance differs considerably, with Q1-Q3 intervals of 2 to 4 for stroking and vibration, while the Q1-Q3 interval for tapping is 2.75 to 3.25.
+% We conducted Friedman signifficance tests given this data, whose results are plotted here \autoref{table:individualQuestions_significance_firstStudy}.
+% As can be see, the dimensions \enquote{Helped Learning}, \enquote{Would have learned faster} and \enquote{satisfaction overall} are statistical signifficant with p-values of 0.0701 for \enquote{helped learning}, 0.0104 for \enquote{Would have learned faster} and 0.0027 for \enquote{Satisfaction overall}.
 
-For \enquote{Satisfaction overall}, the Q1-Q3 intervals are identical for stroking and vibration, ranging from 2 to 3, and from 3 to 4 for tapping. The medians, however, are the same (3.0) for all three stimuli in this dimension.
+% Afterwards, we did the post hock analysis for those dimensions, as can be shown in \autoref{table:selfAssessment_significance_firstStudy_nonParam_PostHock}.
+% For the dimension \enquote{Helped Learning} the posthock didn't show anything,
+% For the dimension \enquote{Would have learned faster} there is a difference between T and S with a p-value of $0.0027$ that shows a signifficance.
+% For the dimension of \enquote{Satisfaction overall}, there are signifficant differences between T vs S and T vs V with p-values of $0.0114$ and $0.0139$.
 
-In the \enquote{Able to understand haptic feedback} dimension, there is no difference in the Q1-Q3 quantile range. However, the medians differ, with 2.5 for stroking and vibration, compared to 3.0 for tapping.
+% Using the Bonferroni-corrected alpha, we show, that the \enquote{helped learning} with $0.0167$ show that the dimension with $0.0701$ is not signifficant.
+% The dimension \enquote{would have learned faster} has a Bonferroni-corrected alpha of $0.0167$ is still signifficant with $0.0104$.
+% And the dimension \enquote{Satisfaction overall} with a p-value of $0.0027$ is after the Bonferroni-corrected alpha of $ 0.0167$ is according to that not signifficant.
+After learning a word using each stimulus, we evaluated usability across six dimensions. The results are shown in \autoref{fig:special_study_first_study}.
 
+Notable differences emerged in the \enquote{Feeling Pleasant} dimension, with median ratings of $4.0$ for Stroking and $3.0$ for both Tapping and Vibration. Another difference was observed in \enquote{Able to understand haptic feedback}, where medians were $2.5$ for Vibration and Stroking, and $3.0$ for Tapping. However, the boxplots were nearly identical across all conditions, with similar outliers—except for Stroking, which had no participants selecting the highest rating.
 
-To assess statistical differences, we conducted non-parametric Kruskal-Wallis tests, the results of which are presented in \autoref{table:individualQuestions_significance_firstStudy}.
-As shown in the table, no statistically significant differences were found between the stimuli for the dimensions, as the p-values for each Kruskal-Wallis test exceed the threshold value of $\alpha=0.05$.
+In the \enquote{Satisfaction Overall} dimension, Tapping showed the highest ratings, with an interquartile range (IQR) from $3$ to $4$, compared to an IQR of $2$ to $3$ for both Stroking and Vibration. Additional variation appeared in \enquote{Helped Learning}; although all stimuli had the same median of $3.0$, their IQRs differed: $2$–$3$ for Stroking, $2.75$–$4$ for Tapping, and $2$–$4$ for Vibration. 
 
-However, the dimensions closest to the threshold are \enquote{Satisfaction overall} (p-value = 0.0504) and \enquote{Would have learned faster} (p-value = 0.0882). Given their relatively low p-values and \(\eta^2\) effect sizes of 0.1707 and 0.1387 for \enquote{Satisfaction overall} and \enquote{Would have learned faster}, respectively, which are considered large, these dimensions are regarded as \enquote{approaching significance}.
+A further difference was seen in the \enquote{Would have learned faster} dimension, where Stroking had a median of $3.0$, Vibration $2.5$, and Tapping $2.0$. The IQRs were $2$–$3$ for Stroking, $2$–$3.25$ for Vibration, and $1$–$2.25$ for Tapping.
+
+We performed Friedman tests to assess statistical significance, with results shown in \autoref{table:individualQuestions_significance_firstStudy}. Statistically significant effects were found in the dimensions \enquote{Would have learned faster} ($p = 0.0104$) and \enquote{Satisfaction Overall} ($p = 0.0027$), while \enquote{Helped Learning} showed a trend toward significance with a $p$-value of $0.0701$.
+
+Post-hoc Wilcoxon tests, presented in \autoref{table:selfAssessment_significance_firstStudy_nonParam_PostHock}, revealed no significant pairwise differences for \enquote{Helped Learning}. For \enquote{Would have learned faster}, a significant difference was found between Tapping and Stroking ($p = 0.0027$). In the case of \enquote{Satisfaction Overall}, significant differences were found between Tapping and Stroking ($p = 0.0114$), as well as between Tapping and Vibration ($p = 0.0139$).
+
+After applying the Bonferroni correction with an adjusted alpha of $0.0167$, \enquote{Helped Learning} was no longer considered significant. However, both \enquote{Would have learned faster} and \enquote{Satisfaction Overall} remained statistically significant under the corrected threshold.
 
 
 \begin{table}[ht]
@@ -124,270 +224,54 @@ However, the dimensions closest to the threshold are \enquote{Satisfaction overa
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{Question}                              & \textbf{H-statistic}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\textbf{Feeling Pleasant}                      & 0.706& 0.7026                 & Not Significant                 &0.0202\\ \hline
-\textbf{Helped Learning}                       & 1.942& 0.3787                 & Not Significant                 &0.0555\\ \hline
-\textbf{Would have learned faster}             & 4.855& 0.0882                 & Not Significant                 &0.1387\\ \hline
-\textbf{Would use actuators to support learning process} & 0.038& 0.9812                 & Not Significant                 &0.0011\\ \hline
-\textbf{Able to understand haptic feedback}    & 1.241& 0.5377                 & Not Significant                 &0.0355\\ \hline
-\textbf{Satisfaction overall}                  & 5.975& 0.0504                 & Not Significant                 &0.1707\\ \hline
+\textbf{Question}                              & \textbf{Friedman statistic}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Kendall's W Effect Size}\\ \hline
+\textbf{Feeling Pleasant}                      & 0.8276& 0.6611& Not Significant                 &0.0345\\ \hline
+\textbf{Helped Learning}                       & 5.3143& 0.0701& approaching
+\textbf{Significant}&0.2214\\ \hline
+\textbf{Would have learned faster}             & 9.1351& 0.0104& \textbf{Significant}&0.3806\\ \hline
+\textbf{Would use actuators to support learning process} & 0.5600& 0.7558& Not Significant                 &0.0233\\ \hline
+\textbf{Able to understand haptic feedback}    & 2.5455& 0.2801& Not Significant                 &0.1061\\ \hline
+\textbf{Satisfaction overall}& 11.84& 0.0027& \textbf{Significant}&0.4933\\ \hline
 \end{tabular}}
 \caption{Results of the Kruskal-Wallis significance tests for the different self-assessment dimensions with a $\eta^2$ Effect Size.}
 \label{table:individualQuestions_significance_firstStudy}
 \end{table}
 
 
-
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf}
-    \caption{Results of the direct comparison between the different stimuli.}
-    \label{fig:questionsCompare-firstStudy}
-\end{figure}
-
-After completing all the learning sessions for the different stimuli, the participants directly compared the stimuli based on the two dimensions presented in \autoref{fig:questionsCompare-firstStudy}, with the questions \enquote{Which actuator is the most comfortable} on the left and \enquote{Which actuator helped most in learning} on the right. 
-$41.67\%$ of the participants found the tapping actuator to be the most comfortable, followed by the vibration actuator, as shown in the left figure, while approximately $16.67\%$ preferred the stroking actuator. This indicates that, according to the participants' judgments, the vibration and tapping actuators were considered superior to the stroking actuators in terms of comfort.
-
-In the \enquote{Which actuator helped most in learning} category, the participants selected the tapping actuator as the most helpful, with $58.33\%$ of participants voting for it, followed by the vibration actuator with $25\%$, and the stroking actuator with $16.67\%$. The stroking actuator was generally perceived as the least effective compared to the other two.
-
-To test for significant statistical differences, we conducted two tests: first, the \gls{csgf}, and, as the sample sizes were relatively small and the expected values might be less than $5$, we performed an additional \gls{emgf}, as suggested by McDonald et al. \cite{mcdonald2014handbook}, because it is likely more accurate. 
-The results of these tests are presented in \autoref{table:statistical_tests_comparrisson_firstStudy}. 
-As shown, the p-values for the first question, \enquote{Most comfortable model}, are $0.4724$ for the \gls{csgf} and $0.4568$ for the \gls{emgf}, both of which exceed the threshold value of $0.05$. 
-The same holds for the question \enquote{Model that helped most in learning}, with p-values of $0.1738$ for the \gls{csgf} and $0.278$ for the \gls{emgf}, indicating that there is no statistically significant difference between the stimuli for those questions.
-
-
-\begin{table}[ht]
-\centering
-\resizebox{\columnwidth}{!}{
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\textbf{Question} & \textbf{Test} & \textbf{Test- Statistic}& \textbf{p-value}  &\textbf{Significance}          \\ \hline
-Model most comfortable & \gls{csgf}& 1.5 & 0.4724  &Not Significant                \\
- & \gls{emgf}& 3.464*& 0.4568 &Not Significant                \\\hline
-Model that helped most in learning & \gls{csgf}& 3.5 & 0.1738 &Not Significant                \\
- & \gls{emgf}& 4.206*& 0.278 &Not Significant                \\\hline
-\end{tabular}}
-\caption{Statistical Test Results for the direct comparison between the stimuli.\\\text{*} indicates results obtained via Negative Log-Likelihood under $H_0$.}
-\label{table:statistical_tests_comparrisson_firstStudy}
-\end{table}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_Experiment/study1_learning_results.pdf}
-    \caption{Jaccard coefficient results grouped by the Braille character during learning  for the different stimuli.\\Each dot represents one participant.}
-    \label{fig:learning_results_firstStudy}
-\end{figure}
-
-After passively learning a character using a specific stimulus, a test was conducted to assess the performance of the characters immediately following the learning session. 
-The test results are shown in \autoref{fig:learning_results_firstStudy}, where the stimuli are plotted with their respective Jaccard indices, grouped by the specific characters learned in the session.
-
-The most significant difference is observed for the character \braille{b}(B), where the median for stroking is 0.3, while the medians for tapping and vibration are 1. The quantile ranges for tapping and vibration are 0.82 to 1, while the quantile range for stroking is 0.25 to 0.5.
-
-A similar trend is observed for the character \braille{l}(L), where both tapping and vibration perform perfectly while stroking has an outlier at 0.675. However, all medians are the same at 1.
-
-For the character \braille{h}(H), a larger difference is evident between tapping and the other two stimuli. While tapping has a median of 0.5, the medians for the other two stimuli are approximately 0.7. All three stimuli had a poor outlier, with a score of 0.2.
-
-Another notable difference in medians appears for the character \braille{d}(D), where the median for stroking is 0.5, compared to medians of 0.675 for tapping and 0.75 for vibration. Additionally, the quantile ranges differ: vibration has the largest range, from 0.5 to 1, due to two participants scoring 0.5 and 1, respectively. In contrast, only one participant achieved a perfect score for tapping, and both tapping and stroking have worse participant scores of 0.2.
-
-A further difference can be observed for the character \braille{t}(T), where the median for stroking is approximately 0.6, 0.65 for vibration, and 0.475 for tapping.
-
-To test for significance, we used the Kruskal-Wallis tests. The results, however, did not show any significant differences, as depicted in \autoref{table:learning_significance_results_firstStudy_nonParam_learning}. 
-As shown in the \enquote{p-value} column, all p-values for the tests exceed the threshold value of $\alpha = 0.05$, indicating no statistically significant difference between the Jaccard index results of the stimuli for any of the characters.
-
-
 \begin{table}[ht]
 \resizebox{\columnwidth}{!}{
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\braille{t}(\textbf{T})& 1.9406 & 0.3790  &Not Significant &0.1764\\ \hline
-\braille{h}(\textbf{H})& 2.2817& 0.3195&Not Significant &0.2074\\ \hline
-\braille{e}(\textbf{E})& 1.1068 & 0.5750  &Not Significant &0.1006\\ \hline
-\braille{o}(\textbf{O})& 0.2790& 0.8698&Not Significant &0.0254\\ \hline
-\braille{l}(\textbf{L})& 2.0000 & 0.3679  &Not Significant &0.1818\\ \hline
-\braille{d}(\textbf{D})& 2.9298& 0.2311&Not Significant &0.2663\\ \hline
-\braille{p}(\textbf{P})& 0.7068 & 0.7023  &Not Significant &0.0643\\ \hline
-\braille{u}(\textbf{U})& 0.0299& 0.9852&Not Significant &0.0027\\ \hline
-\braille{b}(\textbf{B})& 3.6667 & 0.1599  &Not Significant &0.3333\\ \hline
+\textbf{Question}        & \textbf{Difference}& \textbf{Wilcoxon w- statistic}& \textbf{p-value}       &\textbf{Significance}           \\ \hline
+\textbf{Helped Learning} (POST-HOCK)& T vs S& 7.5& 0.1236&Not Significant                 \\
+& T vs V& 5.0& 0.4795&Not Significant                 \\
+& S vs V& 21.0& 0.2558&Not Significant                 \\\hline
+ \textbf{Would have learned faster} (POST-HOCK)& T vs S& 0.0& 0.0027&\textbf{Significant}\\
+ & T vs V& 11.0& 0.0841&Not Significant                 \\
+ & S vs V& 13.5& 0.9309&Not Significant                 \\\hline
+ \textbf{Satisfaction overall} (POST-HOCK)& T vs S& 0.0& 0.0114&\textbf{Significant}\\
+ & T vs V& 0.0& 0.0139&\textbf{Significant}\\
+ & S vs V& 2.0& 0.5637&Not Significant                 \\\hline
 \end{tabular}}
-\caption{Results of Kruskal-Wallis significance tests for the different Braille characters during learning with a $\eta^2$ Effect Size.}
-\label{table:learning_significance_results_firstStudy_nonParam_learning}
+\caption{Results of the Posthock Analyse for the self-assessment with a Wilcoxon test.}
+\label{table:selfAssessment_significance_firstStudy_nonParam_PostHock}
 \end{table}
 
 
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_Experiment/study1_test_results.pdf}
-    \caption{Jaccard Word-Test results grouped by the results for the Braille test-words\\
-    \enquote{THE}, \enquote{OLD} and \enquote{PUB} for different stimuli.}
-    \label{fig:test_results_firstStudy}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study1Data_questionnaire/questions_compare_study1.pdf}
+    \caption{Direct Stimuli comparison results.}
+    \label{fig:compare_results_first_study}
 \end{figure}
+% Lastly we compared the different stimuli with each other as depicted in \autoref{fig:compare_results_first_study}.
+% Their results show, that the vibration and tapping was the best in the category of \enquote{Most comfortable model} with 5/12 followed by the stroking one with 2/12 and for the category \enquote{Model that helped most in learning} we observed the most participants voting for tapping with 7/12, followed by vibration with 3/12 followed with 2/12.
+Lastly, we compared the different stimuli directly, as shown in \autoref{fig:compare_results_first_study}. 
 
+In the category \enquote{Most comfortable model}, both Vibration and Tapping were rated highest, each receiving votes from 5 out of 12 participants. Stroking followed, with 2 out of 12 votes. For the category \enquote{Model that helped most in learning}, Tapping was rated most effective, receiving 7 out of 12 votes, followed by Vibration with 3 votes and Stroking with 2.
 
-
-After the passive learning sessions for all characters using a single stimulus, we conducted a word test for the characters learned during the previous passive learning sessions with that stimulus. 
-The Jaccard score results, compared across the stimuli for each word, are depicted in \autoref{fig:test_results_firstStudy}. 
-As shown, the differences in performance are smaller than those observed for the individual characters. 
-
-For the word \braille{the}(THE), the medians are 0.375 for stroking, 0.425 for tapping, and 0.425 for vibration. The quantile ranges are 0.35-0.5 for stroking, 0.3-0.6 for tapping, and 0.475-0.45 for vibration, respectively.
-
-For the word \braille{old}(OLD), the medians are 0.62 for tapping and 0.625 for vibration, compared to 0.475 for stroking.
-
-For the word \braille{pub}(PUB), the median for stroking (0.45) is somewhat lower than that for tapping (0.56) and vibration (0.61). 
-
-Additionally, it can be observed that the quantile range for tapping is almost twice as large as that of the other two stimuli, with an approximate range of 0.2 compared to 0.1 for both vibration and stroking.
-
-To test for significance, we performed a Kruskal-Wallis test, the results of which are depicted in \autoref{table:significance_results_test_firstStudy}. 
-The results showed that all p-values are well above the threshold $\alpha$, with the closest value being 0.1371 for the word \braille{old}(OLD). 
-This indicates that there was no statistically significant difference between the Jaccard index results for the different stimuli in relation to the word tests.
-
-\begin{table}[ht]
-\resizebox{\columnwidth}{!}{
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\braille{the}(\textbf{THE})& 0.0361& 0.9821&Not Significant &0.0036\\ \hline
-\braille{old}(\textbf{OLD})& 3.9736 & 0.1371  &Not Significant &0.1371\\ \hline
-\braille{pub}(\textbf{PUB})& 1.0569& 0.5895&Not Significant &0.0961\\ \hline
-\end{tabular}}
-\caption{Results of the Kruskal-Wallis significance tests for the wordtests \enquote{THE}, \enquote{OLD}, and \enquote{PUB} with a $\eta^2$ Effect Size.}
-\label{table:significance_results_test_firstStudy}
-\end{table}
-
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_Experiment/character_jaccard_test_study1.pdf}
-    \caption{Jaccard Score comparison for the different Stimuli grouped by the Braille test-word characters.}
-    \label{fig:jaccard_test_study1}
-\end{figure}
-
-
-We further investigated the results by breaking them down for each individual character and analyzing them by examining false positives and false negatives in the construction of the Jaccard score. 
-We regarded the decision to press a key or not as a classification task. 
-Thus, a "missed character" is classified as a false negative, and a "surplus character" is classified as a false positive. 
-Using this approach, we calculated precision and recall to derive the Jaccard score. 
-These values are plotted in \autoref{fig:jaccard_test_study1}. 
-
-As shown in the plot, the Jaccard score values do not differ significantly across most of the boxplots. 
-The largest differences are observed for the character \braille{l}(L), where tapping performed the best with a median of 1 while stroking performed the worst with a median of 0.45 and vibration had a median of 0.7. 
-Although perfect scores are observed for all stimuli, stroking had more low data points, with Jaccard scores of 0.2 and 0.25.
-
-The character \braille{b}(B) showed a different pattern, with a median of approximately 0.325 for stroking, 0.75 for tapping, and 1 for vibration. 
-None of the stroking participants were able to press the correct keys, whereas 2 participants in the tapping condition and 3 in the vibration condition succeeded in learning the character.
-
-Additional differences were noted for the characters \braille{d}(D) and \braille{p}(P). 
-For \braille{p}(P), the median for stroking was higher than the other stimuli, with a median of 0.5 compared to 0.45 for tapping and 0.3 for vibration. 
-
-For \braille{d}(D), stroking was the worst-performing stimulus, with a median of 0.5 compared to 0.6 for tapping and 0.58 for vibration. 
-It is important to note that there was only one perfect score for both vibration and stroking, while there were also scores of 0 for both stroking and tapping.
-
-However, when testing for statistical significance using Kruskal-Wallis tests, which are tabulated in \autoref{table:learning_significance_results_firstStudy_nonParam}, no significant differences were found for any stimulus across the characters, with the exception of \braille{b}(B), which approached significance with a p-value of 0.0559 and a large \(\eta^2\) effect size of 0.3906.
-
-
-\begin{table}[ht]
-\resizebox{\columnwidth}{!}{
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\braille{t}(\textbf{T})& 1.0203& 0.6004&Not Significant &0.1131\\ \hline
-\braille{h}(\textbf{H})& 0.0136& 0.9932&Not Significant &0.0017\\ \hline
-\braille{e}(\textbf{E})& 0.0979& 0.9522&Not Significant &0.0121\\ \hline
-\braille{o}(\textbf{O})& 0.5309& 0.7669&Not Significant &0.0622\\ \hline
-\braille{l}(\textbf{L})& 3.3764& 0.1849&Not Significant &0.2968\\ \hline
-\braille{d}(\textbf{D})& 0.5290& 0.7676&Not Significant &0.0620\\ \hline
-\braille{p}(\textbf{P})& 1.6124& 0.4465&Not Significant &0.1519\\ \hline
-\braille{u}(\textbf{U})& 2.5488& 0.2796&Not Significant &0.2207\\ \hline
-\braille{b}(\textbf{B})& 5.7683& 0.0559&Not Significant &0.3906\\ \hline
-\end{tabular}}
-\caption{Results of Kruskal-Wallis significance tests for the different Braille characters during testing with a $\eta^2$ Effect Size.}
-\label{table:learning_significance_results_firstStudy_nonParam}
-\end{table}
-
-
-
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_Experiment/missed_surplus_test_study1.pdf}
-    \caption{FN  (Missed) and FP (Surplus) key(s) for each stimuli.}
-    \label{fig:missedSurplus_study1}
-\end{figure}
-
-To analyse the data that contributed to the Jaccard scores previously presented, we further examined the missed and surplus characters—those that were either missed or incorrectly submitted in addition to the required characters during the test. 
-The results for the missed and surplus characters are depicted in \autoref{fig:missedSurplus_study1}, grouped by the stimulus.
-
-As shown for the false negative characters (missed characters), marked in blue on the left side, the first two missed characters are always \textcircled{1} [F] and \textcircled{3} [S], followed by \textcircled{4} [K] for both the vibration and tapping stimuli. 
-For the stroking stimulus, \textcircled{2} [D] follows, and then \textcircled{4} [K]. 
-The character \textcircled{6} [L] was the least missed, as it does not appear among the missed characters for the vibration stimulus and ranks last for both the stroking and tapping stimuli. 
-Next, the character \textcircled{2} [D] appears, which is ranked last for vibration and second-to-last for tapping. 
-Following this, \textcircled{4} [J] is the second-to-last missed character for the vibration and stroking stimuli, and ranks third from the bottom for the tapping stimulus.
-
-For the false positives (surplus characters), shown in red on the right, the most frequently added character is \textcircled{6} [L]. 
-This indicates that, in most cases, the character \textcircled{6} [L] was added too often. However, the specific differences between the actuators vary. 
-The \textcircled{1} [F] character appears last for the vibration stimulus, second-to-last for the stroking stimulus, and was never added as a surplus for the tapping stimulus.
-
-
-\begin{figure}[h!]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_T.pdf}
-        \caption{Tapping Stimulus}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_S.pdf}
-        \caption{Stroking Stimulus}
-    \end{subfigure}\\
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{src/pictures/Study1Data_Experiment/missed_surplus_test_percentages_study1_V.pdf}
-        \caption{Vibration Stimulus}
-    \end{subfigure}
-    \caption{FN (Missed) Character in blue and FP (Surplus) keys in red in percent for each Braille character grouped by stimulus.}
-    \label{fig:missed_surplus_percentages_study1}
-\end{figure}
-
-After analysing the missed and surplus characters, we now dive deeper into the specific relationships between each tested character and the corresponding surplus or missed character. These details are depicted in \autoref{fig:missed_surplus_percentages_study1}.
-
-The diagram shows each Braille character under the category \enquote{tested character}, with the corresponding pressed keyboard characters on the left. 
-The blue sections represent the percentage of missed keys when typing a character, while the red sections indicate surplus pressed keys for each character.
-
-It is important to note that both \autoref{fig:missed_surplus_percentages_study1} and \autoref{fig:missedSurplus_study1} are related. Each column in \autoref{fig:missedSurplus_study1} corresponds to one row of missed or surplus characters in the same stimulus image, with matching colours for the same character. 
-Thus, \autoref{fig:missed_surplus_percentages_study1} provides a more detailed, lower-level abstraction of the data shown in \autoref{fig:missedSurplus_study1}.
-
-For the surplus (red) side, significant differences are observed for the Braille characters \braille{b}(B) and \braille{u}(U). For \braille{b}(B), the key \textcircled{3} [S] was consistently pressed incorrectly across all stimuli. However, for the Stroking stimulus, the keys \textcircled{5} [K] and \textcircled{5} [L] were also pressed incorrectly, with percentages of 50\% and 25\%, respectively.
-
-Another notable difference occurs for the Braille character \braille{u}(U), where the key \textcircled{4} [K] was pressed incorrectly for the Tap and Stroking stimuli, and the keys \textcircled{4} [J] and \textcircled{2} [D] were pressed incorrectly for the Stroking and Vibration stimuli.
-
-For the missed characters (FN, in blue), several differences are evident for the Braille characters \braille{l}(L) and \braille{b}(B). There were no missed characters for the Tapping stimulus, but for the Stroking and Vibration stimuli, the keys \textcircled{3} [S] and \textcircled{1} [F] were frequently missed. In the case of Stroking, the key \textcircled{2} [D] was missed in about 50\% of the trials.
-
-A larger difference is seen with the key \textcircled{6} [L], which was never missed for the Vibration stimulus but was missed in about 25\% of cases for both the Stroking and Tapping stimuli.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study1Data_Experiment/Vectors_study1.pdf}
-    \caption{Cosine Similariy for each of the Stimuli.\\Plotted using a \gls{pca} dimensionality reduction.}
-    \label{fig:cosSim_PCA_study1}
-\end{figure}
-
-Lastly, a one-hot encoding vector was created for the pressed keys for each stimulus, similar to a column in \autoref{fig:missed_surplus_percentages_study1}. 
-In order to visually represent the differences between the errors.
-We then calculated the cosine similarity for each stimulus character vector embedding against the ground truth, which is depicted by the black dotted line in \autoref{fig:cosSim_PCA_study1}.
-To present the cosine similarity in a visually appealing manner, we used \gls{pca} to reduce the dimensionality to two dimensions for plotting.
-
-The cosine similarity and \gls{pca} analysis, as shown in the figure, indicate that despite noise reduction through \gls{pca}, the vectors align in a similar direction. The most noticeable differences were observed for the braille characters \braille{u}(U), \braille{e}(E), and \braille{o}(O).
-But their Cosine similarity scores were still very similar with cosine scores of 0.81 (Vibration), 0.76 (Tapping) and 75 (Stroking) for the braille character \braille{e}(E), cosine scores of 0.82 (Vibration), 0.72 (Tapping) and 0.74 (Stroking) for the \braille{o}(O).
-And lastly 0.9 (Tapping), 0.93 (Vibration) and 0.9 (Stroking) for the braille character \braille{u}(U)
 
 
 
@@ -397,7 +281,7 @@ And lastly 0.9 (Tapping), 0.93 (Vibration) and 0.9 (Stroking) for the braille ch
 \resizebox{\columnwidth}{!}{
     \centering
     \begin{tabular}{|c|c|c|c|} \hline 
-        Gender & Age & Dominant Hand & Previous Braille Knowledge\\ \hline 
+        \textbf{Gender}& \textbf{Age}& \textbf{Dominant Hand}& \textbf{Previous Braille Knowledge}\\ \hline 
         F & 21 & R & No\\ \hline 
         M & 61 & L & No\\ \hline 
         M & 23 & R & No\\ \hline 
@@ -412,191 +296,156 @@ And lastly 0.9 (Tapping), 0.93 (Vibration) and 0.9 (Stroking) for the braille ch
 \end{table}
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_questionnaire/participantPlots_study2.pdf}
-    \caption{Participant Click-differences.}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_questionnaire/participantPlots.pdf}
+    \caption{Participant click scores.}
     \label{fig:participant_clicks-secondStudy}
 \end{figure}
 
-For the second study, we interviewed 8 participants (5 male, 3 female) aged between 4 and 61 years, with an average age of 29.125 years and a median age of 24.5 years. Of these, 7 participants were right-handed and 1 was left-handed, as shown in \autoref{tab:study2_participant_data}. None of the participants had prior knowledge of Braille.
+% For the second study, we interviewed 8 participants (5 male, 3 female) aged between 4 and 61 years, with an average age of 29.125 years and a median age of 24.5 years. Of these, 7 participants were right-handed and 1 was left-handed, as shown in \autoref{tab:study2_participant_data}. None of the participants had prior knowledge of Braille.
 
+% As for the first study, we tested the participant click rate for each of the stimuli, to see, if they are different and, henceforth, identicating a participant concentrating on the stimuli instead of the game.
+% The corresponding graphs are depicted in \autoref{fig:participant_clicks-secondStudy}.
+% As can be seen, none of the values was out of the lower bounds indicating that the participants were focussed on the game.
+
+For the second study, we interviewed eight participants (five male, three female) aged between 4 and 61 years, with an average age of 29.13 years and a median age of 24.5 years. Of these participants, seven were right-handed and one was left-handed, as summarized in \autoref{tab:study2_participant_data}. None of the participants had prior knowledge of Braille.
+
+As in the first study, we measured the participants' click rates for each stimulus to determine whether there were differences that might indicate a shift in attention toward the stimuli rather than the game itself. The corresponding results are presented in \autoref{fig:participant_clicks-secondStudy}. As shown, none of the recorded click rates fell below the lower threshold, suggesting that participants remained focused on the game throughout the experiment.
+
+
+\subsubsection{Second study experiment results}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_questionnaire/nasaTLX_study2.pdf}
-    \caption{Raw Nasa TLX scores of the different Encodings grouped by the Nasa TLX dimensions.}
-    \label{fig:nasaTLX-secondStudy}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_Experiment/learning_averaged.pdf}
+ \caption{Character-test results during learning for the different encodings.}
+    \label{fig:learning_results_secondStudy}
 \end{figure}
+% The \autoref{fig:learning_results_secondStudy} plot shows the difference between the \gls{ost} and \gls{seq} for the learning averaged between the Encodings .
+% As can be seen, there is no big difference in the medians with the \gls{ost} median being slightly better with 0.01.
 
-Consistent with the first study, we conducted a NASA TLX test after each encoding sequence to assess the task load experienced by the participants. The results of the NASA TLX are presented in \autoref{fig:nasaTLX-secondStudy}, where each encoding is displayed as a box plot grouped by the NASA TLX dimensions.
+% Moreover, the tests show that there is no significant difference, as can be seen in \autoref{table:learning_results_firstStudy} with an Wilcoxon statistic of 16.0 and p-value of 0.8438.
+\autoref{fig:learning_results_secondStudy} illustrates the differences in learning performance between the \gls{ost} and \gls{seq} conditions, averaged across all encodings.
 
-As shown, the respective box plots for the dimensions appear similar, with medians of $40$ for \gls{seq} and $35$ for \enquote{ost} under the \enquote{Mental Demand} category. The Q1-Q3 quantiles for \gls{seq} range from $20$ to $82$, while for \enquote{ost}, they range from $20$ to $65$.
+There is no substantial difference between the two, with the \gls{ost} condition showing a slightly higher median by only $0.01$. 
 
-For the \enquote{Physical Demand} category, the median for \gls{ost} is slightly lower at $5$, compared to the median of approximately $7.5$ for \gls{seq}. The Q1-Q3 quantiles start at $5$ for both encodings, but \gls{seq} extends up to $22.5$, while \enquote{ost} reaches $25$.
+Statistical analysis confirmed that this difference is not significant. As shown in \autoref{table:learning_results_firstStudy}, a Wilcoxon signed-rank test resulted in a test statistic of $16.0$ and a $p$-value of $0.8438$.
 
-In the \enquote{Temporal Demand} category, the medians are $35$ for \gls{seq} and $30$ for \enquote{ost}, with similar quantile ranges—$10$ to $57.5$ for \gls{seq} and $17.5$ to $65$ for \enquote{ost}.
-
-Similar to the previous categories, the median for \gls{seq} in the \enquote{Frustration} category is higher, at $35$, compared to the median of $30$ for \enquote{ost}.
-
-For the \enquote{Performance} and \enquote{Effort} categories, the medians show a similar trend. The median for \gls{seq} is $50$ in the \enquote{Performance} category, while \enquote{ost} has a median of $55$. For \enquote{Effort}, the median for \gls{seq} is $42.5$, whereas \enquote{ost} has a median of $47.5$.
-
-To assess the significance of the NASA TLX results, we conducted \gls{mwu} significance tests, with the outcomes presented in \autoref{table:nasaTLX_significance_secondStudy_nonParam}. As shown, all p-values are relatively high, indicating that the null hypothesis ($H_0$) was not rejected.
 
 \begin{table}[ht]
 \resizebox{\columnwidth}{!}{
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\textbf{Mental Demand}        & 35.500& 0.7513&Not Significant &0.2141\\ \hline
-\textbf{Physical Demand}      & 27.000& 0.6019&Not Significant &0.3559\\ \hline
-\textbf{Temporal Demand}      & 29.0000& 0.7911&Not Significant &0.1065\\ \hline
- \textbf{Performance}          & 27.5000& 0.6721&Not Significant &0.1228\\\hline
- \textbf{Effort}               &  27.500& 0.672&Not Significant &0.1285\\\hline
- \textbf{Frustration}          & 39.0000& 0.4907&Not Significant &0.3168\\\hline
+\textbf{Question}                              & \textbf{Wilcoxon statistic}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Cohens D}\\ \hline
+Learning Data& 16.0& 0.8438& Not Significant                 &0.0927\\\hline
 \end{tabular}}
-\caption{Results of \gls{mwu} significance tests for the different NasaTLX dimensions with Cohens d.}
+\caption{Results of the Wilcoxon significance tests during learning with a Cohens D Effect Size.}
+\label{table:learning_results_firstStudy}
+\end{table}
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_Experiment/test_averaged-2.pdf}
+    \caption{Word-test results for the different encodings.}
+    \label{fig:testing_results_secondStudy}
+\end{figure}
+% After testing the characters with the character test, we plotted their results, shown here \autoref{fig:testing_results_secondStudy}.
+% It shows, that there is no big median difference with about 0.7 for \gls{seq} and about 0.675 for \gls{ost},
+% however, there can be seen a difference in the Q1-Q3 differences with about 0.425-0.81 for \gls{seq} and 0.51 - 0.7 for \gls{ost}.
+
+% testing for a significance showed, that there is no signifficant difference, as can be seen in \autoref{table:testing_results_firstStudy}, that shows a p-value of 0.4609, that signifies a none-significance.
+After conducting the character tests, we visualized the results in \autoref{fig:testing_results_secondStudy}.
+
+The median scores were similar across conditions, with approximately $0.7$ for \gls{seq} and $0.675$ for \gls{ost}. However, the interquartile ranges (IQRs) differed: for \gls{seq}, the range was approximately $0.425$ to $0.81$, while for \gls{ost}, it was narrower, ranging from $0.51$ to $0.7$.
+
+A statistical test for significance, shown in \autoref{table:testing_results_firstStudy}, indicated no significant difference between the two conditions, with a $p$-value of $0.4609$.
+
+
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Question}                              & \textbf{Wilcoxon statistic}& \textbf{p-value}       & \textbf{Significance}           &Cohens D\\ \hline
+Testing Data& 12.0& 0.4609& Not Significant                 &-0.2952\\\hline
+\end{tabular}}
+\caption{Results of the Wilcoxon significance tests during learning with a Cohens D Effect Size.}
+\label{table:testing_results_firstStudy}
+\end{table}
+
+
+\subsubsection{Second study Questionnaire results}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_questionnaire/NasaTLX.pdf}
+    \caption{Nasa TLX results for the second study.}
+    \label{fig:nasa_tlx_second_study}
+\end{figure}
+% After each study was conducted, we measuered the nasa tlx resulted as depicted in \autoref{fig:nasa_tlx_first_study}.
+% The chart shows, that most dimensions look similar.
+% Larger differences can be seen in \enquote{Performance} section for the outliers, as the \gls{seq} has a larger and a smaller outlier than the \gls{ost} stimulus.
+% The largest median difference can be seen in the \enquote{Temporal Demand} dimension with a median of  35 for \gls{seq} and about 27 for \gls{ost}.
+% The largest q2-q3 difference can be seen for the dimension \enquote{Frustration}, where the seq q1-q3 range was from about 22 to 57.5 an the \gls{ost} one from 0 to 50.
+
+% After checking their significance using a Wilcoxon test, it shows an approaching significance in the \enquote{frustration} dimension with a p-value of $0.0656$ and a large cohens d of 0.6644,
+% that shows that \gls{seq} is more frustrating for the participants than \gls{ost}.
+After completing the second study, we measured participants' perceived workload using the NASA-TLX questionnaire, as shown in \autoref{fig:nasa_tlx_first_study}. 
+
+Overall, most dimensions appear similar across conditions. However, notable differences were observed in the \enquote{Performance} category, particularly in the outliers: the \gls{seq} condition had both a higher and lower outlier compared to the \gls{ost} condition. The largest difference in medians was found in the \enquote{Temporal Demand} dimension, with \gls{seq} showing a median of $35$, compared to approximately $27$ for \gls{ost}. 
+
+A pronounced difference in interquartile range was also visible in the \enquote{Frustration} dimension. For \gls{seq}, the IQR spanned from approximately $22$ to $57.5$, whereas for \gls{ost}, it ranged from $0$ to $50$.
+
+Statistical analysis using a Wilcoxon signed-rank test indicated an approaching significance in the \enquote{Frustration} dimension, with a $p$-value of $0.0656$ and a large Cohen’s $d$ effect size of $0.6644$. This suggests that participants experienced more frustration under the \gls{seq} condition compared to \gls{ost}.
+
+
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Question}        & \textbf{Wilcoxon test}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Cohens D}\\ \hline
+\textbf{Mental Demand}    & 7.5& 0.2676& Not Significant                 &0.4233\\ \hline
+\textbf{Physical Demand}  & 0.0& 0.1025& Not Significant                 &-0.4656\\ \hline
+\textbf{Temporal Demand}  & 9.5& 0.4444& Not Significant                 &-0.2212\\ \hline
+\textbf{Performance}      & 9.0& 0.7525& Not Significant                 &-0.0925\\ \hline
+\textbf{Effort}           & 7.0& 0.2274& Not Significant                 &-0.3428\\ \hline
+\textbf{Frustration}      & 0.0& 0.0656& approaching
+\textbf{Significant}&0.6644\\ \hline
+\end{tabular}}
+\caption{Results of the Friedman significance tests for the different NasaTLX dimensions with a Kendall's W Effect Size.}
 \label{table:nasaTLX_significance_secondStudy_nonParam}
 \end{table}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_questionnaire/questions_special_study2.pdf}
-    \caption{Self-assessment Results of the different Stimuli grouped by the self-assessment categories.}
-    \label{fig:questions_individual_secondStudy}
-\end{figure}
-
-Following the NASA TLX task load, participants were asked to evaluate their experiences with the two different encodings. Their evaluations were plotted across six different dimensions, as shown in \autoref{fig:questions_individual_secondStudy}.
-
-The largest differences in medians were observed in the categories: \enquote{Helped Learning}, with medians of $2.5$ for \gls{seq} and $3$ for \gls{ost}; \enquote{Would use actuators to support the learning process}, with $3.5$ for \gls{seq} and $3$ for \gls{ost}; \enquote{Able to understand haptic feedback}, with $3$ for \gls{seq} and $2.5$ for \gls{ost}; and \enquote{Satisfaction overall}, with $3.75$ for \gls{seq} and $3$ for \gls{ost}. 
-
-The medians for the categories \enquote{Feeling Pleasant} ($3$) and \enquote{Would have learned faster} ($2.5$) were the same for both encodings. 
-
-The Q1-Q3 quantile ranges differed notably in the \enquote{Helped Learning} category, where \gls{seq} ranged from $2$-$4$ and \gls{ost} from $2.5$-$3.25$. In \enquote{Satisfaction overall}, the difference was also noticeable, with \gls{seq} ranging from $3.75$-$4$ and \gls{ost} from $3$-$4$. 
-
-For the \enquote{Would have learned faster} category, the quantile ranges showed a significant difference, with \gls{seq} and \gls{ost} both starting at Q1 = $1$, but \gls{seq} extending to $4$ and \gls{ost} to $3$. 
-
-Finally, the quantile ranges for the \enquote{Able to understand haptic feedback} dimension were nearly identical, with \gls{seq} ranging from $2.75$-$4$ and \gls{ost} from $1.75$-$3.25$.
-
-For the self-assessment tests, we also conducted \gls{mwu} significance tests, and the results are presented in \autoref{table:individualQuestions_significance_secondStudy_nonPara}.
-The lowest p-value was found for the \enquote{Feeling Pleasant} dimension; however, with a p-value of $0.3596$, it remains too high to indicate statistical significance.
-Therefore, there is no significant difference between the two encodings in terms of self-assessment for usability and their effectiveness in aiding learning.
-
-\begin{table}[ht]
-\resizebox{\columnwidth}{!}{
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\textbf{Question} & \textbf{U-statistic}& \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\textbf{Feeling Pleasant}& 23.5000& 0.3596&Not Significant &0.2232\\ \hline
-\textbf{Helped Learning}& 33.0000& 0.9565&Not Significant &0.0263\\ \hline
-\textbf{Would have learned faster}& 32.5000& 1.000&Not Significant &0.0131\\ \hline
- \textbf{Would use actuators to support learning process}& 34.5000& 0.8244&Not Significant &0.0656\\\hline
- \textbf{Able to understand haptic feedback}&  40.0000& 0.4139&Not Significant &0.2100\\\hline
- \textbf{Satisfaction overall}& 35.5000& 0.7001&Not Significant &0.0919\\\hline
-\end{tabular}}
-\caption{Results of the \gls{mwu} test for significance grouped by the different self-assessment dimensions with a Cohens d Effect Size.}
-\label{table:individualQuestions_significance_secondStudy_nonPara}
-\end{table}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_questionnaire/questions_compare_study2.pdf}
-    \caption{Results of the direct comparison between the different encodings.}
-    \label{fig:questionsCompare-secondStudy}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_questionnaire/self_evaluation.pdf}
+    \caption{Usability questions results for the second study.}
+    \label{fig:special_study_second_study}
 \end{figure}
+% After learning a word with a stimuli, we also tested for the usability for six dimensions, whose results are depicted in \autoref{fig:special_study_first_study}.
+% Here the largest differences can be seen in the dimensions \enquote{Feeling Pleasant} with a large median difference of 3 for \gls{seq} and 4 for \gls{ost}.
 
-After the study, we asked the participants to compare the two encoding methods, and the results are presented in \autoref{fig:questionsCompare-secondStudy}.
-The comparison reveals that the \gls{seq} encoding was perceived as more distinguishable, with $62.5\%$ of participants agreeing, and it was also considered more helpful for learning with the same proportion.
-However, the \gls{ost} encoding was regarded as more comfortable, with $62.5\%$ of participants reporting it as more comfortable than the \gls{seq} encoding.
+% For \enquote{helped learning}, there is a larger difference between the q1,q3 quantile ranges, with 2 to 4 for \gls{seq} and 2.5 to 3.25 for \gls{ost}, also their medians differ with 2.5 for \gls{seq} and 3 for \gls{ost}.
+% Moreover, \gls{ost} had two outliers at 1, with was not the case for \gls{seq}.
+% Other median differences of 1 can be seen for the dimensions \enquote{Would use actuators to support the learning process} and \enquote{able to understand haptic feedback}, where the \gls{seq} median was better of about 1 for both of them, with 3.5 vs 3 and 2.5 to 3 for both dimensions respectively
 
-A statistical analysis, presented in \autoref{table:statistical_tests_comparrisson_secondStudy}, showed that conducting the \gls{csgf} study resulted in no significant difference.
-The \gls{csgf} was chosen due to insufficient data for a Chi-Squared test.
+% After testing for signifiant difference, we didn't find any as depcited in \autoref{table:individualQuestions_significance_secondStudy}.
+% However, it is also depicted, that there is a approaching signifficance for the feeling pleaseant dimension with a p-value of 0.0833 and a large cohens d of -0.7246, that shows that the \gls{ost} was perceived as better for learning by the participants.
+After participants learned a word using each stimulus, we evaluated usability across six dimensions. The results are shown in \autoref{fig:special_study_first_study}.
 
-\begin{table}
-\resizebox{\columnwidth}{!}{
-    \centering
-    \begin{tabular}{|c|c|c|c|}\hline
-        Question & \gls{csgf} & p-value & Significance \\\hline
-         \enquote{Better distinguishable encoding} & 0.5 & 0.4795& Not Significant\\\hline
-         \enquote{Helped Learning encoding} & 0.5 & 0.4795 & Not Significant\\\hline
-         \enquote{Most comfortable encoding}& 0.5 & 0.4795 & Not Significant\\\hline
-    \end{tabular}}
-    \caption{Statistical \gls{csgf} Results for the direct comparison between the stimuli.}
-    \label{table:statistical_tests_comparrisson_secondStudy}
-\end{table}
+The most prominent difference was observed in the \enquote{Feeling Pleasant} dimension, where the median was notably higher for \gls{ost} at $4$, compared to $3$ for \gls{seq}. 
 
+In the \enquote{Helped Learning} dimension, the interquartile ranges differed: $2$ to $4$ for \gls{seq}, and $2.5$ to $3.25$ for \gls{ost}, with respective medians of $2.5$ and $3.0$. Additionally, two outliers at the lowest rating (1) were recorded for \gls{ost}, which were not present in \gls{seq}. 
 
+Other notable median differences of $1$ point were found in the dimensions \enquote{Would use actuators to support the learning process} and \enquote{Able to understand haptic feedback}, where \gls{seq} had higher median scores—$3.5$ vs.\ $3.0$ and $3.0$ vs.\ $2.0$, respectively.
 
+Statistical testing did not reveal any significant differences across the dimensions, as shown in \autoref{table:individualQuestions_significance_secondStudy}. However, an approaching significance was observed in the \enquote{Feeling Pleasant} dimension, with a $p$-value of $0.0833$ and a large Cohen's $d$ of $-0.7246$, suggesting that \gls{ost} was perceived as more pleasant and potentially more effective for learning by the participants.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_Experiment/study2_learning_results.pdf}
-    \caption{Jaccard coefficient results grouped by the Braille characters during learning for the different Encodings.}
-    \label{fig:learning_results_secondStudy}
-\end{figure}
-
-During the learning process, we measured performance using the Jaccard and Dice scores. The Jaccard results after learning each character are shown in \autoref{fig:learning_results_secondStudy}, as they are more stringent than the Dice scores.
-
-The charts reveal larger differences in the medians for \braille{d}(D), with a median of $0.95$ for \gls{seq} and $0.55$ for \gls{ost}.
-Similarly, for the \braille{u}(U) test, the median difference is substantial, with \gls{seq} showing a median of about $0.45$ and \gls{ost} performing better with a median of $0.825$.
-\gls{ost} also outperformed \gls{seq} for the character \braille{l}(L), with a median of $0.825$ compared to $0.575$ for \gls{seq}.
-For the character \braille{b}(B), \gls{ost} showed better performance, with a median of $1$, which was consistent across the Q1 and Q3 quantiles. In comparison, \gls{seq} had a median of $0.825$, with Q1 equal to that value and Q3 at $1$.
-However, for the character \braille{p}(P), \gls{seq} performed better, with a median, Q1, and Q3 of $1$, compared to \gls{ost}, which had a median of $0.75$, Q1 of $0.65$, and Q3 of $0.82$.
-
-Afterwards, we conducted the appropriate \gls{mwu} tests for significance, and the results are shown in \autoref{table:learning_significance_results_secondStudy_nonPar_learning}.
-However, none of the tests showed statistically significant differences.
-The lowest p-value was observed in the \braille{b}(B) test, with a value of $0.067$, which also had a Cohen's d effect size of $1.492$, indicating a relatively large effect.
-
-\begin{table}[ht]
-\resizebox{\columnwidth}{!}{
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\braille{o}(\textbf{O})& 10.000& 0.659&Not Significant &0.290\\ \hline
-\braille{l}(\textbf{L})& 5.500& 0.552&Not Significant &0.460\\ \hline
-\braille{d}(\textbf{D})& 13.500& 0.124&Not Significant &1.424\\ \hline
-\braille{p}(\textbf{P})& 14.000& 0.067&Not Significant &1.492\\ \hline
-\braille{u}(\textbf{U})& 3.000& 0.180&Not Significant &1.108\\ \hline
-\braille{b}(\textbf{B})& 6.000& 0.453&Not Significant &0.707\\ \hline
-\end{tabular}}
-\caption{Results of the \gls{mwu} tests for significance grouped by the different Braille characters during training for the different Encodings with Cohen's d.}
-\label{table:learning_significance_results_secondStudy_nonPar_learning}
-\end{table}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_Experiment/study2_test_results.pdf}
-    \caption{Jaccard Word-Test results grouped by the Braille test-words for the different stimuli.}
-    \label{fig:study2_test_results-firstStudy}
-\end{figure}
-
-After learning each word using one of the encodings, we tested the word itself, with the results shown in \autoref{fig:study2_test_results-firstStudy}, to determine whether there was a significant difference in testing the entire word after learning all the individual characters.
-Interestingly, no significant difference was observed in the median. However, the Q1 and Q3 values for the word "pub" differed, with an interval of $0.62$-$0.85$ for \gls{ost} compared to $0.45$-$0.875$ for \gls{seq}.
-Nevertheless, the median remained the same for both encodings, at $0.675$.
-
-We conducted \gls{mwu} tests for the resulting words, and the results showed that no p-value was close to the threshold value of $0.05$, as depicted in \autoref{table:significance_results_test_secondStudy_nonPara}. This indicates that there was no significant difference between the sets, with p-values of $1.0$ and $0.77$.
-
-\begin{table}[ht]
-\resizebox{\columnwidth}{!}{
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\braille{old}(\textbf{OLD})& 8.500& 1.000&Not Significant &0.103\\ \hline
-\braille{pub}(\textbf{PUB})& 6.500& 0.770&Not Significant &0.211\\\hline
-\end{tabular}}
-\caption{Results of the \gls{mwu} tests for significance for the different Braille tests-words with a Cohens d Effect Size.}
-\label{table:significance_results_test_secondStudy_nonPara}
-\end{table}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_Experiment/character_jaccard_test_study2.pdf}
-    \caption{Jaccard Score comparison for the different Encodings grouped by Braille character.}
-    \label{fig:f1score_test_study2}
-\end{figure}
 
 
 \begin{table}[ht]
@@ -604,88 +453,47 @@ We conducted \gls{mwu} tests for the resulting words, and the results showed tha
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
-\textbf{Question} & \textbf{Test Statistic} & \textbf{p-value}  &\textbf{Significance}           &\textbf{Effect Size}\\ \hline
-\braille{o}(\textbf{O})& 9.000& 0.881&Not Significant &0.443\\ \hline
-\braille{l}(\textbf{L})& 4.500& 0.369&Not Significant &0.609\\ \hline
-\braille{d}(\textbf{D})& 11.000& 0.439&Not Significant &0.634\\ \hline
-\braille{p}(\textbf{P})& 11.000& 0.436&Not Significant &0.875\\ \hline
-\braille{u}(\textbf{U})& 7.000& 0.881&Not Significant &0.179\\ \hline
-\braille{b}(\textbf{B})& 4.000& 0.186&Not Significant &1.221\\ \hline
+\textbf{Question}                              & \textbf{Wilcoxon test}& \textbf{p-value}       & \textbf{Significance}           &\textbf{Cohens D}\\ \hline
+\textbf{Feeling Pleasant}                      & 0.0& 0.0833& approaching
+\textbf{Significant}&-0.7246\\ \hline
+\textbf{Helped Learning}                       & 6.0& 0.6547& Not Significant                 &0.1498\\ \hline
+\textbf{Would have learned faster}             & 5.0& 0.4795& Not Significant                 &0.0\\ \hline
+\textbf{Would use actuators to support learning process} & 4.0& 0.7055& Not Significant                 &0.1261\\ \hline
+\textbf{Able to understand haptic feedback}    & 5.5& 0.2795& Not Significant                 &0.2958\\ \hline
+\textbf{Satisfaction overall}& 2.0& 0.5637& Not Significant                 &0.1950\\ \hline
 \end{tabular}}
-\caption{Results of the \gls{mwu} for significance grouped by the different Braille characters during learning for the different Encodings with Cohen's d.}
-\label{table:learning_significance_results_secondStudy_nonPar}
+\caption{Results of the Wilcoxon significance tests for the different self-assessment dimensions with a Cohens D Effect Size.}
+\label{table:individualQuestions_significance_secondStudy}
 \end{table}
 
-Similarly to the first study, we analyzed the Jaccard scores for the different characters in the second study. The most significant differences were observed for the characters \braille{b}(B), followed by \braille{p}(P), \braille{l}(L), and \braille{d}(D).
 
-For the character \braille{b}(B), the \gls{ost} encoding performed better, achieving a perfect score, while the \gls{seq} encoding had a median of $0.675$ and a Q1-Q3 quantile range of approximately $0.3$ to $1$, as half of the participants did not achieve a perfect score.
-
-In contrast, for the character \braille{p}(P), the \gls{ost} encoding performed worse, with a median around $0.5$, while \gls{seq} had a median of $1$. Similarly, for the character \braille{d}(D), the \gls{seq} encoding had a median of $1$, while \gls{ost} had a median of $0.7$. Notably, only one participant in the \gls{seq} group did not achieve a perfect score, with a score of $0.4$.
-
-It is also worth noting that only one participant had a non-perfect score for \braille{d}(D) using the \gls{seq} encoding.
-
-For the character \braille{l}(L), the \gls{ost} encoding had a median of approximately $0.825$, with half of the participants achieving a perfect score, whereas the \gls{seq} encoding had a median of about $0.45$.
-
-Upon analyzing each character individually, no significant differences were found between the datasets. The lowest p-value was observed for \braille{b}(B), with a value of $0.186$, which is significantly higher than the threshold value. Therefore, the null hypothesis ($H_0$) cannot be rejected.
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_Experiment/missed_surplus_test_study2.pdf}
-    \caption{FN (Missed) and FP (Surplus) Key(s) for each Braille Character by Encoding.}
-    \label{fig:missedSurplus_study2}
+    \includegraphics[width=0.5\linewidth]{src/pictures/Study2Data_questionnaire/questions_special_study2.pdf}
+    \caption{Compare Results.}
+    \label{fig:compare_results_second_study}
 \end{figure}
+% Lastly we let the participants compare each of the encodings against each other.
+% The results are depicted in \autoref{fig:compare_results_second_study},  with 5/8 participants saying that \gls{seq} is the better encoding for \enquote{distinguishability} and also for \enquote{helped learning}, but only 3/8 stating that it is the \enquote{more comfortable encoding}.
+% However, there is no significance in this, as measured using a $\chi^2$ test, with p-values of 0.4795, as depicted in \autoref{table:individualQuestions_significance_secondStudy}.
+Lastly, participants were asked to directly compare the two encoding methods. The results are shown in \autoref{fig:compare_results_second_study}. 
 
-Further analysis, shown in \autoref{fig:missedSurplus_study2}, reveals that \textcircled{3} [S] is the most frequently missed character, while \textcircled{2} [D] is the most frequently in surplus. In contrast, \textcircled{4} [J] and \textcircled{6} [L] were the least missed characters, while \textcircled{2} [S] and \textcircled{4} [J] were the least in surplus.
+A majority of participants (5 out of 8) preferred \gls{seq} over \gls{ost} for both \enquote{Distinguishability} and \enquote{Helped Learning}. However, only 3 out of 8 participants found \gls{seq} to be the \enquote{More Comfortable Encoding}.
 
-\begin{figure}[h!]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_ost.pdf}
-        \caption{\gls{ost}}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{src/pictures/Study2Data_Experiment/missed_surplus_test_percentages_study2_seq.pdf}
-        \caption{\gls{seq}}
-    \end{subfigure}\\
-    \caption{FN (Missed) and FP (Surplus) Key(s) in percent for each Braille character grouped by Encoding.}
-    \label{fig:missed_surplus_percentages_study2}
-\end{figure}
+A $\chi^2$ test was conducted to assess the significance of these preferences. The results showed no statistically significant differences, with a $p$-value of $0.4795$, as reported in \autoref{table:individualQuestions_significance_secondStudy}.
 
-A closer analysis reveals that for the false positives (FP), the characters \braille{b}(B), \braille{l}(L), \braille{d}(D), and \braille{p}(P) exhibited the most notable differences.
 
-For \braille{b}(B), the \gls{ost} encoding had no errors, while in the \gls{seq} encoding, the \textcircled{5} [K] and \textcircled{3} [S] keys were mistakenly pressed with the \textcircled{3} [S] key in 50\% of the cases.
-
-For \braille{l}(L), there were no false positives in the \gls{ost} encoding, but half of the participants incorrectly pressed the \textcircled{6} [L] key in the \gls{seq} encoding.
-
-For \braille{d}(D), a larger difference is evident, with 25\% of participants missing \textcircled{3} [S] and \textcircled{6} [L] in the \gls{ost} encoding, while the \textcircled{2} [D] key was incorrectly pressed in the \gls{seq} encoding.
-
-For \braille{p}(P), the \textcircled{6} [L] key was incorrectly pressed in 25\% of the cases in the \gls{ost} encoding, while the \textcircled{5} [K] key was mistakenly pressed in the \gls{seq} encoding.
-
-Regarding the false negatives (FN), the most significant differences were observed for the characters \braille{p}(P), \braille{b}(B), \braille{o}(O), and \braille{l}(L). 
-
-For \braille{p}(P), the \gls{seq} encoding performed better, with only the \textcircled{4} [J] and \textcircled{2} [D] keys missed 25\% of the time. In contrast, the \gls{ost} encoding also missed the \textcircled{1} [F] and \textcircled{3} [S] keys.
-
-For \braille{b}(B), no keys were missed with the \gls{ost} encoding, but in the \gls{seq} encoding, the \textcircled{2} [D] key was missed 50\% of the time.
-
-For \braille{o}(O), the \textcircled{1} [F] key was missed in 75\% of the cases with the \gls{ost} encoding, while both the \textcircled{3} [S] and \textcircled{5} [K] keys were missed in both encodings. Notably, the \textcircled{5} [K] key was missed in 75\% of the cases in the \gls{seq} encoding but only 25\% of the time in the \gls{ost} encoding.
-
-For \braille{l}(L), both the \textcircled{1} [F] and \textcircled{3} [S] keys were missed in both encodings, though the \gls{seq} encoding also missed the \textcircled{2} [D] key 25\% of the time.
-
-Analysis of the missed keys shows the largest differences for the \textcircled{1} [F] and \textcircled{2} [D] keys. 
-
-The \textcircled{1} [F] key was missed in the \braille{l}(L) test in the \gls{seq} encoding, and also for \braille{o}(O) and \braille{p}(P), affecting half of the characters in the \gls{ost} encoding.
-
-For the \textcircled{2} [D] key, it was missed for \braille{l}(L), \braille{p}(P), and \braille{b}(B) in the \gls{seq} encoding, but only in 50\% of the cases for \braille{b}(B) in the \gls{ost} encoding.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{src/pictures/Study2Data_Experiment/Vectors_study2.pdf}
-    \caption{Cosine Similariy for each Encoding.\\Plotted using a PCA dimensionality reduction.}
-    \label{fig:cosSim_PCA_study2}
-\end{figure}
-
-The cosine similarity and \gls{pca} analysis, as shown in \autoref{fig:cosSim_PCA_study2}, indicate that despite noise reduction through \gls{pca}, the vectors align in a similar direction. The most noticeable differences were observed for the braille characters \braille{o}(O) and especially \braille{l}(L).
-However, their cosine similarity scores are still rather similar with 0.69 for the \gls{ost} and 0.78 for \gls{seq} for the braille character \braille{o}(O).
-For the Braille character \braille{l}(L), the cosine similarity is even smaller with 0.96 for \gls{ost} and 0.88 for \gls{seq}.
+\begin{table}[ht]
+\resizebox{\columnwidth}{!}{
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Question}                              & \textbf{$\chi^2$ test}& \textbf{p-value}       & \textbf{Significance}           \\ \hline
+\textbf{Better distinguishable encoding}& 0.5& 0.4795& Not Significant                 \\ \hline
+\textbf{Helped Learning encoding}& 0.5& 0.4795& Not Significant                 \\\hline
+ \textbf{Most comfortable encoding}& 0.5& 0.4795& Not Significant                 \\\hline
+\end{tabular}}
+\caption{Results of the Wilcoxon significance tests for the different self-assessment dimensions with a Cohens D Effect Size.}
+\label{table:individualQuestions_significance_secondStudy}
+\end{table}
